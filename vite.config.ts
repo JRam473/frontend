@@ -6,10 +6,9 @@ import { visualizer } from 'rollup-plugin-visualizer';
 export default defineConfig({
   plugins: [
     react(),
-    // 🔥 AGREGAR: Analizador de bundle (solo en build)
     visualizer({
       filename: 'dist/stats.html',
-      open: false, // No abrir automáticamente
+      open: false,
       gzipSize: true,
       brotliSize: true,
     })
@@ -22,12 +21,10 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    chunkSizeWarningLimit: 1500, // 🔥 AUMENTAR temporalmente
-    // 🔥 AGREGAR: Configuración de chunks optimizada
+    chunkSizeWarningLimit: 1500,
     rollupOptions: {
       output: {
         manualChunks: {
-          // Separar librerías por categorías
           vendor: ['react', 'react-dom'],
           animations: ['framer-motion'],
           charts: ['recharts'],
@@ -43,6 +40,11 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000
+    port: 3000,
+    host: true
+  },
+  preview: {
+    port: 3000,
+    host: true
   }
 });
