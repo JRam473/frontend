@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "date": "24 de Junio",
+      "title": "Fiesta Patronal de San Juan Bautista",
+      "description": "Vive la celebración más importante del año en honor al santo patrón del pueblo. La comunidad se viste de gala con música, danza, fe y alegría.",
+      "details": [
+        "Misa Solemne y Procesión",
+        "Presentación de los Huehues (Danzantes Tradicionales)",
+        "Feria Popular con comida típica (mole, tamales, carnitas)",
+        "Quema de Castillo y Juegos Pirotécnicos",
+        "Música de Bandas de Viento"
+      ],
+      "category": "Religioso",
+      "stamp": "dia-muertos",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093406/Captura_de_pantalla_395_uoumxl.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763158536/diosito_lsd00h.mp4"
+    },
+    {
+      "date": "1 y 2 de Noviembre",
+      "title": "Día de Muertos: Honrando a Nuestros Ancestros",
+      "description": "Una de las tradiciones más profundas donde las familias reciben a las almas de sus difuntos en un ambiente de respeto, memoria y color.",
+      "details": [
+        "Instalación de Altares Familiares con Cempasúchil y Copa",
+        "Velación y Limpia de Tumbas en el Panteón",
+        "Caminos de Flores para guiar a las almas",
+        "Ofrenda con comida tradicional, pan de muerto y fruta"
+      ],
+      "category": "Cultural",
+      "stamp": "semana-santa",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763157739/Dia-muertos_eeqs7u.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763158449/diamuertos_jga3gu.mp4"
+    },
+    {
+      "date": "Semana Santa (Marzo-Abril)",
+      "title": "Semana Santa: Devoción y Solemnidad",
+      "description": "Se vive con gran fervor religioso a través de procesiones y representaciones que conmemoran la Pasión de Cristo.",
+      "details": [
+        "Procesión del Silencio (Viernes Santo)",
+        "Representación del Vía Crucis",
+        "Quema de Judas (Sábado de Gloria)"
+      ],
+      "category": "Religioso",
+      "stamp": "bodas-tradicionales",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093401/Captura_de_pantalla_397_enyfqk.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763159458/prosesion_lyqsev.mp4"
+    },
+    {
+      "date": "5 de Mayo",
+      "title": "Conmemoración de la Batalla del 5 de Mayo",
+      "description": "Día de orgullo regional que recuerda la valentía del Batallón de Zacapoaxtla en la histórica batalla contra el ejército francés.",
+      "details": [
+        "Ceremonias Cívicas",
+        "Posibles representaciones históricas en Zacapoaxtla",
+        "Eventos culturales y deportivos"
+      ],
+      "category": "Cívico",
+      "stamp": "feria-sierra",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763117549/rurales_wast1n.jpg",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763159581/mayo5_lklkbz.mp4"
+    },
+    {
+      "date": "16 al 24 de Diciembre",
+      "title": "Posadas Navideñas",
+      "description": "Durante nueve noches, la comunidad se reúne para recordar el peregrinar de José y María, fomentando la unión y la fe.",
+      "details": [
+        "Canto de Letanías",
+        "Rompiendo de Piñatas",
+        "Reparto de Aguinaldos (bolsitas con dulces y fruta)",
+        "Convivencia comunitaria"
+      ],
+      "category": "Religioso",
+      "stamp": "cascada-enamorados",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763158203/Video-arbol_f8epwc.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763159581/mayo5_lklkbz.mp4"
+    },
+    {
+      "date": "Abril-Mayo (Siembra) y Septiembre-Noviembre (Cosecha)",
+      "title": "Ciclo Agrícola del Maíz: De la Semilla a la Cosecha",
+      "description": "El maíz, base de la alimentación y la cultura, dicta el ritmo de vida con sus ciclos de siembra y cosecha, íntimamente ligados a las festividades.",
+      "details": [
+        "Abril-Mayo: Siembra con las primeras lluvias",
+        "Junio-Agosto: Crecimiento y cuidado del maizal",
+        "Septiembre-Noviembre: Cosecha principal",
+        "El maíz de la cosecha se ofrece en los altares de Día de Muertos"
+      ],
+      "category": "Agricultura",
+      "stamp": "ciclo-agricola",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081984/tamales-elote_sqzlvd.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082083/Tamales_optimizado_kpw55d.mp4"
+    },
+    {
+      "date": "Octubre a Marzo",
+      "title": "Cosecha del Café",
+      "description": "La Sierra Norte de Puebla es una región cafetalera. Esta temporada es de gran actividad en las familias que se dedican a este cultivo.",
+      "details": [
+        "Recolección del grano de café",
+        "Procesado (beneficiado húmedo o seco)",
+        "Venta o almacenamiento del café pergamino"
+      ],
+      "category": "Agricultura",
+      "stamp": "lunas-estrellas",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763117181/cafe-maestra-pas_whnim5.jpg",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763158465/snapsave-app_1019300715782042_hd_p1xvqw.mp4"
+    },
+    {
+      "date": "24 y 25 de Diciembre",
+      "title": "Navidad en la Sierra",
+      "description": "Celebración del nacimiento de Cristo que reúne a las familias en una cena tradicional y en actos de fe.",
+      "details": [
+        "Cena de Nochebuena (24 de Dic)",
+        "Misa de Gallo",
+        "Celebración Familiar (25 de Dic)"
+      ],
+      "category": "Religioso",
+      "stamp": "estrellas-lunas",
+      "videoThumbnail": "https://res.cloudinary.com/dinsl266g/image/upload/v1763158203/Video-arbol_f8epwc.png",
+      "videoPreview": "https://res.cloudinary.com/dinsl266g/video/upload/v1763158465/snapsave-app_1019300715782042_hd_p1xvqw.mp4"
+    }
+  ]
+}

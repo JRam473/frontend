@@ -1,0 +1,94 @@
+{
+  "dances": [
+    {
+      "id": 1,
+      "name": "Danza de los Voladores",
+      "description": "Ritual ancestral donde danzantes descienden desde un palo alto girando, simbolizando la conexión entre el cielo y la tierra.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062498/Danza_q46o3h.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092619/voladores_c2yhvo.mp4",
+      "details": {
+        "story": "Originaria de la región totonaca, esta danza representa los cuatro puntos cardinales y los elementos. Cada volador gira 13 veces, sumando 52 en total, equivalente a un ciclo calendárico mesoamericano.",
+        "elements": [
+          { "icon": "Shirt", "title": "Vestimenta", "text": "Trajes coloridos con bordados tradicionales y penachos de plumas que representan aves sagradas." },
+          { "icon": "Music", "title": "Música", "text": "Flauta de carrizo y tambor que marcan el ritmo ceremonial mientras descienden los voladores." },
+          { "icon": "Sunrise", "title": "Simbolismo", "text": "Renovación cíclica, petición de lluvia y fertilidad para las cosechas." }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Danza de los Negritos",
+      "description": "Expresión dancística que combina elementos africanos e indígenas, caracterizada por su energía y ritmo contagioso.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763066439/culture-fallback_tajxm4.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763066440/Negritos_optimizado_yhrkpl.mp4",
+      "details": {
+        "story": "Esta danza surge durante la colonia como forma de resistencia cultural. Los danzantes, con máscaras negras, representan la fusión de tradiciones africanas traídas por esclavos con rituales prehispánicos.",
+        "elements": [
+          { "icon": "Feather", "title": "Vestimenta", "text": "Máscaras de madera tallada, trajes con espejos y campanillas que marcan el compás." },
+          { "icon": "Wind", "title": "Movimiento", "text": "Zapateados enérgicos y giros rápidos que demuestran destreza física." },
+          { "icon": "BookOpen", "title": "Simbolismo", "text": "Sincretismo cultural, resistencia y celebración de la identidad mestiza." }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Danza de los Santiago",
+      "description": "Representación teatral que dramatiza la lucha entre el bien y el mal, con raíces en la evangelización.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763111723/musico_e6iava.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092773/payasos_iohcee.mp4",
+      "details": {
+        "story": "La danza narra la batalla entre Santiago Apóstol, representando el cristianismo, y personajes que simbolizan fuerzas opuestas. Es una manifestación del sincretismo religioso en la región.",
+        "elements": [
+          { "icon": "Leaf", "title": "Vestimenta", "text": "Armaduras de cartón y yeso, espadas de madera y máscaras que identifican a cada personaje." },
+          { "icon": "Footprints", "title": "Movimiento", "text": "Marciales y coreografiados, simulando escenas de batalla con precisión ritual." },
+          { "icon": "Heart", "title": "Simbolismo", "text": "Lucha entre cosmovisiones, fe y preservación de tradiciones comunitarias." }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Danza de los Migueles",
+      "description": "Danza ceremonial dedicada al Arcángel Miguel, protector contra las fuerzas del mal.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093401/Captura_de_pantalla_397_enyfqk.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092965/danza-combi_ccnojt.mp4",
+      "details": {
+        "story": "En San Juan Tahitic, esta danza se realiza durante las fiestas patronales. Los Migueles, liderados por el Arcángel, combaten contra diablos y fuerzas malignas en una coreografía llena de simbolismo.",
+        "elements": [
+          { "icon": "Shirt", "title": "Vestimenta", "text": "Túnices blancas con capas rojas, máscaras de ángeles y coronas doradas." },
+          { "icon": "Music", "title": "Música", "text": "Violines y guitarras que acompañan los cantos en náhuatl y español." },
+          { "icon": "Sunrise", "title": "Simbolismo", "text": "Protección espiritual, purificación y renovación de la comunidad." }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Danza de los Quetzales",
+      "description": "Espectacular danza donde los penachos multicolores giran creando un mosaico visual hipnótico.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093406/Captura_de_pantalla_395_uoumxl.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763093376/Quetzales_uh32pv.mp4",
+      "details": {
+        "story": "Inspirada en el ave sagrada de Mesoamérica, esta danza honra al quetzal como símbolo de libertad y conexión divina. Los giros representan los movimientos celestes y la rotación del universo.",
+        "elements": [
+          { "icon": "Feather", "title": "Vestimenta", "text": "Penachos circulares con plumas de colores que giran creando efectos visuales espectaculares." },
+          { "icon": "Wind", "title": "Movimiento", "text": "Giros sincronizados y pasos complejos que requieren años de entrenamiento." },
+          { "icon": "BookOpen", "title": "Simbolismo", "text": "Cosmovisión mesoamericana, ciclos cósmicos y relación con la naturaleza." }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Danza de los Toreadores",
+      "description": "Representación festiva de la tauromaquia adaptada a la tradición local con humor y sátira.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093405/Captura_de_pantalla_396_nzxo3x.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763093179/toreros_dljzso.mp4",
+      "details": {
+        "story": "Esta danza surge como crítica humorística a las corridas de toros españolas. Los 'toreros' locales, con movimientos exagerados, ridiculizan la solemnidad taurina mientras entretienen a la comunidad.",
+        "elements": [
+          { "icon": "Leaf", "title": "Vestimenta", "text": "Trajes inspirados en toreros pero con elementos locales, máscaras cómicas y capas coloridas." },
+          { "icon": "Footprints", "title": "Movimiento", "text": "Pasos bufonescos, caídas teatrales y enfrentamientos coreografiados con el 'toro'." },
+          { "icon": "Heart", "title": "Simbolismo", "text": "Crítica social, humor como resistencia y apropiación cultural de tradiciones externas." }
+        ]
+      }
+    }
+  ]
+}

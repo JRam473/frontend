@@ -1,0 +1,48 @@
+{
+  "platillos": [
+    {
+      "id": 1,
+      "name": "Mole Poblano",
+      "description": "Receta ancestral con mezcla de chiles, especias y cacao, una joya de la gastronomía regional.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082094/Mole-poblano_480p_iml73c.mp4",
+      "origin": "San Juan Tahitic",
+      "ingredients": ["Chiles secos", "Cacao", "Especias", "Semillas", "Tortilla"],
+      "spiceLevel": "Medio",
+      "festival": "Fiestas patronales de mayo"
+    },
+    {
+      "id": 2,
+      "name": "Tamales de Hoja",
+      "description": "Suave masa de maíz rellena y envuelta en hojas de plátano, cocidos al vapor para un sabor único.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif", 
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082083/Tamales_optimizado_kpw55d.mp4",
+      "origin": "Comunidad local",
+      "ingredients": ["Maíz", "Relleno tradicional", "Hojas de plátano", "Salsa"],
+      "spiceLevel": "Suave",
+      "festival": "Ferias gastronómicas"
+    },
+    {
+      "id": 3,
+      "name": "Atole de Maíz Morado",
+      "description": "Bebida caliente tradicional elaborada con maíz local, perfecta para acompañar las mañanas frías.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082086/atole_optimizado_zjkeae.mp4",
+      "origin": "Región Sierra Norte",
+      "ingredients": ["Maíz morado", "Agua", "Piloncillo", "Canela"],
+      "spiceLevel": "Suave",
+      "festival": "Mañanitas y eventos matutinos"
+    },
+    {
+      "id": 4,
+      "name": "Pan Artesanal",
+      "description": "Delicioso pan horneado en leña con recetas ancestrales que han pasado de generación en generación.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/pan_u1iczv.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082470/pan_artesanal_uhqohr.mp4",
+      "origin": "Hornos tradicionales",
+      "ingredients": ["Harina", "Levadura", "Piloncillo", "Especias"],
+      "spiceLevel": "Suave",
+      "festival": "Ferias anuales y festividades"
+    }
+  ]
+}

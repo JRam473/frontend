@@ -1,0 +1,1432 @@
+{
+  "common": {
+    "welcome": "Ximopanolti in Cooperativa San Juan Tahitic",
+    "learnMore": "Ximomachti",
+    "contact": "Tequiuhcan",
+    "readMore": "Ximocaquiti",
+    "seeMore": "Xiquitta",
+    "back": "Tlacuepa",
+    "close": "Xiquaupo",
+    "share": "Xitlaloa"
+  },
+  "navigation": {
+    "title": "San Juan Tahitic",
+    "description":"Destino natural único",
+    "home": "Caltech",
+    "community": "Calpulli",
+    "culture": "Tlamantli",
+    "products": "Tlamantli",
+    "contact": "Tequiuhcan",
+    "gallery": "Galería"
+  },
+  "hero": {
+    "region": "Tlalticpac Tlamantli",
+    "weather": "Tlamantli",
+    "error": "Tlapohualiztli",
+    "language": "Tlatolli",
+    "spanish": "Español",
+    "currency": "Tlacualiztli",
+    "season": "Tlamantli",
+    "seasonMonths": "Tlamantli-Oct",
+    "discoverAria": "Ximomachti in San Juan Tahitic",
+    "discoverButton": "Ximomachti San Juan Tahitic",
+    "adventureAria": "Ticpehualtiz in motlamachtiliz",
+    "adventureButton": "Ticpehualtiz motlamachtiliz",
+    "scrollMobile": "Xihualhui",
+    "scrollDesktop": "Ximomachti"
+  },
+  "highlights": {
+  "natureTitle": "Tlaltequitl",
+  "natureText": "Tepetlmeh, atoyatlmeh huan atzatzintin tlen quiyolchicahuaj huan quipialiaj neltiliztli. Ximoyetztli ipan ohtli tlen ixiptla huan ximonechicoa iwan totlalnamiquiliztli.",
+  "gastronomyTitle": "Tlakualiztli",
+  "gastronomyText": "Tlakualmeh tlen quimatiltiaj totlamantli huan tlen yancuic. Xiquitac tlatlamantli tlen huejcahuac ipan tiankiztli huan calli tlacualoyan tlen quichihuaj tlacualiztli tlen yolchicahuac.",
+  "communityTitle": "Altepemej / Altepetl",
+  "communityText": "Tlacamej tlen yolmelaj huan cualnescaj, mitzmacaj cencah yolpactli. Ximotlasojcamatli ipan tlamantli tlen altepetl huan xiquixmati in ixtlamatiliztli tlen yolihuan.",
+  "traditionsTitle": "Nemilistli tlen huejcahuac",
+  "traditionsText": "Ilhuitl, netotiliztli huan amatlapoualistli tlen quipialiaj in yancuic tlanelhuayotl. Xiquitac in ilhuitl tlen amo nechca huan xiquixmati in tlamachiliztli tlen quimajmactiaj totatahuan.",
+  "touristPlaces": "Tlatzintli tlen tlanelhuayotl",
+  "typicalDishes": "Tlakualmeh tlen tlanelhuayotl",
+  "inhabitants": "Tlacamej",
+  "yearsHistory": "Xihuitl tlen nemilistli"
+},
+"footer": {
+    "description": "Ce tlalticpac tlen tetlapitza yectli tlalticpac, tlamantli huan tepalehuilli. Xiquitta in touey calpulli tlen ticpia.",
+    "address": "San Juan Tahitic, Tlalticpac Tlamantli",
+    "explore": "Xiquitta",
+    "keyServices": "Tepalehuilli",
+    "regionalGastronomy": "Tlalticpac tlamantli",
+    "handicrafts": "Tlamantli",
+    "transportation": "Tepalehuilli",
+    "culturalEvents": "Tlamantli tlapohualiztli",
+    "rights": "© 2025 San Juan Tahitic. Nochi tlen ticpia.",
+    "developed": "Chihualo ica ❤️ ipan touey calpulli",
+    "home": "Caltech",
+    "attractions": "Tlalticpac tlamantli",
+    "culture": "Tlamantli",
+    "community": "Calpulli",
+    "gallery": "Tlamantli",
+    "contact": "Tequiuhcan"
+  },
+  "cards": {
+  "exploreTitle": "Ximotlatlauh San Juan Tahitic",
+  "exploreSubtitle": "Xiquitac in cualli tlamantli tlen mitzchiya ipan inin tlalpan",
+  "exploreButton": "Ximotlatlauh",
+  "previous": "Tlen achto",
+  "next": "Tlen ic nixtlamati",
+  "goToCard": "Xiyau ipan amatl",
+  "adelaRestaurant": {
+    "title": "Comedor Doña Adela",
+    "description": "Xitlakua tlacualmeh tlen totlalpan, ipan tlamantli tlen huejcahuac huan yolcualiztli tlen tlanelhuayotl."
+  },
+  "loversWaterfall": {
+    "title": "Atzatzin tlen Inemohuan",
+    "description": "Xiquitac in atzatzin tlen cenca yejyectzin, tlapoyahui ipan tlaltequitl huan yolsewaltzin."
+  },
+  "cabins": {
+    "title": "Cabañas mochihua 80%",
+    "description": "Mochipa yancuic calmeh para motlalis, tlen tlapoyahuaj ipan tlaltequitl."
+  },
+  "viewpoints": {
+    "title": "Tlachialoyan",
+    "description": "Tlachializtli tlen huejcahuac para xiquitzquilia moilhuicayotl tlen amo poliwis."
+  },
+  "dances": {
+    "title": "Netotiliztli",
+    "description": "Ximotlatlauh in yancuic tlanelhuayotl ipan netotiliztli huan cuicatl tlen huejcahuac."
+  },
+  "rivers": {
+    "title": "Atoyatlmeh",
+    "description": "Ximotlatzinto ipan in yejyectzin atoyatlmeh huan xiquitac in tlaltequitl tlen quinyecana."
+  }
+},
+
+  "culture": {
+    "heritageBadge": "Tlamantli Tlapialistli",
+    "titlePart1": "Tlapialistli",
+    "titlePart2": "Tlamantli",
+    "description": "In touey tlamantli tlapialistli in iyollo San Juan Tahitic. Ximomachti in tlamantli, tlapohualiztli huan tlatolli tlen otetlapitza in tochantlaca tlamantli ipan huehue tlamantli.",
+    "exploreButton": "Ximomachti in tochantlaca tlamantli",
+    "calendarButton": "Tlamantli Tlapohualiztli"
+  },
+  "calendar": {
+  "visitors": "tlacamej ipan inin metztli",
+  "titlePart1": "Ximoyolpactihuan ipan in tlatemikti tlen",
+  "titlePart2": "San Juan Tahitic",
+  "subtitle": "Amo san xiqupohua tlen totlamantli — ximotlatlauh, xiquitta huan xiquihuica mohuan.",
+  "resetProgress": "Xiccuepa mochihualiztli",
+  "resetAria": "Xiccuepa mochihualiztli tlen tlamantli",
+  "routeTitle": "Moololoa tlen Motlatemikti",
+  "completed": "tlamitlatlacualti",
+  "rewardMessage": "Xitlamitlacualti nochi para xiquixtia in stickermeh!",
+  "allCompleted": "¡Tlamitlacuilli!",
+  "downloadStickers": "¡Xiquinmohui stickermeh!",
+  "downloadAria": "Xiquinmohui in amatl stickermeh tlen San Juan Tahitic",
+  "progressMessage": "Xiquitzca se tlalnamictli para tlamitlacualtia motlamantli. Mochihualiztli: {current} de {total}.",
+  "eventAria": "Amo tlamitlacuilli",
+  "completedAria": "Tlamitlacuilli",
+  "viewVideo": "Xiquitta Video",
+  "viewExperience": "Xiquitta Tlatemikti",
+  "loading": "Tlatemoyan...",
+  "videoUnavailable": "Amo onca video",
+  "activities": "Tlamantli",
+  "categoryTraditional": "Huejcahuac",
+  "categoryCultural": "Tlanemilistli",
+  "categoryGastronomic": "Tlakualiztli",
+  "categoryArtistic": "Tlatzotzoniliztli",
+  "seeMore": "Xiquitta",
+    "categoryReligious": "Teyolia",
+    "categoryCeremonial": "Tlapohualiztli",
+    "categoryFair": "Tlanamaca",
+    "categoryNature": "Tlalticpac",
+    "categoryAgriculture": "Tlacualiztli",
+    "categoryAstronomy": "Citlalmatiliztli",
+    "categoryGalaxies": "Citlalcueyaliztli"
+},
+"modal": {
+  "welcome": "Ximopanoltih ika Cooperativa San Juan Tahitic",
+  "learnMore": "Xikmomachti okachi",
+  "contact": "Tlapohualli",
+  "readMore": "Xikamati okachi",
+  "seeMore": "Xikitta okachi",
+  "back": "Ximotlapo",
+  "close": "Xiktzacuilli",
+  "share": "Xikmoyokti",
+  "congratulations": "¡Tiahui! ¡Xochipilli!",
+  "completedRoute": "Tikchihuato in Ohtli tlen Tlamantli uan otiktlapojtlali in stickers.",
+  "downloadStickers": "Xiktemo in Stickers"
+},
+"breadcrumbs": {
+  "home": "Kalpan",
+  "culture": "Toltekayotl",
+  "culturalCalendar": "Tonalamatl tlen Toltekayotl"
+},
+"carousel": {
+  "title": "Xikmati in yolotl de",
+  "sanJuanTahitic": "San Juan Tahitic",
+  "exploreMore": "Ximotlatlauhqui okachi",
+  "phrases": [
+    "Xinechmati in tepetini itech tlamantli uan in ika yolmelahualiz.",
+    "Se netotiliz quitemoa se tlamantli... se ikxi, se yoliztli.",
+    "Kampa in tlali motlalia uan in toltekayotl mochiua se tlachialis.",
+    "In iyolo in Sierra tlapipitza San Juan Tahitic.",
+    "Motlajtol kalaki nican, kampa in tonalli motlatia."
+  ]
+},
+"culturesection": {
+  "dances": "Netotiliztli Tlen Huehca",
+  "dancesDescription": "Inin netotiliztli techilía in tlatol, in teotl uan in nemiliztli de San Juan Tahitic ika motlaloa uan in huehueyoliz.",
+  "dancesDetails": ["Netotiliztli huehcayotl", "Tlaquentli tlen tipic", "Fiestas patronales uan tlaneltokayotl"],
+  "crafts": "Tlamachtilli Tlen Altepetl",
+  "craftsDescription": "Inin tlachihualiztli mochihua ika in tlahcuilohqueh tlen altepetl ika tlajtlamantli tlen momachtihqueh ika huehcayotl.",
+  "craftsDetails": ["Tlaquemitl huehca", "Comitl tlen manohchiuh", "Cuahuitl tlen tetlacuij"],
+  "language": "Nahuatlahtolli",
+  "languageDescription": "Xikmati in Nahuatlahtolli: in ichan, in tlachiyaliztli axkan, uan in tlatol tlen motenehua San Juan Tahitic.",
+  "languageDetails": ["Tlatolmej nahuatl", "Tlahtolli yolmelahuac", "Tlatol tlen tlaneltokayotl"],
+  "gastronomy": "Tlamanalli",
+  "gastronomyDescription": "Xikmati in tlacualli huehca de San Juan Tahitic: tlaneltocayotl tlen altepetl, tlacualnextli uan tlamanalli ika yoltic.",
+  "gastronomyDetails": ["Tlacualli tipic", "Tlaneltocayotl tlen región", "Tlamanalli huehcayotl"],
+  "exploreMore": "Ximotlatlauhqui okachi",
+  "discoverFestivities": "Xikmati in nemilistli huehca",
+  "heritage": "Tlahtolnemiliztli",
+  "livingTradition": "Tlaneltokayotl Yolmelahuac",
+  "preservingOur": "Titlamiktia in to",
+  "roots": "Nelan",
+  "preservationDescription": "Titequiti ika yolmelahuac para tlatlania uan tlatzotzona in tlahtolnemiliztli. Ika tlamachtihcayotl, nemilistli uan momachtillij, tipiya yolmelahuac in tlatol tlen techixmatia kemi altepetl.",
+  "stats": {
+    "yearsHistory": "Xihuitl Tlen Tlatolnemiliztli",
+    "localArtisans": "Tlahcuilohqueh Tlen Altepetl",
+    "annualFestivals": "Nemilistli Tlen Xihuitl",
+    "livingTradition": "Tlaneltokayotl Yolmelahuac"
+  },
+  "achievements": [
+    "Tlamachtihcayotl tlen tlamachtilli huehcayotl",
+    "Nemilistli xihuitl tlen toltekayotl",
+    "Tlamachtihqueh tlen tlamachtilli",
+    "Amatlajtoli tlen tlahtol huehcayotl"
+  ]
+},
+"language": {
+  "ancestralLanguage": "Tlahtolli Huehcayotl",
+  "speaking": "Tlapohualiztli",
+  "nahuatl": "Nahuatlahtolli",
+  "description": "Xikmati in yejyectli uan in tlachicahuac tlen totlahtolli, ika tlatolmej tlen mopanoltihqueh ika miyac xihuitl ipan toaltepetl tlen yejyectzin",
+  "sanJuanTahitic": "San Juan Tahitic",
+  "listen": "Xiknaki",
+  "exploreMore": "Ximotlatlauhqui okachi", 
+  "phrases": [
+    { "nahuatl": "Cualli tonalli", "translation": "Cualli tonalli (Buen día)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079074/cualli-tonalli_mduals.mp3" },
+    { "nahuatl": "Tlazohcamati", "translation": "Tlazohcamati (Gracias)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079068/tlazohcamati_uxksqv.mp3" },
+    { "nahuatl": "Nochipa", "translation": "Nochipa (Siempre)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079067/nochipa_jrbdkm.mp3" },
+    { "nahuatl": "Tlen mochi", "translation": "Tlen mochi (Todo)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079072/tlen-mochi_zwsdgx.mp3" },
+    { "nahuatl": "Kualualtsi", "translation": "Kualualtsi (Hermoso)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079077/Kualualtsi_vr44x3.mp3" },
+    { "nahuatl": "Sankentsi nimitsitas", "translation": "Sankentsi nimitsitas (Hasta luego)", "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079067/sankentsi_nimitsitas_h8xmjf.mp3" }
+  ]
+},
+"crafts": {
+  "localCrafts": "Totlapechcayotl tlen totlalmeh",
+  "description": "Tlachihualiztli yejyectin tlen tlachihualtin totlalmeh ika tlamachtiliztli tlen mopanoltihqueh ika miyac xihuitl.",
+  "clickInstructionDesktop": "Xikchihua clic ipan se tlamachihualiztli para xikmatis nochi itlamantli",
+  "clickInstructionMobile": "Xiktzintla se tlamachihualiztli para xikmatis nochi itlamantli",
+  "showLess": "Xiknexti achi tlahcoyan",
+  "showMore": "Xiknexti okachi",
+  "showingAll": "Tikkita nochi in tlamachihualiztli tlen onca",
+  "moreToDiscover": "tlamachihualiztli okachi tlen tiktlachias",
+  "scrollHint": "Tlen xiknextia achi tlahcoyan, timoyolcuepa campa opeu in tlamachihualiztli",
+  "noResults": "Amo onca tlamachihualiztli ipan in tlalpan tlen ika.",
+  "viewAllCrafts": "Xikitta nochi in tlamachihualiztli",
+  "visitUs": "Ximohuica San Juan Tahitic!",
+  "visitDescription": "Xikmati in tlachihualiztli tlen tlachihualtin ika inmanos. Se tlamachihualiztli xiknextia totlahtolli, totlalnamiquiliztli uan toyolotl.",
+  "viewDetails": "Xiquitta nelli tlamantli",
+  "clickToZoom": "Xicpatsoca para xiquimixmati",
+  "behindTheStory": "Tlen okachi ixiptla",
+  "theArtisan": "Tlachiuani",
+  "details": "Tlamantli",
+  "creationTime": "Tlen tonalmeh motlachihua",
+  "price": "Cuetlaxtli",
+  "materialsUsed": "Tlen motlaxtia",
+  "ancestralTechniques": "Tlamachtilistli huehuehca",
+  "viewMoreCrafts": "Xiquitta okachi tlamachtiloyan",
+  "navigationInstructions": "Xicpatsoca ESC para xicpolo • ← → para ximotlaloa",
+  "closeZoom": "Xicpolo mixmatilistli",
+  "zoomedViewOf": "Nelli mixmatilistli tlen",
+  "by": "Ipan",
+  "closeZoomInstructions": "Xicpatsoca ESC o xicchihua tlaixpan para xicpolo",
+"categories": {
+  "textiles": "Tlaquemitl Tradicionalmeh",
+  "ceramica": "Barro Tlamantli",
+  "madera": "Cuahuitl Tlapohualiztli",
+  "todos": "Nochi Tlamantli"
+    },
+    "artisanExperience": "xihuitl tlamachilistli",
+    "modal": {
+  "close": "Tzatzili modal",
+  "clickToZoom": "Xitlāklik tlaçolli ixtenki",
+  "closeZoom": "Tzatzili ixtenki",
+  "theStoryBehind": "In Tlahcuilolli Ipan",
+  "theArtisan": "In Tlamachtihquetl",
+  "details": "Tlahcuilolmeh",
+  "productionTime": "Tlen tonali tlamaniliztli:",
+  "price": "Tlanamacayotl:",
+  "materialsUsed": "Tlen tlamantli tlamanili",
+  "ancestralTechniques": "In Huehca Tlamachtiliztli",
+  "viewMoreCrafts": "Xiquitta okseki tlamantli",
+  "keyboardShortcuts": "Xipitzā ESC para tzatzili • ← → para nemi",
+  "zoomInstructions": "Xipitzā ESC o xitlāklik tlapan para tzatzili",
+  "by": "Ipan:"
+},
+"tooltip": {
+  "tapToExplore": "Xitlāklik para tlatemoa!",
+  "discoverMore": "Xikmatis okachi!",
+  "mobileInstruction": "Xitlāklik ika se tlamantli para tikmatis in itlahcuilol, in huehca tlamachtiliztli, huan tikixmatis in tlamachtihquetl tlen oquichiu.",
+  "desktopInstruction": "Xikklik ika se tlamantli para tikmatis in itlahcuilol, in huehca tlamachtiliztli, huan tikixmatis in tlamachtihquetl tlen oquichiu.",
+  "mobileNavigationTip": "Noijki tihueli tlamanilia ipan in modal para timoneki",
+  "desktopNavigationTip": "Noijki tihueli tiktequiti in flechas ← → para timoneki"
+},
+"imageNotAvailable": "Amo onca ixnextli",
+"loadingCraft": "Tlamantli tlamanilia..."
+  },
+  "gastronomy": {
+  "ancestralFlavors": "Huehca Tlamachtiliztli Tlamaniliztli",
+  "journey": "Se ojtli",
+  "gastronomic": "tlamaniliztli",
+  "description": "Xikmachi in tlamaniliztli tlen totlalpan, campa sesen tlacual tlanonotza se tlatolli tlen huehca nemiliztli, tlachializtli huan in tlen ixiptlatoc ika tetlasojtlalistli.",
+  "hoverVideo": "Xikmokayotza ika in cuauhtlan para tikitta in video",
+  "origin": "Tlen quisa:",
+  "ingredients": "Tlamantli:",
+  "spiceLevel": "Tlapechtli (picor):",
+  "seasonFestivity": "Tonali/Fiesta:",
+  "exploreOurCuisine": "Xitlatemoa totlamaniliztli",
+  "highlights": {
+    "traditionalRecipes": "Tlamantli Huehca Tlamachtiliztli",
+    "localIngredients": "Tlamantli Tlen Totlalpan",
+    "annualFairs": "Tianquizmeh Xihuitlmej",
+    "flavorTradition": "Tlamaniliztli huan Tlamachtiliztli"
+  }
+},
+"gastronomysection": {
+  "flavorsOfTahitic": "Tlamaniliztli Tahitic",
+  "mexicanGastronomy": "Mēxihcatl Tlamaniliztli",
+  "description": "Xikmachi in tlacualmeh tlen tipikoj, in tlamantli tlen totlalpan huan in tlamachtiliztli tlen quimaca in tlamaniliztli ipan San Juan Tahitic. Se tlamaniliztli tlen quinechihua tikonemiliaj in toixiptla.",
+  "back": "Tlatzintla",
+  "exploreGastronomy": "Xitlatemoa in tlamaniliztli"
+},
+"cocinas": {
+    "types": {
+  "familiar": "Kalnemi tlakamej",
+  "comunitario": "Tlahtoltekaj"
+},
+"services": {
+  "wifi": "WiFi tlaeliltok",
+  "parking": "Kan motlalia karro",
+  "garden": "Xochitlalpan",
+  "groups": "Miek tlakatlaj",
+  "takeaway": "Tlakualilistli tla kualtsitsiki",
+  "reservations": "Tlatlanilistli",
+  "outdoor": "Kan iaxkatl",
+  "demonstrations": "Tlakualilistli temachtijli",
+  "workshops": "Tlakualilistli tlamachtijkali",
+  "ingredients": "Tlatemilistli tlalmej tlatlanilistli",
+  "events": "Tlamanilistli"
+},
+"schedule": {
+  "weekdays": "Lunes ika Viernes",
+  "weekend": "Sábado ika Domingo",
+  "closed": "Tonalmej descanso"
+},
+"gallery": {
+  "dishes": "Tlakualmeh",
+  "events": "Tlamanilistli",
+  "preparation": "Tlayekililistli",
+  "ambience": "Nexkayotl"
+},
+"experience": {
+  "idealMoment": "Kuali tonali",
+  "vibe": "Nexkayotl ika yolotl",
+  "aroma": "Yajyotl tlakatl"
+},
+"contact": {
+  "hours": "Hora",
+  "address": "Kalli",
+  "reference": "Nikan nemilistli",
+  "instructions": "Tlamachtilli"
+},
+"recommendations": "Tlatlajtlanilistli",
+"awards": "Tlatlepanolistli ika tlaixmatilistli",
+"header": {
+  "gastronomicExperiences": "Tlakualilistli tlamantli",
+  "previousKitchen": "Tlakualkali achto",
+  "nextKitchen": "Tlakualkali ik ixnextik",
+  "goToKitchen": "Yaui tlakualkalco",
+  "of": "ika"
+},
+"floatingNav": {
+  "currentlyViewing": "Tikitta:",
+  "kitchen": "Tlakualkali",
+  "previous": "Achto",
+  "next": "Ixnextik",
+  "close": "Tzakua",
+  "minimize": "Chikawti tlamachtilistli",
+  "showInfo": "Monextia tlamachtilistli",
+  "view": "Kitta",
+  "tooltip": {
+    "title": "¡Xinejnemi ika fasililistli tlakualkalmeh!",
+    "description": "Ximomachtia nochi tlakualkalmeh amo xikpolokakan mochan"
+  }
+},
+"hero": {
+  "experiences": "Tlamantli tlayekililistli",
+  "generations": "Tepilhuan tlami",
+  "discoverOurStory": "Xikmomachtia totlahtolli",
+  "howToGetThere": "¿Kenyaj tikajsis nepa?",
+  "useArrows": "Xiktekiti in flechajmeh para xikitta okachi tlamantli",
+  "previousKitchen": "Tlakualkali achto",
+  "nextKitchen": "Tlakualkali ik ixnextik"
+},
+"restaurantInfo": {
+  "ourStory": "Totlahtolli",
+  "servicesWeOffer": "Tlatequipanolmeh tiktemaka",
+  "theAmbiance": "Nexkayotl",
+  "kitchenAmbiance": "Nexkayotl tlakualkalco"
+},
+"featuredDishes": {
+  "emblematicDishes": "Tlakualmeh tlachikawalistli",
+  "discoverFlavors": "Xikmomachtia in yajatlmeh tlen techixmatia uan techpialia yolotl in tlachihualmeh",
+  "emblem": "Tlachikawalistli",
+  "seeMore": "Xikitta okachi",
+  "currency": "$"
+},
+"location": {
+  "visitUs": "Xiwalakan",
+  "address": "Kalli kan tikateh",
+  "hours": "Hora tlen tiktekitiah",
+  "mondayFriday": "Lunes hasta Viernes",
+  "saturdaySunday": "Sábado uan Domingo",
+  "recommendations": "Tlatlajtlanilistli",
+  "locationOf": "Kan kajki"
+},
+"expandedModal": {
+  "closeModal": "Tzakua pantli",
+  "clickToExpand": "Xikchiya para xikweititi",
+  "resetImage": "Xikpata tlen ixnextli",
+  "rotateImage": "Xikpatla ixnextli",
+  "zoomOut": "Xikmochikawa",
+  "zoomIn": "Xikachiwa",
+  "closeImageViewer": "Tzakua tlen ixnextli nechikolti",
+  "featuredDish": "Tlakualilistli tlachikawalistli tlen kuali",
+  "viewImage": "Xikitta ixnextli",
+  "ourStory": "Totlahtolli",
+  "services": "Tlatequipanolmeh",
+  "openingHours": "Hora tlen tiktekitiah",
+  "mondayFriday": "Lunes - Viernes",
+  "saturdaySunday": "Sábado - Domingo",
+  "holidays": "Tonalmeh tlatlamilistli",
+  "anyQuestions": "¿Tikpia tlajtolmeh? Xitechnojnotza:",
+  "historicalInfoNotAvailable": "Amo kajki tlamachtilistli tlen huejcau.",
+  "service": "Tlatequipanolistli:",
+  "expandedImageOf": "Ixnextli tlen weyitok ika",
+  "kitchenEnvironment": "Nexkayotl tlakualkalco"
+}
+},
+"platillos": {
+  "title": "Yajatlmeh San Juan Tahitic",
+  "clickInstruction": "Xikchiya ipan se tlakualilistli para xikmomachtia itlahtolli",
+  "description": "Xikpanolti totlakualilistli tlen kuali uan tlachikawalistli. Sesen tlakualmeh kitemaka se tlahcuilolli tlen yajatl, tlatemilistli tlalmeh, uan tlamachtilistli tlen huejcau tlen kimatkeh in achto tlakatlamej.",
+  "ariaLabel": "Xikchiya o xitlapo Enter para xikweititi",
+  "clickForInfo": "Xikchiya para okachi tlamachtilistli",
+  "tap": "XITLAPO",
+  "exploreOthers": "Xikpanolti okse tlakualmeh, achto xikzakua nin tlakualmeh",
+  "screenReader": {
+    "expanded": "Mo ueyilijtok. Xi kitekiui nopa flechas tlen inejmatl uan inejmatl para tias o ESC para tijtsakuilis.",
+    "gridView": "Nexkayotl tlakualmeh ipan tlamantli. Xiktekiti ika tab para xinemi ipan tlakualmeh, uan ika flechajmeh para timoyolpachih."
+      },
+      "modal": {
+  "fullscreenView": "Nexkayotl weyitok ipan pantalla:",
+  "zoomOut": "Xikmochikawa",
+  "resetZoom": "Xikpata weyilis",
+  "zoomIn": "Xikachiwa",
+  "previousDish": "Tlakualmeh achto",
+  "nextDish": "Tlakualmeh ik ixnextik",
+  "exitFullscreen": "Xikisa ipan pantalla weyitok",
+  "closeModal": "Tzakua pantli",
+  "fullscreen": "Xikitta ipan pantalla weyitok",
+  "location": "Kan kajki",
+  "address": "Kalli kan tikateh:",
+  "owner": "Tlanekti:",
+  "phone": "Teposmachiyotl:",
+  "phoneNotAvailable": "Amo kajki",
+  "viewOnMaps": "Xikpatla ipan Google Maps",
+  "suggestions": "Tlatlajtlanilistli",
+  "openingHours": "Hora tlen tiktekitiah",
+  "backToGallery": "Ximokuapa ipan galería",
+  "keyboardShortcuts": "Xikchiya ESC para tzakua • ← → para ximonejnemi ika tlakualmeh",
+  "by": "ika"
+},
+"loading": "Tlatlamantli motlalia...",
+"imageNotAvailable": "Amotlen ixnextli kajki"
+    },
+    "call": {
+  "discoverThe": "Xikmatis",
+  "magic": "Tlamatki",
+  "ofOurCuisine": "tlen totlakualkalij",
+  "subtitle": "Kampa se platillo kitemoa itlahtol, huan ses sabor kichiua se tlaneltokilistli amo polihui",
+  "features": {
+    "localIngredients": "Tlapiyalme\nTlen Totlalpan",
+    "familyTradition": "Yeknemilistli\nTlen Familial",
+    "qualityGuaranteed": "Yektilistli\nTlachikualoj",
+    "cozyAtmosphere": "Tlakualilistli\nTlen Tlakamej"
+  },
+  "ctaButton": "Xikchikahua in Tlamachilistli",
+  "inspirationalQuote": "Amo san se tlakualli, yejua se nemilistli ika in yolkayotl San Juan Tahitic",
+  "waitingMessage": "Timitskijkij toknihuan ika mikilistli ika noyollo"
+},
+"dance": {
+  "traditionsInMotion": "Tlamachtilistli motlaloa",
+  "ancestralDances": "Macehualmej mitotilistli",
+  "description": "Ximotlatzoma ipan ses mitotilistli ika klik, huan ximoyekketza ika",
+  "sanJuanTahitic": "San Juan Tahitic",
+  "previousDance": "Mitotilistli achto",
+  "nextDance": "Mitotilistli ik ixnextik",
+  "learnMore": "Xikmatis okachi",
+  "tapToLearnMore": "Xiktlakua o xiktlaj tla ika xikmatis okachi de nin mitotilistli",
+  "danceDetails": "Nikan tlamantli tlen mitotilistli",
+  "closeDanceDetails": "Xikpolo tlamantli tlen mitotilistli",
+  "expand": "Xikchikahua",
+  "close": "Xikpolo",
+   "experienceInPerson": "¡Xikchikahua ika motlacatl!",
+  "ctaDescription": "Xikmachili in tlapitzali huan in yolkatilistli tlen **macehualmej mitotilistli** ipan iyolotzin **San Juan Tahitic**. ¡Timitskijkij!",
+  "viewOnMap": "Xikita ipan mapa",
+  "invitationCard": "Amatl tlen kualtilistli para visitas San Juan Tahitic",
+  "panoramicView": "Tlachiya hueyi tlen altepetl San Juan Tahitic"
+},
+"community": {
+  "ourPeopleOurStrength": "Tochan tlacamej, totetlakayotl",
+  "unitedBy": "Titlatlajtoj ika",
+  "tradition": "tlamachtilistli",
+  "description": "Titeipaniltik se familia tlatlatok ika totlal, tlamantli tlen totatahuan huan se hueyi yolkayotl tlen tikpialia ika tlayekanilistli. Xikmatis in makaj huan in yolmej tlen kichiwaj ma kuali San Juan Tahitic.",
+  "learnOurHistory": "Xikmatis totlamachtilistli",
+  "communityCooperative": "Tlatlacualoyan tlen tochan"
+},
+"timeline": {
+  "enduringLegacy": "Se tlatlamantli tlen amo polihui",
+  "our": "Totlan",
+  "roots": "tlalkayomej",
+  "description": "Se ojtli ipan tonali para xikmatis in tlachihualistli, altepemej huan tlacamej tlen kichiwaj totlachiyalistli.",
+  "showMore": "Xikita okachi tlen totlamachtilistli",
+  "showLess": "Xikita achitzin",
+  "expand": "Xikchikahua",
+  "collapse": "Xikpolo",
+  "learnMore": "Xikmatis okachi"
+},
+"present": {
+  "sanJuanToday": "Axkan San Juan Tahitic",
+  "closeModal": "Cerrar modal",
+  "ourVibrant": "Totlaca",
+  "community": "tlen yolkamej",
+  "description": "Xikmatis kenijki tianij axkan: se kalpoli tlen kimapialia itlamachtilistli huan kimijmatis itlaneltokalis ika nemilistli huan se tlayekanilistli tlen ika kuali tlamantli.",
+  "communityPillars": "Tepetlajmeh tlen totlalpan",
+  "ourValues": "Totlayeknemilis",
+  "learnMore": "Xikmatis okachi",
+  "communityInNumbers": "Tochan ika tlamantli tlen tlachiyalistli",
+  "numbersDescription": "Tlatlamantli tlen kijtoaj in yolkatilistli huan in nemilistli San Juan Tahitic",
+  "lastUpdate": "Tlamachtilistli yancuik:",
+  "source": "Tlamachtiloyan: Consejo Comunitario de San Juan Tahitic",
+  "wouldYouLikeToVisit": "¿Tineki tias techitako?",
+  "visitDescription": "Xikitta ika moixtolol in kuali nemilistli huan in yolyekkan tlen San Juan Tahitic. Timitskijkij para ximokopati ika tochan, maski san se tonali.",
+  "pillars": [
+    {
+      "title": "Tequio (Tlachikualistli Se Tlanemilistli)",
+      "description": "In tequio mochihua se tlapechtli tlen totlaneltokalis. Se hueyi tlamantli tlen totatah huan totatahhuan, para moneki tikchiwaj ika tlayekanilistli huan kuali nemilistli nochtin."
+    },
+    {
+      "title": "Tlakualilistli huan Tlalmixtilistli",
+      "description": "Tlen milpa a tlakuali. Totlajtlakuali tlen elotl, etl huan kafetl, yejua in yolkatl tlen kitlaixmatia in tlatskayotl huan kiselia in tlamantli tlen tikuikas totlal."
+    },
+    {
+      "title": "Ilhuitl huan Tlamachtilistli",
+      "description": "In tonalamatl tlen ilhuitl mochihua in yolotzin tlen totlamachtilistli. In mitotilistli, tlapitzali huan tlayolmelajli mochijtok ika tlamantli tlen kijtoa titechixmatia nochtin."
+    },
+    {
+      "title": "Tlamachtiloyan huan Tonemilis",
+      "description": "Tikinvestiroaj ipan in telpocamej. Totlamachtiloyan mochijtok in kuauhtlajtlamachtiloyan para kiseliaj in telpocamej nemilistli ika tlamachtilistli huan amo kipolohua in itlahtol totatahhuan."
+    }
+  ],
+  "stats": [
+    { "label": "Tlacamej" },
+    { "label": "Telpocamej (<30 xihuitl)" },
+    { "label": "Tlamachtiloyan (Tlen Patlajhuan huan Tlatzitziloyan)" },
+    { "label": "Tlamamatilistli tlen Elektrika" }
+  ]
+  },
+   "closeModal": "Nechka modal" ,
+   "attractions": {
+  "projectInDevelopment": "Tlamantli mochijtok",
+  "our": "Totlajtol",
+  "novelties": "tlamantli yancuik",
+  "description": "Se tlachiya ika in tlamantli tlen kipatlajtiaj San Juan Tahitic huan tlen ika kuali timopaktiskej sooni.",
+  "communityProject": "Tlamachtilistli tlen kalpoli",
+  "viewGallery": "Xikitta in Galería",
+  "projectTimeline": "Tonalamatl tlen Tlamachtilistli",
+  "knowCompletePlan": "Xikmatis in tlamachtilistli nochi",
+  "communityImpact": "Tlayolmelajli ipan totlalpan",
+  "jobsGenerated": "Tekitilistli tlen mochijtok",
+  "cabinsUnderConstruction": "Kalmej mochijtok",
+  "localMaterials": "Tlamantli tlen totlalpan",
+  "project": {
+    "title": "Kalmej para tlaneltokalistli (Fase I)",
+    "subtitle": "Tlalpanili para itonemilis tlen Tajitik",
+    "description": "Se tlamachtilistli tlen kalpoli para tikmakas se nemilistli tlen yolkamej huan tlen tekitilistli ika tlatskayotl. Kalmej tlen kipialia kuali nemilistli huan tikchiwaj ika tlamantli tlen totlalpan, para kualtia in tlatekitilistli huan in ecoturismo.",
+    "status": "Mochijtok (80% tlami)",
+    "features": [
+      { "label": "Kalmej Achto", "value": "8" },
+      { "label": "Tonali Estimado", "value": "Totonik 2024" },
+      { "label": "Tlamantli Tlen Tlatlanilistli", "value": "Tonal" },
+      { "label": "Kan Tikchiwaj", "value": "Tlachiyalistli al Valle" },
+      { "label": "Tekitilistli Mochijtok", "value": "15+" },
+      { "label": "Tlamantli Tlen Totlalpan", "value": "95%" }
+    ],
+    "timeline": [
+      { "phase": "Tlayekililistli", "date": "Ene 2024" },
+      { "phase": "Tlaltekiliztli", "date": "Feb 2024" },
+      { "phase": "Kuapajli", "date": "Mar 2024" },
+      { "phase": "Techpantilistli", "date": "Abr 2024" },
+      { "phase": "Tlamixtilistli", "date": "May 2024" },
+      { "phase": "Tlalmanalistli", "date": "Jun 2024" }
+    ],
+    "constructionImages": [
+      {
+        "title": "Tlaltekiliztli tlen kalmej",
+        "description": "Tekitijtok ipan tlaltekiliztli ika tlamantli tlen amo tlapolojtik"
+      },
+      {
+        "title": "Kuapajli tlen achto",
+        "description": "Tekitilistli tlen kuapajli ika kuahuitl tlen totlalpan"
+      },
+      {
+        "title": "Tlayekpanilistli kalpolimej",
+        "description": "Kalpoli tiktekitij ika se tlachikualilistli"
+      },
+      {
+        "title": "Tlachiyalistli tlen tlamachtilistli",
+        "description": "Panorámica tlen in tlachikualilistli tlen mochijtok"
+      }
+    ]
+  }
+},
+"tequio": {
+  "title": "Tequio: Tlayekililistli Kalpolimej",
+  "subtitle": "In tlamachtilistli tlen huejcamej tlen kipaktia totlalpan San Juan Tahitic",
+  "unitedForCommonGood": "Timoyekketokej ika in kuali para nochi",
+  "heroDescription": "In tequio yen yolotl tlen totlamachtilistli ipan San Juan Tahitic. Desde huejcaj, nin tekitilistli tlen timotlayekanaj ika tlatskayotl otikmopalehuijkej para tikchiwaj in tlamachtilistli: tiopan, ojtli, ameyalli huan timoyekketokej ika se tlayolmelajli tlen kipia in tonemilis ipan kalpoli.",
+  "ancestralTradition": "Tlamachtilistli tlen huejcamej",
+  "solidarity": "Tlayolmelajli",
+  "collectiveProgress": "Tlayekililistli Ika Timotlayekketokej",
+  "communityProjects": "Tlamachtilistli tlen Kalpoli",
+  "projectsDescription": "Tlamantli tlen tikchiwaj san sej para kuali tonemilis ipan totlalpan",
+  "participants": "Tlatekitkej",
+  "frequency": "Keman timotekitiaj",
+  "benefitsForCommunity": "Tlamantli kuali para in kalpoli:",
+  "toolsUsed": "Tlamantli tlen timotekitiaj:",
+  "whyTequioStrengthens": "¿Tleka in Tequio techmoyekketia?",
+  "benefitsDescription": "In tlamantli kuali huan yolyekaj tlen tikpiaj ika nin tekitilistli tlen san sej timotekitiaj",
+  "communityVoices": "Totlajtol tlen Totlalpan",
+  "testimonialsDescription": "Tlen kijtoaj in totlayekankeh de tequio",
+  "culturalHeritage": "In Tequio: Tlamachtilistli Tlen Yolito",
+  "heritageDescription": "Ipan San Juan Tahitic, in tequio kuali mochipa kipia yolistli, yen tlayekililistli tlen totlamachtilistli. Techitlajtlachia para timotlayekketokej ika in tlayolmelajli huan kipia in tlamachtilistli tlen huejcamej para in tlayikpanimej tlen tlen tlakatlaj.",
+  "organizedCommunity": "San Juan Tahitic - Kalpoli Tlayekilijtok",
+  "carousel": {
+    "collectiveWorkRoads": "Tlayekililistli ipan Ojtli",
+    "roadsDescription": "Kalpoli timotlayekketokej ipan mopalehuia ojtli tlen altepetl",
+    "communityReforestation": "Tlaltepehuaztli Kalpoli",
+    "reforestationDescription": "Tlakualka tlen kuahuitl nativoj para mopalehuia in tlalpan",
+    "schoolMaintenance": "Mopalehuia in Tlamachtiloyan",
+    "schoolDescription": "Tlatekitilistli san sej para kuali mochij in tlamachtiloyan",
+    "springCleaning": "Mopajpalehuia in Ameyalli",
+    "springDescription": "Tlamachtilistli para mokualli in atatl tlen totlayolmelajli",
+    "tequioCelebration": "Tlayekililistli tlen Tequio",
+    "celebrationDescription": "Tlamachilistli huan motlasojtalia ipan mopalehuia"
+  },
+  "projects": [
+    {
+      "name": "Mopajpalehuia Ojtli Tlen Altepetl",
+      "description": "Tlatekitilistli para mopajpalehuia huan mopajpatla in ojtli tlen kinmopantiaj in totlayekankeh huan tochaj, para kipia kuali tlamantli huan moneki seguridad para nochi.",
+      "benefits": ["Kuali mopantiaj", "Ojtli tlen amo tlapanilistli", "Kuali tlayolmelajli", "Komersio tlen mochikaj"],
+      "tools": ["Palas", "Karretillas", "Rastrillos", "Pikos"]
+    },
+    {
+      "name": "Tlaltepehuaztli Kalpoli",
+      "description": "Tlakualka tlen kuahuitl nativoj ipan tlali tlen tlamontok para mopalehuia in tonemilis huan in tlalpan.",
+      "benefits": ["Mopalehuia in tlali", "Atl tlen chipahuak", "Yolilistli tlen tlakatlaj huan totomej", "Sombra huan kuali tlatskayotl"],
+      "tools": ["Barras", "Machetes", "Xokomej kuahuitl", "Regaderas"]
+    },
+    {
+      "name": "Mopajpalehuia Tlamachtiloyan",
+      "description": "Tlatekitilistli para mopajpatla huan mopalehuia in tlamachtiloyan, para in pilkonemej kipiaj se kuali kan mopanoltiaj.",
+      "benefits": ["Kuali kalmej", "Seguridad ipan tlamachtiloyan", "Kuali tlayekililistli", "Tlayolmelajli Kalpoli"],
+      "tools": ["Pintura", "Tlamantli para carpintería", "Materiales", "Andamios"]
+    },
+    {
+      "name": "Mopajpalehuia Ameyalli",
+      "description": "Tlatekitilistli para mopajpalehuia huan mokualtij in ameyalli, kipiajtokej in tlamachtilistli tlen huejcamej.",
+      "benefits": ["Atl tlen chipahuak", "Kuali yolistli kalpoli", "Tlamachtilistli tlen huejcamej", "Mopalehuia in naturaleza"],
+      "tools": ["Guantes", "Rastrillos", "Bolsas para tlamantli", "Botas de ule"]
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Tlayolmelajli Kalpoli",
+      "description": "Techmoyekketia ika familias huan tlayikpanimej, mochipa san sej tikpiaj tlayolmelajli"
+    },
+    {
+      "title": "Tlayekililistli Ika Tlakatsintli",
+      "description": "Tlamachtilistli tlen kipia kuali tonemilis para nochi huan mokualli in tlalpan"
+    },
+    {
+      "title": "Tlamachtilistli Tlen Huejcamej",
+      "description": "Timomoyekketiaj para kipia yolistli in tequio huan in tlayolmelajli tlen totatah",
+      "note": ""
+    },
+    {
+      "title": "Autogestión (Tequipanolistli)",
+      "description": "Tijtlachia in totlatlamantli ika totlayekankeh, amo kipia moneki eksternos"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Doña Rosa Martínez",
+      "participation": "35 xihuitl ipan tequio",
+      "testimonial": "In tequio techmoyekketia kemi se familia. Notelpokaj huan nonenpiltzin momachiliaj in tlayolmelajli tlen san sej tekitij. Nin yen tlamantli más kuali tlen otikselijkej de totatah."
+    },
+    {
+      "name": "Juan Pérez",
+      "participation": "Tlayekanke de tequio ipan ojtli",
+      "testimonial": "Cada tequio techmoyekketia kemi kalpoli. Tijtlachiaj in tlamantli tlen tikchiwaj huan timoskalijtok kemi altepetl. In tlayolmelajli techmoyekketia."
+    },
+    {
+      "name": "María González",
+      "participation": "Coordinadora de tequio para telpokamej",
+      "testimonial": "Tequipanoj telpokamej tikchiwaj ika tequio para mopalehuia huan kipia yolistli in tlamachtilistli. Nin yen totlayekililistli para San Juan Tahitic."
+    }
+  ]
+},
+"gastronomymodal": {
+  "title": "Tlakualistli:",
+  "subtitle": "tlatskayotl tlen huejcayotl",
+  "description": "Tlen milpampa hasta mesa: tikpiyah totlalpan uan tlasenkaltij tlen totlakualis kuali tlen San Juan Tahitic.",
+  "heroTitle": "Tlakayotl tlen Tekualtia",
+  "heroDescription": "San Juan Tahiticpan, tlali amo san techmaka tlakuali, noijki techmaka tlamantli tlen teixiptla. Totlamilpaj uan totlakualistli tlen huejcayotl kuali in huehuehuejmeh techmiktiah kenik timoyeknemih ika tlaltikpak.",
+  "heroTags": ["Milpaj tlakualistli", "Tlakualistli huejcayotl", "Totlalpan tlen tlapajpanoli"],
+  "ourProducts": "Totlakualmeh",
+  "productsDescription": "Tlakualmeh tlen tikualtiah ika tlamantli tlen kipiyah tlatskayotl, uan tlatlakualilistli tlen kuali para tlaltikpak.",
+  "flavorsOfTheLand": "Tlasenkaltih tlen tlaltikpak",
+  "flavorsDescription": "Tlakualmeh tlen panoah de generación ipan generación, tlatlamanilistli tlen totlalpan kuali.",
+  "ancestralKnowledge": "Tlamatilistli tlen huejcayotl",
+  "knowledgeDescription": "Tlamatilistli tlen techpaleuia tlamantli totlalpan uan totlakualis.",
+  "livingHeritage": "Totlakualistli tlen yolilistli",
+  "heritageDescription": "San Juan Tahiticpan, sesen tlakuali tlahtoa se historia; sesen tlasenkali kipiya se nemilistli. Totlakualistli yolok se tlenmiktiaya tlen totlalpan uan tokniuan.",
+  "heritageTag": "San Juan Tahitic - Tlasenkaltih tlen ayik poliwiskeh",
+  "carousel": {
+    "cornHarvest": "Xilotl tlen Maíz Criollo",
+    "cornDescription": "Totlaol tlen huejcayotl, ipan yehuatl mopajsolti totlakualistli.",
+    "organicMarket": "Tianquiztli Tlen Totlalpan",
+    "marketDescription": "Tlakualmeh yancuik tlen tochan tlapajsoltih.",
+    "molePreparation": "Tlamachtia Mole de Caderas",
+    "moleDescription": "Tlakuali tlen yancuik ipan nemilistli tlen huejcayotl.",
+    "organicCoffee": "Café Tlen Tepetl (tlen tlaltikpak kuali)",
+    "coffeeDescription": "Tikualtiah ipan tepemeh, ika se tlatskayotl tlen tlahuel kuali.",
+    "beanTamales": "Tamalli tlen Etl",
+    "tamalesDescription": "Tlasenkaltih tlen panoah de huehuehuejmeh hasta tlayi."
+  },
+  "products": [
+    {
+      "name": "Maíz Criollo",
+      "description": "Tlaolmeh tlen huejcayotl tlen kipiyah tlasenkali uan tlamantli tlapajpanoli, tikualtiah ika milpaj.",
+      "season": "Junio - Noviembre",
+      "characteristics": ["4 tlaolmeh nativos", "Amo transgénicos", "Tlen tlamelajkayotl", "Amo kimiktiah ixtik"]
+    },
+    {
+      "name": "Etl Tlen Yayauh",
+      "description": "Tikualtiah ipan tepemeh; etl kipiya tlasenkali tzopelik uan tlamantli tlen techyoltilia.",
+      "season": "Agosto - Diciembre",
+      "characteristics": ["Etl criollo", "Tlen proteinah", "Tlaixpajpanolistli", "Tlakualtili ika tonali"]
+    },
+    {
+      "name": "Café de Tepetl",
+      "description": "Café tlen tlaltikpak kuali, tlakualtli ipan 1,200 m, kipiya tzopelik uan tlasenkali tlen chocolate.",
+      "season": "Octubre - Marzo",
+      "characteristics": ["Tipo arábiga", "Tlakualtli ipan patio", "Tostado ika tlamachtli", "Empaquetado tlen nemilistli"]
+    },
+    {
+      "name": "Tlalnakatl Tlen Tlapajpanoli",
+      "description": "Tlamatilistli huejcayotl tlen tlakualistli ika xihuitl ken manzanilla, árnica uan yerbabuena.",
+      "season": "Nochipa xihuitl",
+      "characteristics": ["20 tlaixpajpanolistli", "Tlakualtli ika tonali", "Para tlapajpanolistli", "Tlamachtilistli huejcayotl"]
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Mole de Caderas",
+      "description": "Tlakuali tlen tlamachtli ika chivo, chile uan chocolate. Totlakualistli tlen huejcayotl tlen San Juan Tahitic.",
+      "ingredients": ["Chivo", "Chile mulato", "Chocolate huejcayotl", "Ajonjolí", "Tlasenkaltih locales"],
+      "preparation": "Tlakualtli ika 8 horas"
+    },
+    {
+      "name": "Tamales de Etl",
+      "description": "Tamalli ika totlaol, temilti ika etl yayauh uan xihuitl tlen region.",
+      "ingredients": ["Tlaol nixtamalizado", "Etl yayauh", "Totlaol ipan hoja", "Epazote", "Tlatlakualilistli"],
+      "preparation": "Kochi ika poctli por 2 horas"
+    },
+    {
+      "name": "Atole de Maíz Blanco",
+      "description": "Atl tzopelik tlen tlaol blanco, canela uan piloncillo, tlakualistli para tonali tlen koyo.",
+      "ingredients": ["Tlaol blanco", "Canela", "Piloncillo", "Atl"],
+      "preparation": "Tlakualtli ipan metate uan tlen kuali tlachichinolistli"
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "Milpaj Tlamachtilistli",
+      "description": "Tlakualtli ika tlaol, etl uan ayoxochitl tlen kipiyah tlajtolilistli uan tlamantli tlen tlaltikpak."
+    },
+    {
+      "title": "Nixtamalización",
+      "description": "Tlamachtilistli tlen kochi tlaol ika cal para kipiyah ixtlamatilistli uan tlasenkali."
+    },
+    {
+      "title": "Tlatemilistli Tlen Tlaltikpak",
+      "description": "Tlamachtilistli tlen tlakualtli ika tonali uan tlakualtilistli para kixpiyah tlaol ipan xihuitl."
+    },
+    {
+      "title": "Tlamachtilistli Tlen Xihuitl",
+      "description": "Tlamachtilistli tlen tikualtiah xihuitl para yolik tlapajpanolistli tlen familia."
+    }
+  ],
+  "characteristics": "Tlaixpajpanolistli:",
+  "mainIngredients": "Tlen tlakualmeh principales:"
+},
+"festivities": {
+  "title": "Ilhuitl huan nemilistli",
+  "subtitle": "Ipan San Juan Tahitic, tonemilis tlatlahtoah ica totlahtol huan totlahtolixmatiliztli",
+  "celebratingOurIdentity": "Tipaqui ica totlahtolixmatiliztli",
+  "identityDescription": "Nochi ilhuitl ipan San Juan Tahitic itech tlatskaj neltokayotl, tlamantli tlatemikilistli huan tlayekilistli. Totradiciones amo san tlatzontekonilotl, tlapowah ika tlen totatahua huan totlasojtla, tlamantli kuali tlatlahtol ixiptla itech tonemilis.",
+  "livingTradition": "Totradición yolilistli",
+  "culturalHeritage": "Herencia cultural",
+  "communityUnity": "Tlasojtla tlaneltokayotl",
+  "culturalHeritagee": "Totlahtolixmatiliztli",
+  "annualFestiveCalendar": "Ilhuitl ipan xiwitl",
+  "calendarDescription": "Tlamantli tlen tlatskaj tonemilis ipan xiwitl",
+  "danceExpressions": "Tlanetzkayome tlen tlanetzka",
+  "danceDescription": "In motlaloa tlahtolli tlen tepohualia totlahtol huan totlahtolixmatiliztli",
+  "heritageDescription": "Tlamantli tlen titlatlajtlalia, tlen tikchiwa totlahtolixmatiliztli kualika.",
+  "memoryBecomesCelebration": "Tlayolmelajkayotl mochihua ilhuitl",
+  "finalDescription": "Ipan San Juan Tahitic, sesen ilhuitl mochihua tlahtolli yolilistli tlen totlasojkayotl. Totradiciones tlen tikuajxilia, in tlen tikmakaskeh in mopilhuan para amo poliwis totlahtolixmatiliztli.",
+  "whereTraditionLives": "San Juan Tahitic - Kan yolia totradición",
+  
+  "carousel": {
+    "patronalFestival": "Ilhuitl San Juan",
+    "patronalDescription": "Tlamanilistli ica tototemiki patron, ika procesiones huan meyayotzin tlanetzkayome",
+    "moorsDance": "Tlanetzka Moros",
+    "moorsDescription": "Tlanetzka tlen tlayekilhuia tlatolmeh huehca, ika tlahcuiloli huan tlamantli tlen tonemilis",
+    "dayOfTheDead": "Mikailhuitl",
+    "dayOfTheDeadDescription": "Tlamantli altares huan tlachiwaliztli tlen tlamiktinmeh",
+    "traditionalCarnival": "Carnaval tlen meyayotzin",
+    "carnivalDescription": "Maskameh, kuikatl huan pakilistli ipan tlatskayotl",
+    "holyWeek": "Semana Santa",
+    "holyWeekDescription": "Tlamanilistli tlen tlaneltokayotl tlen tlatskaj in tlaneltokakeh"
+  },
+
+  "festivals": [
+    {
+      "name": "Ilhuitl Patronal San Juan",
+      "date": "24 Junio",
+      "description": "Tlamanilistli ica tototemiki patron ika misa, procesión huan pakilistli tlen tlatskaj eyi tonali. Nochi tlakah motlasojtlah para kipalewiskeh in tlen totatahua.",
+      "activities": ["Procesión tlaneltokayotl", "Tlanetzka Moros", "Tletl meyayotzin", "Tlamanilistli tlen tlacualli", "Jaripeo tlen meyayotzin"],
+      "duration": "Eyi tonali",
+      "participants": "Nochi tlakah ipan altepetl",
+      "highlight": "Procesión ika santo patron"
+    },
+    {
+      "name": "Mikailhuitl",
+      "date": "1-2 Noviembre",
+      "description": "Titekitih totlamiktinmeh ika altares, ofrendas huan tlayohual tlachiwaliztli ipan panteón. Totradición tlen tlatlamantli ica tonemilis huan mikilistli.",
+      "activities": ["Altares ipan kali", "Tlayohual ipan panteón", "Nenetilistli catrinas", "Tlahtolli calaveritas", "Tlakualistli comunitario"],
+      "duration": "Ome tonali",
+      "participants": "Nochi familia",
+      "highlight": "Altares ika xochitl cempasúchil"
+    },
+    {
+      "name": "Carnaval tlen meyayotzin",
+      "date": "Febrero/Marzo",
+      "description": "Ilhuitl tlen kuali tlatskaj achto Cuaresma ika maskameh, tlanetzkayome huan kuikatl ipan ohtli tlen altepetl.",
+      "activities": ["Comparsas", "Baile de máscaras", "Tlatokayotl rey feo", "Tlamantli tlapajyotl", "Kuikatl bandas"],
+      "duration": "Nahui tonali",
+      "participants": "Telpocameh huan huehuetqueh",
+      "highlight": "Maskameh tlen tlachiwaliztli"
+    },
+    {
+      "name": "Semana Santa",
+      "date": "Marzo/Abril",
+      "description": "Tlamanilistli tlen tlayekilhuia in tlaijyohuilistli Cristo, ika tlatolme tlen tlaneltokakeh huan totradición huejcayotl.",
+      "activities": ["Vía crucis yolilistli", "Procesión silencio", "Tletl Judas", "Tlayohual pascual", "Tlatolme dramatización"],
+      "duration": "Chicome tonali",
+      "participants": "Tlaneltokakeh",
+      "highlight": "Vía crucis yolilistli"
+    }
+  ],
+
+  "dances": [
+    {
+      "name": "Tlanetzka Moros",
+      "description": "Tlanetzka tlen tlayekilhuia in tlahtekiliztli tlen moros huan kristianos, ika tlahcuiloli meyayotzin huan kuikatl ika ehekatl.",
+      "origin": "Siglo XVI - Huehcayotl colonial",
+      "participants": "40 tlanetzkayome huan kuikanimeh",
+      "season": "Ilhuitl patronal huan meyayotzin",
+      "clothing": "Tlahcuiloli ika lentejuelas",
+      "meaning": "Tlaixmatilistli tlaneltokayotl huan tlamantli"
+    },
+    {
+      "name": "Son de la Malinche",
+      "description": "Tlanetzka tlen tlayekilhuia tlaixmatilistli ika motlaloa tlen yolilistli, tlen itlaixmatilistli kualika.",
+      "origin": "Época colonial - Neltokayotl prehispánico",
+      "participants": "20 tlanetzkayome tlamelajkameh",
+      "season": "Ilhuitl huehcayotl",
+      "clothing": "Huipiles huan enredos meyayotzin",
+      "meaning": "Tlaixmatilistli huan totlahtolixmatiliztli"
+    },
+    {
+      "name": "Los Chinelos",
+      "description": "Tlanetzka ica pakilistli huan saltos, ika maskameh tlen piltlahcuiloli huan bigotón, tlamantli pakilistli huan tlaixpan.",
+      "origin": "Siglo XIX - Huehcayotl Morelos",
+      "participants": "Nochi tlakah ipan altepetl",
+      "season": "Carnaval huan ilhuitl meyayotzin",
+      "clothing": "Tlahcuiloli huan maska bigotón",
+      "meaning": "Pakilistli huan tlaixpan tlen tlakah"
+    }
+  ],
+
+  "heritage": [
+    {
+      "title": "Kuikatl ika ehekatl meyayotzin",
+      "description": "Bandas comunitarias tlen kipalewiah tlen kuikatl huehcayotl ipan ilhuitl.",
+      "status": "Totradición yolilistli"
+    },
+    {
+      "title": "Tlachiwaliztli tlen ilhuitl",
+      "description": "Tlachiwaliztli maskameh, tlahcuiloli huan tlamantli ika tlatlamantli tlen totatahua.",
+      "status": "Ika tlachikaj"
+    },
+    {
+      "title": "Tlakualistli tlen tlaneltokayotl",
+      "description": "Tlakualistli tlen tlamanilistli para sesen ilhuitl ika tlamantli huehcayotl.",
+      "status": "Totradición yolilistli"
+    },
+    {
+      "title": "Tlahtolli huan tlayekilhuajkayotl",
+      "description": "Tlahtolmeh, huehuetlahtolli huan tlaixmatilistli tlen tikijtoske ika tlahtolli.",
+      "status": "Ika tlaixmatilistli"
+    }
+  ],
+
+  "labels": {
+    "duration": "Tlen tlatskaj",
+    "highlightedActivities": "Tlamantli tlen tlatskaj",
+    "origin": "Tlen pehua",
+    "clothing": "Tlahcuiloli",
+    "meaning": "Itlatol",
+    "status": "Tlen mochihua"
+  }
+},
+"education": {
+  "transformativeEducation": "Tlamachtilistli tlatlauhcayotl",
+  "knowledgeCommunityPurpose": "Canin tlamatiliztli quinnamiqui ipan tlen tocnihuan",
+  "investmentDescription": "Titlamachtihuitzqueh ica in tonaleh yancuic tlen techpalehuis, amo tictlamihcuepahqueh in totnenepantla",
+  "buildingFutures": "Ticchihuah tonalyohuan ica",
+  "purpose": "nehnemitiliztli",
+  "educationDescription": "Ipan San Juan Tahitic, in tlamachtilistli yohualnepantla in yolitztli ipan totlacualnepantla. Tiquintlatzotzonah in tlamatiliztli huehcapan ica in yancuic tlamachtiliztli, tlen quinchihualtia tlacameh tlamachihuan, tlamelajcan, uan quimottiliah tlen cualtzin para in toaltepetl.",
+  "students": "Tlamachtiltin",
+  "teachers": "Tlamachtiani",
+  "institutions": "Calmeh tlamachtiloyan",
+  "yearsTradition": "Xihuitl tlamachtiliztli huehcapan",
+  "educationPillars": "Tetlanahuatilmeh in tlamachtiliztli",
+  "educationPillarsDescription": "In tlayehualiztli tlen quinyecana in totlamachtiloyan tocnihuan",
+  "educationalPath": "Totemachtiliztli ohtli",
+  "educationalPathDescription": "Se ohtli tlamachtiliztli tlen amo quihuetzis, desde in pilme hasta tlamachtiloyan hueyi",
+  "collectiveAchievements": "Tlachiyalis tlen tocnihuan",
+  "collectiveAchievementsDescription": "Tlanahuatilmeh tlen quinehnemi in tequitiuh tlamantli tocnihuan tlamachtiloyan",
+  "educationTransforms": "Tlamachtilistli tlen quimoyolpatla in tlalticpactli",
+  "finalMessage": "Ipan San Juan Tahitic, noxcalpan se tlamachtiloyan quipiya yolmelahuac, noxpan se tlamachtiliztli quichihua ohtli para in tonaleh, uan noxpilme quipiyah in xinachtli tlen patla in toaltepetl uan in tlalticpac.",
+  "learningCreatesFutures": "San Juan Tahitic – Canin tlamachtiliztli quichihua tonaleh",
+
+  "carousel": {
+    "learningCommunity": "Tlamachtiliztli tocnihuan",
+    "learningCommunityDesc": "Tlamachtiltin quichihuah tequitl tlen quipalehuiah nochtin tocnihuan",
+    "educationalFacilities": "Calmeh tlamachtiloyan",
+    "educationalFacilitiesDesc": "Calli tlen quinchihualiah para in cualtzin tlamachtiliztli uan in yolnemilistli",
+    "practicalActivities": "Tequitl tlen neltiliztli",
+    "practicalActivitiesDesc": "Tlamachtiliztli tlen quimonequi tlatolli uan tequitl ipan nelli tlalticpactli",
+    "academicCelebrations": "Hueyiluitl tlamachtiloyan",
+    "academicCelebrationsDesc": "Tlahueliloyan para in tlamantli uan tequitl tlen quichihuah tlamachtiltin",
+    "educationalTechnology": "Tlamachtiliztli tlen yancuic tequitiuh",
+    "educationalTechnologyDesc": "Tiquinpahuiah in tepoztlamantli yancuic ica in tlamachtiliztli huehcapan"
+  },
+
+  "institutionss": [ 
+    {
+      "name": "Jardín de Niños \"María Montessori\"",
+      "level": "Piltlamachtiloyan",
+      "description": "Tlamachtiliztli achto tlen quinyecana in pilme ica yolmelahualiztli uan tocniuayotl, canin quimomachtiah ica mitoa uan nemiliztli tlen tlamachtiliztli.",
+      "focus": "Yolmelahualiztli tlen achto",
+      "motto": "Timomachtiah ica mitoa, ticmosehuiah ica tlen tiquixmatiyah"
+    },
+    {
+      "name": "Primaria \"Benito Juárez\"",
+      "level": "Tlamachtiloyan achto",
+      "description": "Tlamachtiliztli tlen quimpalehuia tlamantli huehcapan ica tlamachtiliztli tocnihuan, quinyolchicahua ica tlamachtiliztli uan nemiliztli tlen tlatolli huehcapan.",
+      "focus": "Tlamachtiliztli tlen mochipa",
+      "motto": "Tlamatiliztli para quimoyolpatla"
+    },
+    {
+      "name": "Telesecundaria \"Nezahualcóyotl\"",
+      "level": "Tlamachtiloyan tlen ipan medio",
+      "description": "Tlamachtiliztli tlen ipan tlahcoyohualiztli ica tlayecaniliztli uan tequitl tocnihuan, quinyecana telpocameh para in nelli tlalticpactli yancuic.",
+      "focus": "Tlamachtiliztli ica tepoztlamantli",
+      "motto": "Tiyancuicah desde in totrahmatiliztli"
+    },
+    {
+      "name": "Bachillerato Comunitario",
+      "level": "Hueyi tlamachtiloyan",
+      "description": "Tlamachtiliztli hueyi ica tlayecaniliztli tequitiuh uan tocniuayotl, tlen quinchihualtia tlacameh tlayecantih tlen motlanequiliah ica in tocnihuan.",
+      "focus": "Tlamachtiliztli tequitiuh uan yolmelahuac",
+      "motto": "Tlayecantli ica tlayolmelahualiztli tocniuayotl"
+    }
+  ],
+
+  "pillars": [
+    {
+      "title": "Tlamachtiliztli Cualtzin",
+      "description": "Tlatemachtiliztli mochipa para quipiyah in tlamatiliztli uan tlamantli cualtzin",
+      "metrics": ["95% tlamachtiltin cualmeh", "+20 tlahueliloyan tlamachtiloyan", "Tlatlaxtiliztli para hueyi tlamachtiloyan"]
+    },
+    {
+      "title": "Tlayolmelahualiztli Tocniuayotl",
+      "description": "Tiquinyolchicahua in totrahmatiliztli uan tlayolmelahualiztli tocniuayotl ipan nochtin tlamachtiltin",
+      "metrics": ["Tallermeh tlen tlatolli", "Tlahtolli huehcapan", "Nemiliztli tlen yoltok"]
+    },
+    {
+      "title": "Yancuic Tlamachtiliztli",
+      "description": "Tiquinpahuiah tepoztlamantli ica tlamachtiliztli tlen huehcapan",
+      "metrics": ["Calmecac yancuic", "Tlamachtiliztli programacion", "Proyectos STEAM"]
+    },
+    {
+      "title": "Tlamachtiliztli Cenyeliztli",
+      "description": "Tlamachtiliztli ipan tlalticpac uan tequitl tlen amo quixpoloa in tlalticpactli",
+      "metrics": ["Xochicalli tlamachtiloyan", "Tlatlamiloliztli", "Energía tlapajli"]
+    }
+  ],
+
+  "achievements": [
+    {
+      "year": "2020-2024",
+      "achievement": "Tlamachtiloyan tlen tocnihuan quimotlahtohua",
+      "description": "Tlahueliloyan nacional ica totlamachtiliztli tlen tocniuayotl uan mochipa",
+      "impact": "In tlamachtiliztli quipalehuia ica 5 altepetl nechca"
+    },
+    {
+      "year": "2018-2023",
+      "achievement": "Tlamachtiliztli tlen quichihua tlahueliloyan",
+      "description": "Ticchihuah nemiliztli ica hueyi tlamachtiloyan ipan México uan campa huehcauh",
+      "impact": "15 tlamachtiltin ipan tlatzintiliztli huehcapan"
+    },
+    {
+      "year": "2015-2024",
+      "achievement": "Calli tlamachtiloyan tlen tlapajli",
+      "description": "Ticpatlah in tlamachtiloyan ica energía yancuic uan diseño tlen quipalehuiya in tlalticpactli",
+      "impact": "3 calli tlamachtiloyan quipatlac"
+    }
+  ]
+},
+"cooperative": {
+  "communityProduction": "Tequitl tocniuayotl",
+  "our": "Totlaneltoquiliztli",
+  "cooperative": "tocnihuan tlen motlatlanahuatiah",
+  "description": "In Tlatlanahuatilistli Tocniuayotl CHIWANJMEJ uan Café Yektanesik quimoyolchicahuah in tlanamacayotl tlen toaltepetl ica tequitl tlen ipan tocnihuan: tlen cualtzin, tlapajli uan quipiya in yoltokayotl tlen totlahtol. Nochi tlen tictlanamaca quipalehuia xitlahuac in familias ipan San Juan Tahitic.",
+  
+  "products": {
+    "coffee": {
+      "title": "Café Yektanesik",
+      "description": "Café tlen xochitlalpan, quinchihualtih in tocnihuan ica in tlatlaxtiliztli huehcapan uan yolpachihualiztli."
+    },
+    "punch": {
+      "title": "Punche uan Tlapohualmeh Chiwanjmej",
+      "description": "Yancuic tlailpiyalli Punche uan tlapohualmeh artesanales ica itlahtol uan itlasohtlaliztli in toaltepetl."
+    },
+    "soaps": {
+      "title": "Jabones Artesanales",
+      "description": "Tiquinchihualiah ica xihuitl tlen tlachichihualiztli tlen tlaneltoca ipan in programa Sembrando Vida."
+    },
+    "juices": {
+      "title": "Yektanesik Xocomecatl Atl",
+      "description": "Atl xocomecatl tlen tlali toaltepetl, 100% tlaneltocayotl uan patli."
+    }
+  },
+
+  "impact": {
+    "localImpact": "Tlanahuatilli tlen ipan toaltepetl",
+    "moreThanProducts": "Amo san tlanamacayotl,",
+    "opportunities": "tlen yancuic tequitl",
+    "impactDescription": "Nochi tequitl o tlanamacayotl tlen in tlatlanahuatilistli quichihua tlanahuatilli xitlahuac, quipiya in tlamantli huehcapan uan quinyolchicahua in tocnihuan ipan San Juan Tahitic.",
+    "stats": {
+      "yearsProduction": "Xihuitl ipan tequitl tocniuayotl",
+      "familiesBenefited": "Familias tlen quipalehuiah",
+      "communityProducts": "Tlanamacayotl tocniuayotl",
+      "artisanalProduction": "Tequitl tlen tlachichihualiztli"
+    }
+  },
+
+  "cta": "Xiquitta in tlatlanahuatilistli tocniuayotl ipan San Juan Tahitic"
+},
+"services": {
+  "ourCollection": "Tochan totechpouhka",
+  "collectionDescription": "Xikmatika in tlamantli tlen monamikiya ika tequitl ihuan tetlasojtlalistli ipan totlalpan",
+  "searchPlaceholder": "Xiktemo tlamantli...",
+  "allCategories": "Nochi tlamantli tlen huehca",
+  "showingResults": "Tlen nesiya",
+  "of": "in",
+  "products": "tlamantli",
+  "in": "ipan",
+  "for": "para",
+  "noProductsFound": "Amo mopantih tlamantli",
+  "noProductsDescription": "Xikmatika okseki tlajtoli o xikpatla in filtros",
+  "showAllProducts": "Xikitta nochi tlamantli",
+  "featured": "Tlen hueyi tlatokayotl",
+  "seasonal": "Tlen ipan metztli",
+  "moreItems": "okachi",
+  "variants": "tlen okseki tlamantli",
+  "available": "Mochiuh",
+  "soldOut": "Amo onka",
+  "by": "Ika:",
+  "variantsCount": "tlen okseki tlamantli",
+  "visitUs": "¡Xitechpaxalo!",
+  "requestInfo": "Xiktlajtlan tlatokayotl",
+  "goBack": "Ximocuepa",
+  "expandImage": "Xikmiekilia ixnextli",
+  "close": "Xiktzacuilli",
+  "share": "Xikmoyekana...",
+  "copyLink": "Xikcopiya in tlahtoltzintli",
+  "whatsapp": "WhatsApp",
+  "facebook": "Facebook",
+  "twitter": "Twitter",
+  "telegram": "Telegram",
+  "season": "Xopanilistli",
+  "description": "Tlatolmelajka",
+  "ourStory": "Totech Tlatol",
+  "ingredientsProcess": "Tlakualmej wan Tekitilistli",
+  "mainMaterials": "Tlamantli tlen hueyi",
+  "artisanalProcess": "Tekitilistli tlen omachti",
+  "featuredCharacteristics": "Tlen hueyi tlaneltokilistli",
+  "madeBy": "Tlen mochiu in",
+  "toggleShareOptions": "Xikmonextili tlamantli para xikmakati",
+  "copying": "Xikkopiando...",
+  "shareOptions": "Tlamantli para xikmakati",
+  "mobileView": "Tlachiyalistli ipan teléfono",
+  "native": "Tlen totzoncal / Totenyo",
+  "swipeHint": "Xikchi̱waltzi̱n ika xikmojpatlati tla amo tikita nochi"
+},
+"cooperativesection": {
+  "communityCooperative": "Tlen moneki techanilistli",
+  "flavorsAndKnowledge": "Tlayekualmej wan Tlamatilistli",
+  "ofOurLand": "tlen toaltikpak",
+  "description": "Xikmachi in neltiloyan tlen San Juan Tahitic. Tlamantli tlen kualojkej ika tlazohtlalistli, ika tlamantli tlen huejcauh, wan ika toyeknemilistli tlen moneki ika in toaltepetl seka.",
+  "uniqueProducts": "Tlamantli tlen se san",
+  "yearsOfTradition": "Xihuitl tlen nemilistli huejcauh",
+  "organicAndNatural": "Tlen yolistli wan neltiloyan",
+  "back": "Mokuepa",
+  "exploreProducts": "Xiktemo tlamantli",
+  "solidarityEconomy": "Tlen tominilistli ika sekan tlatepanitalistli",
+  "solidarityDescription": "Se tlamanilistli kikpalewia in toaltepetl para ma kuali motlatok sepa wan ma momachti in huejcauh tlamantli.",
+  "discoverMore": "Xikmachi okachi"
+},
+"voices": {
+  "testimonials": [
+    {
+      "id": 1,
+      "nombre": "Doña Rosa Mendoza",
+      "rol": "Tlaquentlajtij",
+      "testimonio": "No san nimitztojki ika noomiyo, nimitztojki noxochimej wan no tlamantli tlen ipan nemilistli...",
+      "detalles": "35 xihuitl tlen nimitztojtok tlen huejcauh",
+      "tagline": "Tlatlamachtij tlen huejcauh tlamantli"
+    },
+    {
+      "id": 2,
+      "nombre": "Don Javier Hernández",
+      "rol": "Milpajtlakatl",
+      "testimonio": "In tlalli amo san se tlamantli, yejua tonan, tlen techpalehuia...",
+      "detalles": "40 xihuitl tlachikualo elotl tlen huejca",
+      "tagline": "Tlatlamachtij tlen tlalli wan itlakualo"
+    },
+    {
+      "id": 3,
+      "nombre": "Ana López",
+      "rol": "Telpokatl Tlayekanke",
+      "testimonio": "Tikchiwaj ika tlayolmelajka in to huejcauh, pero toicximej yayaj ika nekateh ipan tonemilis. Totech okse tlamantli: ma tlaltikpaktli kimomachi in to cultura.",
+      "detalles": "Tlatemojtij tlen tlayekanke ika nemilistli tlen yolistli",
+      "tagline": "Tlachijchij tlen puente tlen cultura"
+    },
+    {
+      "id": 4,
+      "nombre": "Maestro Carlos Ruiz",
+      "rol": "Tlayolmelajkan Tlamayoltin",
+      "testimonio": "Nochi notlajtol tlen nemi ipan totlatzotzon mechyolmelajka itlamachiliz in tepemej wan atentli. Amo san tlatzotzonij, tlen nimitztokilia in yolik tlajtoli tlen to huejcauh.",
+      "detalles": "50 xihuitl tlen kipia in tlajtoli tlen huejcauh",
+      "tagline": "Tlatemachij tlen itlajtol tlayolmelajkan"
+    },
+    {
+      "id": 5,
+      "nombre": "Doña Elena Martínez",
+      "rol": "Tlakualchiuhquetl",
+      "testimonio": "Nochan, in tlayekualo yejua se tlajtol tlazohtla in to tlalli. Nochi tlayekualo kitemachia se tlamantli tlen tlachikuali, tlatoka, wan tlajtlaneliloyan.",
+      "detalles": "Tlamatij ika tlaxkalli tlen huejcauh",
+      "tagline": "Tlatlamachtij tlen tlayekualo huejcauh"
+    },
+    {
+      "id": 6,
+      "nombre": "Don Miguel Torres",
+      "rol": "Tlayekanke tlen Tequios",
+      "testimonio": "In tequio techilnamiktia nik sekan tiyolmelajka. Ika techyolmelajka, amo san tikchiwaj ojtli o kalmej, tikchiwaj in tlaneltokilistli tlen techmaseualtia.",
+      "detalles": "30 xihuitl tlen tlayekanke ika tequio",
+      "tagline": "Tlatzotzonij tlen tlaneltokilistli"
+    },
+    {
+      "id": 7,
+      "nombre": "Profesora Sofia Reyes",
+      "rol": "Tlamachtij tlen Kalpulepan",
+      "testimonio": "Tlamachtia nika amo san timonextia tlamantli, yejua timopalehuia in konemej ma kixmatikan tlaneltokilistli tlen inin huejcauh wan inin tlen tlatikpaktli tlen yancuik.",
+      "detalles": "25 xihuitl tlamachtia in telpokamej",
+      "tagline": "Tlamachtij tlen tlaneltokilistli wan yancuik"
+    }
+  ],
+  "header": {
+  "title": "Totlalpan tlajtoli",
+  "mainTitle": "Tlatolmeh tlen",
+  "connect": "kitlatlalilia",
+  "generations": "tlatskanimej",
+  "description": "In tlajtoli tlen sesen tlakatl kipia se tlajtol tlen totlalnemilistli. Xiknakili, xikmachili, wan xikkalaktsaj in tlaneltokaj tlen kipiaj yolik in to San Juan Tahitic."
+},
+"controls": {
+  "previousTestimonial": "Tlamantli tlen nochi",
+  "nextTestimonial": "Tlamantli tlen ojtok"
+},
+"closing": {
+  "title": "In toton huehuehtlahtolmej",
+  "subtitle": "Cada tlahcuilolli quipāca in tekitl ipan achto wan axcan. Iuan tlatepanitasej, in totlajtolwan quichijchihuaj in timoikneltilis.",
+  "description": "San Juan Tahitic amo san se lugar… se yancuic tlahcuilolli, tlen totlacamej quipohualiaj."
+}
+},
+  "contact": {
+    "title": "Tequitiliztli ihuan Tlanonotzaliztli",
+    "subtitle": "Ximochicahuili in motlaltechaliz San Juan Tahitic. Titechpalehuizqueh icemo xihuelitiz tlen ticchihuazque ica moyolnonotzaliztli.",
+    "contactInfo": "Tlanonotzaliztli itech tequitiliztli",
+    "contactItems": {
+      "location": {
+        "title": "Cantitlalpan",
+        "content": "San Juan Tahitic, Tlacpac Tlahco",
+        "details": "Ohtli huehcauh quihuelitiz"
+      },
+      "phone": {
+        "title": "Tehuehuelehuitl", 
+        "content": "+1 (555) 123-4567",
+        "details": "Tonalcualtin 8:00 YHC - 6:00 TPC"
+      },
+      "email": {
+        "title": "Ameyalli tlanonotzaliztli",
+        "content": "info@sanjuantahitic.com",
+        "details": "Titlananquilizqueh cempohualli huan nahui horas"
+      },
+      "hours": {
+        "title": "Tonalcualtinan tlaltechaliztli",
+        "content": "Mochi tonalcualtin",
+        "details": "8:00 YHC - 6:00 TPC"
+      }
+    },
+    "howToGetThere": "¿Quen otlacahz?",
+    "mapDescription": "San Juan Tahitic itocac ocachi quihuelitiz ica ohtli. Itech captlalpan, in ohtocayotl quicua cecuiztli horas ica motlalpalol ihuan tequitiliztli tepostlayahualoliztli.",
+    "sendMessage": "Xititlanili tlen amehyatl",
+    "contactForm": {
+      "title": "Amoxpetlatl itech tequitiliztli",
+      "description": "Xicfulli in amoxpetlatl huan titlananquilizqueh ocachi huelic",
+      "name": "Tocaitl *",
+      "namePlaceholder": "Motocaitzintli huelit",
+      "email": "Ameyalli tlanonotzaliztli *",
+      "emailPlaceholder": "motocaitl@ameyalli.com",
+      "phone": "Tehuehuelehuitl",
+      "phonePlaceholder": "Motehuehuelehuitl", 
+      "subject": "Tlatlaliliztli *",
+      "subjectPlaceholder": "¿Tlen titechpalehuizqueh?",
+      "message": "Tlanonotzaliztli *",
+      "messagePlaceholder": "Xitechillini ocachi tlen motlatlaliliztli ihuan motlaltechaliztli...",
+      "submit": "Titlanili Tlanonotzaliztli",
+      "sending": "Motitlanilia...",
+      "successMessage": "Tlazohcamati ic motlanonotzaliztli. Tititlanilizqueh huelic.",
+      "errorMessage": "Ahcualli motitlanilia in tlanonotzaliztli. Xiccehui occepa."
+    },
+    "validation": {
+      "nameRequired": "In tocaitl quipia ma ocachi ome caracteres",
+      "emailRequired": "In ameyalli tlanonotzaliztli monequi",
+      "emailInvalid": "In tlaixcuepaliztli ameyalli ahcualli",
+      "phoneInvalid": "In tlaixcuepaliztli tehuehuelehuitl ahcualli",
+      "subjectRequired": "In tlatlaliliztli quipia ma ocachi macuilli caracteres",
+      "messageRequired": "In tlanonotzaliztli quipia ma ocachi matlactli caracteres",
+      "messageTooLong": "In tlanonotzaliztli ahueli quipia ocachi tzontli caracteres"
+    },
+    "additionalInfo": "Occe tlanonotzaliztli",
+    "additionalItems": [
+      "Quimolpili ma ximocalaquili huelic ic tepostlayahualoliztli",
+      "Tlapohualcualtlan cempohualxihuitl: Tlacenti ihuan Tlaceti",
+      "Ticpia tepostlayahuqueh itech in altepetl",
+      "Ticcaquiti in ecahuilocayotl ic nohuiyan tlapohualiztli"
+    ]
+  },
+"gallery": {
+  "titlePart1": "Tlahtolli,",
+  "titlePart2": "tlatskanilis,",
+  "titlePart3": "tlamantli",
+  "categoriesTitle": "Tlamantli tlen Kalakamej",
+  "allCategories": "Nochipa Tlamantli",
+  "landscapes": "Kalakamej",
+  "nature": "Naui",
+  "culture": "Tlahtolli",
+  "community": "Kalakamej Tlen Tochka",
+  "traditions": "Tlamantli tlen Tlamantli",
+  "imagesCount": "nechicoltli",
+  "imagesCount_plural": "nechicoltli",
+  "categoryLabel": "Kalakamej:",
+  "allCategoriesLabel": "Nochipa",
+  "communityCallToAction": "Tlenka ika nochipa kalakamej?",
+  "communityDescription": "Nimitstlasojtlajtoua nochipa tlamantli ika tlamantli tlen San Juan Tahitic",
+  "video": {
+  "altText": "Kalakamej tlen nochipa - Klicka ika tlahtolkatl",
+  "ourCommunity": "Nochipa Kalakamej",
+  "clickToWatch": "Klicka ika tlamantli nochipa video",
+  "play": "Tlamantli",
+  "playVideo": "Tlamantli Video",
+  "discoverEssence": "Tlamantli nochipa ika San Juan Tahitic",
+  "youtube": "YouTube"
+},
+"modal": {
+  "photographer": "Tlamantli tlahtolli:",
+  "category": "Kalakamej tlen:",
+  "technicalInfo": "Tlamantli Tlen Tlahtolli",
+  "zoom": "Zoom:",
+  "imageOf": "Kalakamej tlen",
+  "close": "Mikisa",
+  "resetZoom": "Chikawas Zoom",
+  "zoomIn": "Nemilistli ik",
+  "zoomOut": "Tlachiwilis ik",
+  "previous": "Kalakamej nochi",
+  "next": "Kalakamej se tlatskanilistli"
+},
+"viewMode": {
+  "circularView": "Tlatskanilistli kualik",
+  "gridView": "Tlatskanilistli kuadrua",
+  "mobileView": "Tlatskanilistli kuadrua (móvil)"
+},
+"youtubeModal": {
+  "watchOnYouTube": "Tikmati YouTube",
+  "videoTitle": "San Juan Tahitic kalaki tlamantli video"
+}
+},
+"heroturism": {
+  "beautifulPlace": "Kalaki xochitl",
+  "liveSanJuanTahitic": "¡Tikmati San Juan Tahitic!",
+  "startYourAdventure": "Tlamikilistli inicia",
+  "discoverMore": "Tichpoua nochi",
+  "swipe": "Tlamikilistli",
+  "loading": "Tlamikilistli...",
+  "loadingExperience": "Tlamikilistli tlamikilistli...",
+  "weatherLoading": "Tlamikilistli...",
+  "weatherError": "Tlatskanilistli tlen iuan tlamantli nemilistli"
+},
+"tourism": {
+  "sustainableEcotourism": "Ecoturismo Tlamantli Tlatskanilistli",
+  "touristAttractions": "Tlamikilistli tlen Kalaki",
+  "mainDescription": "San Juan Tahitic tlen tlamikilistli nemilistli ipan kualli tlamantli kualli tlen yancuikayotl iuan kalaki. Tichpoua kualli tlamantli tlen tichikawisa ipan tonali tlen tlakatl.",
+  "mountainTrails": "Tetlapan tlamikilistli",
+  "mountainTrailsDescription": "Tlamikilistli ipan tetlapan kualli iuan xochitl tonalamatl iuan tlamantli nemilistli kualli.",
+  "naturalReserve": "Tlamantli Tetlapan Tlatskanilistli",
+  "naturalReserveDescription": "Tichpoua kualli xochitl iuan tlatskanilistli iuan tlamantli tlen kualli iuan yancuikayotl ipan tlakatl.",
+  "riversWaterfalls": "Atl iuan Tlasojtlalistli",
+  "riversWaterfallsDescription": "Tlapowisa kualli atl, tlasojtlalistli tlen tlakatl iuan tlamikilistli kualli.",
+  "panoramicViewpoints": "Tlamantli Tlakatl Iuan Tlamikilistli",
+  "panoramicViewpointsDescription": "Tlamikilistli kualli iuan tlamantli tlen xochitl ipan tonali tlen tlamantli yancuikayotl.",
+  "sustainableTourism": "Tlamikilistli Tlatskanilistli",
+  "greenCommitment": "Tlamantli Tlatskanilistli Yohualli",
+  "sustainabilityDescription": "Tlen tlamikilistli tlatskanilistli tlen tlamikilistli kualli tlen tlamantli nemilistli ipan tlakatl iuan tonali. Tlen tlamikilistli tlen tichikawisa tlen tlamantli kualli tlen tlamantli kalaki.",
+  "ecoCertified": "💚 Eco-Tlamikilistli",
+  "knowItsHistory": "Tichpoua ipan tlamantli",
+  "stats": {
+    "ecologicalTrails": "Tlamikilistli Ecologik",
+    "floraSpecies": "Xochitl Tlamantli",
+    "sunnyDays": "Tonali Tonatiuh Iuan Yohualli",
+    "visitorRating": "Calificación Tlamikilistli"
+  }
+},
+"tourismsection": {
+  "back": "Mokuepa",
+  "livingMemory": "Yolmelawalistli",
+  "treasuresNarrated": "Tesoros tlen tlali kitemoa",
+  "description": "Tichpoua in tlamantli, huehuetlahtolli iuan tlamikilistli tlen otechmaka yolistli ipan San Juan Tahitic. Se sekan tlamantli kipiya itlahtolli tlen itech tlatskanilistli iuan yolmelawalistli, tlen okitlalij in yoltetl iuan tlamantli kualli ipan tonali meyalli.",
+  "sections": {
+    "history": "Huehuetlahtolli",
+    "legend": "Tlahtolli",
+    "timeline": "Tonalmachiyotl",
+    "voices": "Tlahtolmeh"
+  },
+  "videoControls": {
+    "play": "Kuali pehua",
+    "pause": "Tlaketa",
+    "mute": "Tlapohualistli",
+    "unmute": "Tlakakilistli",
+    "fullscreen": "Pantalla Tlen Nochi",
+    "exitFullscreen": "Mokisa ipan Pantalla Nochi",
+    "duration": "Tlenia"
+  },
+  "metadata": {
+    "era": "Tonalmachiyotl",
+    "type": "Tlamantli",
+    "historicalPeriod": "Tonali Huehuetlahtolli",
+    "coordinates": "Tlamantli Tlayekantilistli",
+    "archaeologicalData": "Tlamantli Tetlalpanilistli",
+    "naturalData": "Tlamantli Tlatskanilistli"
+  },
+  "historySection": {
+    "culturalSignificance": "Tlen Tlamantli Yolmelawalistli",
+    "firstRecord": "Achto Tlahkuilolli"
+  },
+  "legendSection": {
+    "characters": "Tlakatl",
+    "teaching": "Tlamachtilistli"
+  },
+  "timelineSection": {
+    "title": "Tonalmachiyotl",
+    "legend": "Se se tlatskanilistli kiteititia se huehuetlahtolli tlen kualli"
+  },
+  "voicesSection": {
+    "title": "Tlahtolmeh Tlen Kalaki",
+    "age": "xihuitl",
+    "noTestimonials": "Aksan titetlanilis tlahtolmeh tlen kalaki ika inin tlali.",
+    "traditionalTechniques": "Tlamantli Huehuetlahtolli",
+    "origin": "Tlatokan"
+  },
+  "gallery": {
+    "historicalArchive": "Tlahkuilolli Huehuetlahtolli"
+  },
+  "navigation": {
+    "previous": "Achto",
+    "next": "Ome"
+  },
+  "modals": {
+    "close": "Tlapohua"
+  }
+}
+
+
+}

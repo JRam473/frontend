@@ -1,0 +1,48 @@
+{
+  "platillos": [
+    {
+      "id": 1,
+      "name": "Mole Poblano",
+      "description": "Yankwik tlamanitilistli ipan chilli, xoxouhqui, huan cacahuatl, tlazohcaxitl tlen tlalpan moneki.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082094/Mole-poblano_480p_iml73c.mp4",
+      "origin": "San Juan Tahitic",
+      "ingredients": ["Chilli tlen yankwik", "Cacahuatl", "Xoxouhqui", "Tlalxoxouhqui", "Tlaxkalli"],
+      "spiceLevel": "Nepantla",
+      "festival": "Tlapohualiztli tlen mayo"
+    },
+    {
+      "id": 2,
+      "name": "Tamales tlen Xochitl",
+      "description": "Yolqui tlaolli tlen moneki ipan xochitl tlen plátano, moneki ipan atl tlen chichiltic.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif", 
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082083/Tamales_optimizado_kpw55d.mp4",
+      "origin": "Tlalpan altepetl",
+      "ingredients": ["Tlaolli", "Tlamanitilistli tlen moneki", "Xochitl tlen plátano", "Mulli"],
+      "spiceLevel": "Yolqui",
+      "festival": "Tlapohualiztli tlen moneki"
+    },
+    {
+      "id": 3,
+      "name": "Atole tlen Maíz Morado",
+      "description": "Yankwik tlapalli atl tlen moneki ipan maíz tlen tlalpan, cualli ipan cecec tonalli.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082086/atole_optimizado_zjkeae.mp4",
+      "origin": "Sierra Norte tlalpan",
+      "ingredients": ["Maíz morado", "Atl", "Chiancaca", "Canela"],
+      "spiceLevel": "Yolqui",
+      "festival": "Tonalco tlapohualiztli"
+    },
+    {
+      "id": 4,
+      "name": "Tlaxkalli Tlamanitilistli",
+      "description": "Yolqui tlaxkalli tlen moneki ipan tlecuilli, yankwik tlamanitilistli tlen moneki ipan xihuitl.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/pan_u1iczv.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082470/pan_artesanal_uhqohr.mp4",
+      "origin": "Yankwik tlecuilli",
+      "ingredients": ["Harina", "Levadura", "Chiancaca", "Xoxouhqui"],
+      "spiceLevel": "Yolqui",
+      "festival": "Xihuitl tlapohualiztli"
+    }
+  ]
+}

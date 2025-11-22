@@ -1,0 +1,48 @@
+{
+  "platillos": [
+    {
+      "id": 1,
+      "name": "Mole Poblano",
+      "description": "Ancestral recipe with a blend of chilies, spices, and cocoa, a jewel of regional gastronomy.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082094/Mole-poblano_480p_iml73c.mp4",
+      "origin": "San Juan Tahitic",
+      "ingredients": ["Dried chilies", "Cocoa", "Spices", "Seeds", "Tortilla"],
+      "spiceLevel": "Medium",
+      "festival": "May patron saint festivities"
+    },
+    {
+      "id": 2,
+      "name": "Leaf Tamales",
+      "description": "Soft corn dough filled and wrapped in plantain leaves, steamed for a unique flavor.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif", 
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082083/Tamales_optimizado_kpw55d.mp4",
+      "origin": "Local community",
+      "ingredients": ["Corn", "Traditional filling", "Plantain leaves", "Sauce"],
+      "spiceLevel": "Mild",
+      "festival": "Gastronomic fairs"
+    },
+    {
+      "id": 3,
+      "name": "Purple Corn Atole",
+      "description": "Traditional hot beverage made with local corn, perfect for cold mornings.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082086/atole_optimizado_zjkeae.mp4",
+      "origin": "Sierra Norte region",
+      "ingredients": ["Purple corn", "Water", "Piloncillo", "Cinnamon"],
+      "spiceLevel": "Mild",
+      "festival": "Morning celebrations and events"
+    },
+    {
+      "id": 4,
+      "name": "Artisanal Bread",
+      "description": "Delicious bread baked in wood-fired ovens with ancestral recipes passed down through generations.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/pan_u1iczv.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763082470/pan_artesanal_uhqohr.mp4",
+      "origin": "Traditional ovens",
+      "ingredients": ["Flour", "Yeast", "Piloncillo", "Spices"],
+      "spiceLevel": "Mild",
+      "festival": "Annual fairs and festivities"
+    }
+  ]
+}

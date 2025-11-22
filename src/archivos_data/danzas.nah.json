@@ -1,0 +1,94 @@
+{
+  "dances": [
+    {
+      "id": 1,
+      "name": "Tototectli Panalistli",
+      "description": "Yancuic nemiliztli in macehualmeh quipanoltia in ilhuicatl huan in tlalticpac, quitemoa in tlaneltocayotl ipan totlakameh.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062498/Danza_q46o3h.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092619/voladores_c2yhvo.mp4",
+      "details": {
+        "story": "Inin panalistli itoca Totonacayotl, quipiyaya in nauhcampanemiliz huan in tlatectli. Cecemihcacpan tototectli mopanoltia matlactli huan eyi, mochiuhqui cempohualli huan ome, iuhquin ce xihuitl ipan yancuic tonalpohualli.",
+        "elements": [
+          { "icon": "Shirt", "title": "Tlaquentli", "text": "Tlaquemitl tlapaltic icuac tlamachiyotl, tototzontli huan ilhuitl quipiya in tlamatiliztli ipan totomeh yancuic." },
+          { "icon": "Music", "title": "Cuicatl", "text": "Tlapitzalli huan huehuetl quitlalia in cuicayotl ipan macehualmeh panaltinemih." },
+          { "icon": "Sunrise", "title": "Tlamatiliztli", "text": "Yancuic nemiliztli, tlatlacualiztli huan yolistli ipan milli." }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tliltic Macehualmeh Panalistli",
+      "description": "Panalistli itech pohui in Africa huan in macehualtlacatl, moneki in yollotl huan in cuicayotl.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763066439/culture-fallback_tajxm4.webp",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763066440/Negritos_optimizado_yhrkpl.mp4",
+      "details": {
+        "story": "Inin panalistli pehua ipan cocoliztli, macehualmeh quichihuaya icuac quinequi tlaneltoca in intlahtol. In panaltinemih, ixquich icuac tliltic xayacatl, quitlalia in tlaneltocayotl Africa huan macehualayotl.",
+        "elements": [
+          { "icon": "Feather", "title": "Tlaquentli", "text": "Xayacatl quahuitl icuac tlamachiyotl, tlaquemitl itech tezcatl huan coyoltototl quitlalia in cuicayotl." },
+          { "icon": "Wind", "title": "Oliniliztli", "text": "Tlatzotzonaliztli in yollotl huan malinaliztli in moneki in chicahualiztli." },
+          { "icon": "BookOpen", "title": "Tlamatiliztli", "text": "Yancuic tlaneltocayotl, tlanauatiliztli huan ilhuitl ipan macehualayotl." }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Santiyago Panalistli",
+      "description": "Tlachiyaliztli quitemoa in yahualiztli icuac cualli huan amo cualli, itech pohui in cristianoyotl.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763111723/musico_e6iava.jpg",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092773/payasos_iohcee.mp4",
+      "details": {
+        "story": "Inin panalistli quitlalia in yahualiztli icuac Santiyago Apostol, quitlalia in cristianoyotl, huan macehualmeh quitlalia in chicahualiztli. Ce tlamatiliztli ipan tlaneltocayotl ipan campan.",
+        "elements": [
+          { "icon": "Leaf", "title": "Tlaquentli", "text": "Yacapitzactli icuac amatl huan tetzontli, macquahuitl huan xayacatl quitlalia in cecemihcacpan tlacatl." },
+          { "icon": "Footprints", "title": "Oliniliztli", "text": "Militic huan tlamachtiliztli, quitlalia in tlachiyaliztli ipan yahualiztli icuac tlamatiliztli." },
+          { "icon": "Heart", "title": "Tlamatiliztli", "text": "Yahualiztli icuac tlanemiliztli, tlaneltocayotl huan tlaneltoca ipan macehualnemiliztli." }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Miqueltontli Panalistli",
+      "description": "Panalistli tlamatiliztli itech Miqueltontli, elchiquihuitl icuac amo cualli chicahualiztli.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093401/Captura_de_pantalla_397_enyfqk.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763092965/danza-combi_ccnojt.mp4",
+      "details": {
+        "story": "Ipan San Juan Tahitic, inin panalistli moneki ipan ilhuitl itech santomeh. In Miqueltontli, itech tlayecanani in Angel, yahualtinemih icuac tlacatecolotl huan amo cualli chicahualiztli ipan ce tlamachtiliztli itech tlamatiliztli.",
+        "elements": [
+          { "icon": "Shirt", "title": "Tlaquentli", "text": "Tilmatli iztac icuac tlapaltic tilma, xayacatl itech angelmeh huan copilli coztic." },
+          { "icon": "Music", "title": "Cuicatl", "text": "Violin huan guitarra quitlalia in cuicatl ipan nahuatl huan caxtillantlahtol." },
+          { "icon": "Sunrise", "title": "Tlamatiliztli", "text": "Elchiquihuitl itech yolia, tlatzacuiliztli huan yancuic nemiliztli ipan altipepetl." }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Quetzaltototl Panalistli",
+      "description": "Tlachiyaliztli panalistli icuac tlapaltic tototzontli malinalo, quitlalia in tlapializtli ipan ixtli.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093406/Captura_de_pantalla_395_uoumxl.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763093376/Quetzales_uh32pv.mp4",
+      "details": {
+        "story": "Itoca in tototl yancuic ipan Mesoamerica, inin panalistli quitlalia in quetzaltototl iuhquin tlamatiliztli itech macehualiztli huan teteocuitlapiliztli. In malinaliztli quitlalia in oliniliztli ilhuicatl huan in cemanaliztli ipan cemanahuatl.",
+        "elements": [
+          { "icon": "Feather", "title": "Tlaquentli", "text": "Tototzontli malacachtic icuac tlapaltic ilhuitl malinalo quitlalia in tlapializtli." },
+          { "icon": "Wind", "title": "Oliniliztli", "text": "Malinaliztli mochiuhqui huan oliniliztli in moneki in miac xihuitl icuac tlamachtilli." },
+          { "icon": "BookOpen", "title": "Tlamatiliztli", "text": "Tlanemiliztli mesoamericana, xihuitl ilhuicatl huan tlaneltoca ipan tlalticpac." }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Torero Panalistli",
+      "description": "Tlachiyaliztli ilhuitl itech toro yahualiztli, moneki in huetziliztli huan tlahtoliztli ipan macehualnemiliztli.",
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763093405/Captura_de_pantalla_396_nzxo3x.png",
+      "video": "https://res.cloudinary.com/dinsl266g/video/upload/v1763093179/toreros_dljzso.mp4",
+      "details": {
+        "story": "Inin panalistli pehua iuhquin tlahtoliztli icuac toro yahualiztli caxtiltecatl. In 'torero' macehualmeh, icuac oliniliztli moneki, quitlalia in tlahtoliztli icuac tlamatiliztli toro pampa quitlalia in altipepetl.",
+        "elements": [
+          { "icon": "Leaf", "title": "Tlaquentli", "text": "Tlaquemitl itoca torero achto icuac macehualtlamachiyotl, xayacatl huetztic huan tilma tlapaltic." },
+          { "icon": "Footprints", "title": "Oliniliztli", "text": "Oliniliztli huetztic, motlaliztli tlachiyaliztli huan yahualiztli mochiuhqui icuac 'toro'." },
+          { "icon": "Heart", "title": "Tlamatiliztli", "text": "Tlahtoliztli ipan altipepetl, huetziliztli iuhquin tlanauatiliztli huan tlaneltoca ipan yancuic nemiliztli." }
+        ]
+      }
+    }
+  ]
+}

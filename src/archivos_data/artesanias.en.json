@@ -1,0 +1,208 @@
+{
+  "artesanias": [
+    {
+      "id": 1,
+      "name": "Traditional Wool Tapestry",
+      "category": "textiles",
+      "description": "Beautiful tapestry woven on a backstrap loom with local sheep wool dyed with natural pigments from regional plants.",
+      "materials": ["Creole sheep wool", "Marigold dyes", "Natural cotton thread", "Ayacahuite wood"],
+      "techniques": ["Ancestral backstrap loom", "Purépecha weaving technique", "Natural immersion dyeing", "Sun drying"],
+      "timeRequired": "2-3 weeks",
+      "priceRange": "$800 - $1,200 MXN",
+      "artisan": {
+        "name": "Doña María Hernández",
+        "experience": "45 years of experience",
+        "location": "San Juan Tahitic Centro"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081121/tapiz-lana_wzsryi.png",
+      "story": "This technique was taught by my grandmother when I was 8 years old. Each symbol in the tapestry represents elements of our nature and ancestral beliefs. The colors are obtained from flowers that grow on the sacred hill."
+    },
+    {
+      "id": 2,
+      "name": "Natural Silk Rebozo",
+      "category": "textiles",
+      "description": "Fine rebozo woven on pedal loom with natural silk and traditional embroidery that tells community stories.",
+      "materials": ["Local natural silk", "Mercerized cotton thread", "Cochineal dyes", "Wooden needles"],
+      "techniques": ["Manual pedal loom", "Hand cross-stitch embroidery", "Reserve dyeing", "Wax finishing"],
+      "timeRequired": "5-6 weeks",
+      "priceRange": "$2,500 - $4,000 MXN",
+      "artisan": {
+        "name": "Señora Elena Morales",
+        "experience": "35 years of experience",
+        "location": "Valle de los Tejedores"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081121/tapiz-lana_wzsryi.png", 
+      "story": "The rebozo is more than a garment, it's the history of our women. Each pattern has a special meaning passed from mother to daughter. The designs represent the river, the mountains and the cycle of life."
+    },
+    {
+      "id": 3,
+      "name": "Ceremonial Wool Sash",
+      "category": "textiles",
+      "description": "Traditional sash used in important ceremonies, woven with symbols representing the local worldview.",
+      "materials": ["Hand-carded wool", "Walnut and indigo dyes", "Decorative metallic threads", "Maguey fiber"],
+      "techniques": ["Backstrap loom weaving", "Brocade technique", "Tie-dyeing", "Pumice stone finishing"],
+      "timeRequired": "3-4 weeks",
+      "priceRange": "$1,200 - $1,800 MXN",
+      "artisan": {
+        "name": "Doña Carmen Ruiz",
+        "experience": "28 years of experience",
+        "location": "Cerro de las Tejedoras"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081121/tapiz-lana_wzsryi.png",
+      "story": "Each sash tells the story of who wears it. The symbols represent achievements, dreams and protections. My great-grandmother taught me that weaving is a conversation with ancestors, every stitch is a word."
+    },
+    {
+      "id": 4,
+      "name": "Hand Embroidered Tablecloth",
+      "category": "textiles",
+      "description": "Ceremonial tablecloth entirely hand-embroidered with floral motifs and regional animals, ideal for festivities.",
+      "materials": ["Pure cotton canvas", "Dyed silk threads", "Gold and silver threads", "Backing fabric"],
+      "techniques": ["Hand cross-stitch embroidery", "Fabric appliqué", "Traditional drawn work", "Stone ironing"],
+      "timeRequired": "6-8 weeks",
+      "priceRange": "$3,000 - $4,500 MXN",
+      "artisan": {
+        "name": "Señora Guadalupe Torres",
+        "experience": "40 years of experience",
+        "location": "Barrio de los Bordadores"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081121/tapiz-lana_wzsryi.png",
+      "story": "This tablecloth represents the weddings of our community. Each embroidered flower symbolizes a wish of happiness for the couple. I learned the techniques from the wise women of the town when I was a child."
+    },
+    {
+      "id": 5,
+      "name": "Black Clay Vessel",
+      "category": "ceramica",
+      "description": "Ceremonial vessel made with ancestral black clay technique, hand-polished, unique in the region.",
+      "materials": ["Local black clay", "Refractory red clay", "River stone for polishing", "Spring water"],
+      "techniques": ["Hand modeling without wheel", "Polishing with river stone", "Wood-fired kiln", "Controlled smoking"],
+      "timeRequired": "3-4 weeks",
+      "priceRange": "$1,500 - $2,000 MXN",
+      "artisan": {
+        "name": "Don José Martínez",
+        "experience": "30 years of experience",
+        "location": "Barrio de los Alfareros"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081113/vasija-barro_q5eyi2.png",
+      "story": "The black clay from our region is unique in the world. We collect it during the rainy season and each piece carries the essence of our land. Polishing with stone gives it that characteristic shine."
+    },
+    {
+      "id": 6,
+      "name": "Fresh Water Jug",
+      "category": "ceramica",
+      "description": "Traditional jug for fresh water with built-in natural filter and ergonomic design that maintains temperature.",
+      "materials": ["Porous red clay", "Sifted river sand", "Natural lead glaze", "Mineral pigments"],
+      "techniques": ["Manual potter's wheel", "Sgraffito with awl", "Traditional glazing", "Double firing"],
+      "timeRequired": "2 weeks",
+      "priceRange": "$600 - $900 MXN",
+      "artisan": {
+        "name": "Rodríguez Family",
+        "experience": "3 generations",
+        "location": "Zona Alfarera Tradicional"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081113/vasija-barro_q5eyi2.png",
+      "story": "Our family has made these jugs for over 80 years. The design keeps water naturally cool thanks to the thickness of the clay. Each jug is personally tested before sale."
+    },
+    {
+      "id": 7,
+      "name": "Traditional Clay Comal",
+      "category": "ceramica",
+      "description": "Circular comal for tortillas made with special clay that distributes heat evenly, essential in local kitchens.",
+      "materials": ["Refractory clay", "Volcanic sand", "Fine grain clay", "Local minerals"],
+      "techniques": ["Manual pressing", "Shade drying", "High temperature firing", "Cloth polishing"],
+      "timeRequired": "10-12 days",
+      "priceRange": "$400 - $600 MXN",
+      "artisan": {
+        "name": "Doña Rosa Mendoza",
+        "experience": "25 years of experience",
+        "location": "Colonia de los Comaleros"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081113/vasija-barro_q5eyi2.png",
+      "story": "The perfect comal should cook tortillas without burning them. This wisdom comes from my ancestors who discovered the exact clay mixture to achieve the ideal cooking point."
+    },
+    {
+      "id": 8,
+      "name": "Tree of Life",
+      "category": "ceramica",
+      "description": "Polychrome clay sculpture representing the tree of life, with figures narrating the creation of the world.",
+      "materials": ["Modelable white clay", "Mineral pigments", "Natural varnish", "Support wire"],
+      "techniques": ["Piece-by-piece modeling", "Manual assembly", "Hair brush painting", "Stage firing"],
+      "timeRequired": "4-5 weeks",
+      "priceRange": "$2,800 - $3,500 MXN",
+      "artisan": {
+        "name": "Maestro Alberto Cruz",
+        "experience": "20 years of experience",
+        "location": "Taller del Árbol Sagrado"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081113/vasija-barro_q5eyi2.png",
+      "story": "Each tree of life tells a different story. Mine represents the legend of how our town was founded by the gods of corn and rain. It's my way of preserving our beliefs."
+    },
+    {
+      "id": 9,
+      "name": "Ritual Carved Mask",
+      "category": "madera",
+      "description": "Ceremonial mask carved in copal wood with representations of ancestral deities and guardian spirits.",
+      "materials": ["Sacred copal wood", "Local mineral pigments", "Virgin bee wax", "Natural fibers"],
+      "techniques": ["Hand carving with gouges", "Pyrography with iron", "Natural patina with earth", "Corn leaf polishing"],
+      "timeRequired": "4-5 weeks",
+      "priceRange": "$2,000 - $3,500 MXN",
+      "artisan": {
+        "name": "Maestro Carlos Ruiz",
+        "experience": "25 years of experience",
+        "location": "Cerro del Artesano"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081114/mascara-ritual_dugfna.png",
+      "story": "Each mask tells a story of our ancestors. The symbols represent the connection between the earthly and spiritual worlds. I only use woods that fall naturally, I never cut living trees."
+    },
+    {
+      "id": 10,
+      "name": "Traditional Wooden Toy",
+      "category": "madera",
+      "description": "Educational toys carved from local woods with natural finish safe for children, teaching about local culture.",
+      "materials": ["Oyamel pine wood", "Natural linseed oil", "Candelilla wax", "Vegetable pigments"],
+      "techniques": ["Carving with special gouges", "Progressive hand sanding", "Non-toxic natural finish", "Nail-free assembly"],
+      "timeRequired": "1 week",
+      "priceRange": "$200 - $500 MXN",
+      "artisan": {
+        "name": "Don Roberto Silva",
+        "experience": "40 years of experience",
+        "location": "Taller del Bosque"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081114/mascara-ritual_dugfna.png",
+      "story": "I create toys that last generations, like the ones my grandfather made for me. Each piece teaches about our culture and values. Children learn playing about the animals and plants of our region."
+    },
+    {
+      "id": 11,
+      "name": "Story-Carved Chest",
+      "category": "madera",
+      "description": "Wooden chest carved with scenes of daily life and founding myths of the town, perfect for keeping family treasures.",
+      "materials": ["Red cedar wood", "Brass nails", "Forged hinges", "Orange oil"],
+      "techniques": ["Relief carving", "Dovetail assembly", "Natural smoke patina", "Root polishing"],
+      "timeRequired": "6-7 weeks",
+      "priceRange": "$4,500 - $6,000 MXN",
+      "artisan": {
+        "name": "Don Fernando Herrera",
+        "experience": "35 years of experience",
+        "location": "Barrio de los Carpinteros"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081114/mascara-ritual_dugfna.png",
+      "story": "Each chest is like an open book. This one tells the story of how monarch butterflies guided our ancestors to these lands. The carving techniques I learned from the old masters of the town."
+    },
+    {
+      "id": 12,
+      "name": "Ancestral Musical Instrument",
+      "category": "madera",
+      "description": "Traditional flute carved from a single piece of wood, tuned according to ancestral musical scales of the region.",
+      "materials": ["Cured huizache wood", "Melipona bee wax", "Chicalote oil", "Pine resin"],
+      "techniques": ["Special knife carving", "Manual drill perforation", "Traditional ear tuning", "Controlled smoke curing"],
+      "timeRequired": "2-3 weeks",
+      "priceRange": "$1,800 - $2,500 MXN",
+      "artisan": {
+        "name": "Maestro Tomás Vargas",
+        "experience": "30 years of experience",
+        "location": "Loma de los Músicos"
+      },
+      "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763081114/mascara-ritual_dugfna.png",
+      "story": "Each flute has its own voice. I choose the wood according to the moon and season of the year. The sound it produces should imitate the forest birds and the wind in the mountains, as my grandfather taught me."
+    }
+  ]
+}

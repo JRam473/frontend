@@ -1,0 +1,170 @@
+{
+  "cocinas": [
+    {
+      "id": 1,
+      "nombre": "Doña Elena Icnacalli",
+      "tagline": "Canon tlen xitlaltik paneltok nemilistli",
+      "tipo": "cihuame",
+      "generaciones": 3,
+      "descripcionLarga": "Cihuame icnacalli, canon tlen huehueyotl mopanaltia tlacpac. Yeijquiza tlapialistli tictlapialia in tlacualcopa tlen toltiac.",
+      "descripcionAmbiente": "Tlapaltic ihuan cochipacac nemilistli, tlen quitlalia ijtik yolchikawak. Cuahuitl tlen ahuehuete ihuan popokatic tlen xoxoctic nacatl.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084722/barbacoa_kfcqf6.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png"
+      },
+      "colores": {
+        "primario": "#f59e0b",
+        "secundario": "#ea580c",
+        "acento": "#fbbf24"
+      },
+      "historia": {
+        "contenido": "Ipampa 1985, aic tlakau in tocomal. No nana María peuhqui inin tlapialistli ijtik. Quipololtih tamalitl ica tiankistli, ihuan poco xihuitl, itlaqual ipan mjto. San Juan Tahitic.",
+        "fraseEmblematica": "Nikan aic tictlapia ica cochipaca, tictlapia ica tlamachilistli"
+      },
+      "servicios": [
+        "WiFi Ma Moneki Tlapohualiztli",
+        "Nemachtiloyan",
+        "Xochitlalpan",
+        "Miachcahuan",
+        "Tlaqual tlen moneki",
+        "Tlapohualtiloni"
+      ],
+      "horarios": {
+        "lunesViernes": "9:00 AM - 10:00 PM",
+        "sabadoDomingo": "8:00 AM - 11:00 PM",
+        "diasDescanso": "Tlacatililoni"
+      },
+      "recomendaciones": [
+        "Ximotalpia ipan tonaltin tlen iskui",
+        "Xiqualti tomulli tlen huehueyotl, tlen toconiuh",
+        "Tlaxtlanili tlen tlaqual tlen tonalli",
+        "Xihualican ica mjtzin, titlalia campa miec tlacatl"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Mulli tlen Caderas",
+          "descripcion": "Tlachihualiztli ica matlactli omome chilli, ihuan xocolatl tlen metlatl. Icnopilolli tlen 1890 xihuitl, ompa huehcauh.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177403/mole-cadera_tfo3bj.png",
+          "precio": 180,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Tamalitl tlen Etl ihuan Hoja Santa",
+          "descripcion": "Tlaolli tlen nixtamal, ica etl yancuic, ihuan momana ica elotl tlapalli.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif",
+          "precio": 45,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Tlaxcalchikahualotl tlen Chili Verde",
+          "descripcion": "Tlaxcalchikahualli tlen comal, ipan chili verde tlen tocalquemitl.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/envueltos-verdes_ts586s.png",
+          "precio": 220,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Atolli tlen Iztaac Tlaolli",
+          "descripcion": "Chikahualiztli tlen tlaolli iztaac, canela ihuan tlen chikahualistli. Yectli ipan yolchikawak.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+          "precio": 35,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Calle del Saber #15, San Juan Tahitic, Oaxaca",
+        "coordenadas": "17.2345,-96.1234",
+        "puntoReferencia": "Nepantla capilla huehue"
+      },
+      "contacto": {
+        "telefono": "+52 951 123 4567",
+        "correo": "cocina.doña.elena@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Huehue Tlecuil",
+      "tagline": "Tlanestli mocuepa ipan tlaqualiztli",
+      "tipo": "altepetl",
+      "generaciones": 4,
+      "descripcionLarga": "Canon tlen tlaqualiztli tlen huehcauh, tlen aic miqui. Ipan ahuehuete, Don José quitlalilia in tlamachilistli.",
+      "descripcionAmbiente": "Campa tlaltikpak, ica cuahuitl momana, ihuan tlecuil tlen tetl. Patlanih tlen atl ihuan tlen tletl quichihua mjto.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178020/cocina2_wx1e8j.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png"
+      },
+      "colores": {
+        "primario": "#10b981",
+        "secundario": "#0d9488",
+        "acento": "#34d399"
+      },
+      "historia": {
+        "contenido": "Don José, 78 xihuitl, quipia in tlamachilistli tlen chilecotz. Miac tonaltin quipia tetl tlen tletl. Ita tlamachilistli ompa itahtli.",
+        "fraseEmblematica": "To tlaqual tlan tlahtol tlen tlaltikpak"
+      },
+      "servicios": [
+        "Campa Tlaltikpak",
+        "Nemachtiloyan",
+        "Tlachihualiztli tlen Tlaqualiztli",
+        "Tlamachtiloyan",
+        "Tlapohualiztli tlen Tlaolli",
+        "Tlapohualtiloni"
+      ],
+      "horarios": {
+        "lunesViernes": "7:00 AM - 8:00 PM",
+        "sabadoDomingo": "6:00 AM - 9:00 PM",
+        "diasDescanso": "Tlacatililoni"
+      },
+      "recomendaciones": [
+        "Xihualican ica cochipaca",
+        "Xitlaltili in chilecotz tlen tetl",
+        "Xitlachia to xochitlalpan",
+        "Yectli ipan tlen tlamachilistli"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Chilecotz tlen Chichi",
+          "descripcion": "Tlachihualiztli ica tetl tlen tletl, tlen huehueyotl.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178025/caldopollo_qdd6uq.png",
+          "precio": 160,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Pozole Chichic",
+          "descripcion": "Tlaolli cacahuazintle ihuan chichi, tlen mjto. Yectli ipan tlaqualiztli tlen Mexihco.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178023/pozole_rhszyt.png",
+          "precio": 85,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Atolli tlen Mihis",
+          "descripcion": "Chikahualiztli tlen huehcauh, ica tlaolli, canela ihuan mihis. Yectli ipan yolchikawak.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png",
+          "precio": 40,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Tlayudas tlen Chichic",
+          "descripcion": "Tlaxcalchikahualli weyi, ica chichic nacatl, etl ihuan queso. Tlen chichic nacatl.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084723/tlayudas_dp32xt.png",
+          "precio": 75,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Plaza de la Tradición, San Juan Tahitic, Oaxaca",
+        "coordenadas": "17.2350,-96.1240",
+        "puntoReferencia": "Ipan ahuehuete huehue"
+      },
+      "contacto": {
+        "telefono": "+52 951 987 6543",
+        "correo": "fogon.abuelos@gmail.com"
+      }
+    }
+  ],
+  "configuracion": {
+    "moneda": "MXN",
+    "zonaHoraria": "America/Mexico_City"
+  }
+}

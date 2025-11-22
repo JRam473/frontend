@@ -1,0 +1,1453 @@
+{
+  "common": {
+    "welcome": "Welcome to San Juan Tahitic Cooperative",
+    "learnMore": "Learn More",
+    "contact": "Contact",
+    "readMore": "Read More",
+    "seeMore": "See More",
+    "back": "Back",
+    "close": "Close",
+    "share": "Share"
+  },
+  "navigation": {
+    "title": "San Juan Tahitic",
+    "description":"Unique natural destination",
+    "home": "Home",
+    "community": "Community",
+    "culture": "Culture",
+    "products": "Products",
+    "contact": "Contact",
+    "gallery": "Gallery"
+  },
+  "hero": {
+    "region": "Central Region",
+    "weather": "Weather",
+    "error": "Error",
+    "language": "Language",
+    "spanish": "Spanish", 
+    "currency": "Currency",
+    "season": "Season",
+    "seasonMonths": "Mar-Oct",
+    "discoverAria": "Discover more about tourism in San Juan Tahitic",
+    "discoverButton": "Discover San Juan Tahitic",
+    "adventureAria": "Start your adventure in San Juan Tahitic",
+    "adventureButton": "Start your adventure",
+    "scrollMobile": "Swipe",
+    "scrollDesktop": "Discover more"
+  },
+  "highlights": {
+  "natureTitle": "Nature",
+  "natureText": "Mountain landscapes, rivers, and waterfalls that invite adventure and relaxation. Explore unique trails and connect with the region’s biodiversity through unforgettable experiences.",
+  "gastronomyTitle": "Gastronomy",
+  "gastronomyText": "Local delights that blend tradition and authentic flavor in every dish. Discover ancestral tastes in local markets and restaurants offering innovative traditional cuisine.",
+  "communityTitle": "Community",
+  "communityText": "Warm and welcoming people who make you feel at home. Join community activities and learn life stories that enrich your cultural experience.",
+  "traditionsTitle": "Traditions",
+  "traditionsText": "Festivals, dances, and crafts that preserve the region’s cultural richness. Experience unique celebrations and learn artisanal techniques passed down through generations.",
+  "touristPlaces": "Tourist places",
+  "typicalDishes": "Typical dishes",
+  "inhabitants": "Inhabitants",
+  "yearsHistory": "Years of history"
+},
+ "footer": {
+    "description": "A destination that combines natural beauty, cultural richness and human warmth. Explore everything our community has to offer you.",
+    "address": "San Juan Tahitic, Central Region",
+    "explore": "Explore",
+    "keyServices": "Key Services",
+    "regionalGastronomy": "Regional gastronomy",
+    "handicrafts": "Handicrafts",
+    "transportation": "Transportation",
+    "culturalEvents": "Cultural events",
+    "rights": "© 2025 San Juan Tahitic. All rights reserved.",
+    "developed": "Developed with ❤️ for our community",
+    "home": "Home",
+    "attractions": "Tourist Attractions",
+    "culture": "Culture",
+    "community": "Community",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "cards": {
+  "exploreTitle": "Explore San Juan Tahitic",
+  "exploreSubtitle": "Discover the wonders that await you in this paradise",
+  "exploreButton": "Explore",
+  "previous": "Previous",
+  "next": "Next",
+  "goToCard": "Go to card",
+  "adelaRestaurant": {
+    "title": "Doña Adela’s Dining Room",
+    "description": "Enjoy local cuisine with traditional dishes and the authentic flavors of the region."
+  },
+  "loversWaterfall": {
+    "title": "Lovers’ Waterfall",
+    "description": "Admire one of the most beautiful waterfalls, surrounded by nature and tranquility."
+  },
+  "cabins": {
+    "title": "Cabin Construction 80% Complete",
+    "description": "New lodging options immersed in nature coming soon."
+  },
+  "viewpoints": {
+    "title": "Viewpoints",
+    "description": "Impressive panoramic views to capture unforgettable memories."
+  },
+  "dances": {
+    "title": "Dances",
+    "description": "Experience the cultural richness through traditional dances and music."
+  },
+  "rivers": {
+    "title": "Rivers",
+    "description": "Immerse yourself in the beauty of our rivers and enjoy their natural surroundings."
+  }
+},
+"culture": {
+    "heritageBadge": "Cultural Heritage",
+    "titlePart1": "Cultural",
+    "titlePart2": "Heritage",
+    "description": "Our rich cultural heritage is the soul of San Juan Tahitic. Discover the traditions, art and expressions that have shaped our community identity throughout the centuries.",
+    "exploreButton": "Explore our culture",
+    "calendarButton": "Cultural Calendar"
+  },
+  "calendar": {
+  "visitors": "visitors this month",
+  "titlePart1": "Live the magic of",
+  "titlePart2": "San Juan Tahitic",
+  "subtitle": "Don’t just read about our culture — live it, feel it, and take it with you.",
+  "resetProgress": "Reset progress",
+  "resetAria": "Reset experience progress",
+  "routeTitle": "Your Experience Route",
+  "completed": "completed",
+  "rewardMessage": "Complete them all to unlock stickers!",
+  "allCompleted": "Completed!",
+  "downloadStickers": "Download Stickers!",
+  "downloadAria": "Download San Juan Tahitic sticker template",
+  "progressMessage": "Tap each event to complete your route. Progress: {current} of {total}.",
+  "eventAria": "Pending",
+  "completedAria": "Completed",
+  "viewVideo": "Watch Video",
+  "viewExperience": "View Experience",
+  "loading": "Loading...",
+  "videoUnavailable": "Video unavailable",
+  "activities": "Activities",
+  "categoryTraditional": "Traditional",
+  "categoryCultural": "Cultural",
+  "categoryGastronomic": "Gastronomic",
+  "categoryArtistic": "Artistic",
+  "seeMore": "See more",
+    "categoryReligious": "Religious",
+    "categoryCeremonial": "Ceremonial",
+    "categoryFair": "Fair",
+    "categoryNature": "Nature",
+    "categoryAgriculture": "Agriculture",
+    "categoryAstronomy": "Astronomy",
+    "categoryGalaxies": "Galaxies"
+},
+"modal": {
+  "welcome": "Welcome to San Juan Tahitic Cooperative",
+  "learnMore": "Learn more",
+  "contact": "Contact",
+  "readMore": "Read more",
+  "seeMore": "See more",
+  "back": "Back",
+  "close": "Close",
+  "share": "Share",
+  "congratulations": "Congratulations!",
+  "completedRoute": "You have completed the Experience Route and unlocked the stickers.",
+  "downloadStickers": "Download Stickers"
+},
+"breadcrumbs": {
+  "home": "Home",
+  "culture": "Culture",
+  "culturalCalendar": "Cultural Calendar"
+},
+"carousel": {
+  "title": "Discover the essence of",
+  "sanJuanTahitic": "San Juan Tahitic",
+  "exploreMore": "Explore more",
+  "phrases": [
+    "Feel the magic of the mountains and the echo of their traditions.",
+    "Every dance tells a story... every step holds emotion.",
+    "Where nature embraces culture and the soul feels free.",
+    "The heart of the Sierra beats in San Juan Tahitic.",
+    "Your next experience begins here, where time stands still."
+  ]
+},
+"culturesection": {
+  "dances": "Traditional Dances",
+  "dancesDescription": "Cultural expressions that share the history, spirituality, and identity of San Juan Tahitic through movement and rhythm.",
+  "dancesDetails": ["Ancestral choreographies", "Traditional attire", "Patronal feasts and rituals"],
+  "crafts": "Local Handicrafts",
+  "craftsDescription": "Unique creations made by local artisans using techniques passed down from generation to generation.",
+  "craftsDetails": ["Traditional textiles", "Handmade pottery", "Wood carving"],
+  "language": "Náhuatl Language",
+  "languageDescription": "Learn about the Náhuatl language — its origins, current use, and common expressions in San Juan Tahitic.",
+  "languageDetails": ["Náhuatl phrases", "Living language", "Cultural identity"],
+  "gastronomy": "Gastronomy",
+  "gastronomyDescription": "Explore the traditional flavors of San Juan Tahitic: local ingredients, typical dishes, and artisanal cooking.",
+  "gastronomyDetails": ["Typical food", "Regional ingredients", "Traditional recipes"],
+  "exploreMore": "Explore more",
+  "discoverFestivities": "Discover our festivities",
+  "heritage": "Heritage",
+  "livingTradition": "Living Tradition",
+  "preservingOur": "Preserving Our",
+  "roots": "Roots",
+  "preservationDescription": "We actively work to preserve and promote our cultural heritage. Through workshops, festivals, and educational programs, we keep alive the traditions that define us as a community.",
+  "stats": {
+    "yearsHistory": "Years of History",
+    "localArtisans": "Local Artisans",
+    "annualFestivals": "Annual Festivals",
+    "livingTradition": "Living Tradition"
+  },
+  "achievements": [
+    "Traditional craft workshops",
+    "Annual local culture festival",
+    "Artisan mentor program",
+    "Digital archive of oral traditions"
+  ]
+},
+"language": {
+    "ancestralLanguage": "Ancestral Language",
+    "speaking": "Speaking",
+    "nahuatl": "Náhuatl",
+    "description": "Explore the beauty and sonority of our mother tongue through everyday phrases that have been passed down through generations in our beautiful",
+    "sanJuanTahitic": "San Juan Tahitic",
+    "listen": "Listen",
+    "exploreMore": "Explore more",
+    "phrases": [
+      {
+        "nahuatl": "Cualli tonalli",
+        "translation": "Good day",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079074/cualli-tonalli_mduals.mp3" 
+      },
+      {
+        "nahuatl": "Tlazohcamati",
+        "translation": "Thank you",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079068/tlazohcamati_uxksqv.mp3"
+      },
+      {
+        "nahuatl": "Nochipa",
+        "translation": "Always",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079067/nochipa_jrbdkm.mp3"
+      },
+      {
+        "nahuatl": "Tlen mochi",
+        "translation": "Everything",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079072/tlen-mochi_zwsdgx.mp3"
+      },
+      {
+        "nahuatl": "Kualualtsi",
+        "translation": "Beautiful",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079077/Kualualtsi_vr44x3.mp3"
+      },
+      {
+        "nahuatl": "sankentsi nimitsitas",
+        "translation": "See you later",
+        "audio": "https://res.cloudinary.com/dinsl266g/video/upload/v1763079067/sankentsi_nimitsitas_h8xmjf.mp3"
+      }
+    ]
+  }, 
+  "crafts": {
+  "localCrafts": "Local Crafts",
+  "description": "Unique creations made by local artisans using techniques passed down from generation to generation.",
+  "clickInstructionDesktop": "Click on any craft to discover its full story",
+  "clickInstructionMobile": "Tap any craft to discover its full story",
+  "showLess": "Show less",
+  "showMore": "View more",
+  "showingAll": "You are viewing all available crafts",
+  "moreToDiscover": "more crafts to discover",
+  "scrollHint": "When showing less, you’ll return to the top of the crafts section",
+  "noResults": "No crafts were found in this category.",
+  "viewAllCrafts": "View all crafts",
+  "visitUs": "Visit us in San Juan Tahitic!",
+  "visitDescription": "Discover unique handmade pieces by local artisans. Each creation reflects tradition, identity, and passion.",
+  "viewDetails": "View details",
+  "clickToZoom": "Click to zoom in",
+  "behindTheStory": "The Story Behind",
+  "theArtisan": "The Artisan",
+  "details": "Details",
+  "creationTime": "Creation Time",
+  "price": "Price",
+  "materialsUsed": "Materials Used",
+  "ancestralTechniques": "Ancestral Techniques",
+  "viewMoreCrafts": "View more crafts",
+  "navigationInstructions": "Press ESC to close • ← → to navigate",
+  "closeZoom": "Close zoom",
+  "zoomedViewOf": "Zoomed view of",
+  "by": "By",
+  "closeZoomInstructions": "Press ESC or click outside to close",
+"categories": {
+  "textiles": "Traditional Textiles",
+  "ceramica": "Artisanal Ceramics",
+  "madera": "Wood Carving",
+  "todos": "All Categories"
+    },
+    "artisanExperience": "years of experience",
+    "modal": {
+  "close": "Close modal",
+  "clickToZoom": "Click to zoom",
+  "closeZoom": "Close zoom",
+  "theStoryBehind": "The Story Behind",
+  "theArtisan": "The Artisan",
+  "details": "Details",
+  "productionTime": "Production Time:",
+  "price": "Price:",
+  "materialsUsed": "Materials Used",
+  "ancestralTechniques": "Ancestral Techniques",
+  "viewMoreCrafts": "View More Crafts",
+  "keyboardShortcuts": "Press ESC to close • ← → to navigate",
+  "zoomInstructions": "Press ESC or click outside to close",
+  "by": "By:"
+},
+"tooltip": {
+  "tapToExplore": "Tap to explore!",
+  "discoverMore": "Discover more!",
+  "mobileInstruction": "Tap any craft to discover its full story, ancestral techniques, and meet the artisan who created it.",
+  "desktopInstruction": "Click any craft to discover its full story, ancestral techniques, and meet the artisan who created it.",
+  "mobileNavigationTip": "You can also swipe inside the modal to navigate",
+  "desktopNavigationTip": "You can also use the ← → arrows to navigate"
+},
+"imageNotAvailable": "Image not available",
+"loadingCraft": "Loading craft..."
+  },
+  "gastronomy": {
+  "ancestralFlavors": "Ancestral Flavors",
+  "journey": "A journey",
+  "gastronomic": "gastronomic",
+  "description": "Discover the flavors of our land, where each dish tells a story of heritage, tradition, and ingredients grown with love.",
+  "hoverVideo": "Hover to watch the video",
+  "origin": "Origin:",
+  "ingredients": "Ingredients:",
+  "spiceLevel": "Spice level:",
+  "seasonFestivity": "Season/Festivity:",
+  "exploreOurCuisine": "Explore our cuisine",
+  "highlights": {
+    "traditionalRecipes": "Traditional Recipes",
+    "localIngredients": "Local Ingredients",
+    "annualFairs": "Annual Fairs",
+    "flavorTradition": "Flavor and Tradition"
+  }
+},
+"gastronomysection": {
+  "flavorsOfTahitic": "Flavors of Tahitic",
+  "mexicanGastronomy": "Mexican Gastronomy",
+  "description": "Discover the traditional dishes, local ingredients, and recipes that give flavor to San Juan Tahitic. A culinary experience that connects us with our roots.",
+  "back": "Go back",
+  "exploreGastronomy": "Explore gastronomy"
+},
+"cocinas": {
+    "types": {
+  "familiar": "Family",
+  "comunitario": "Community"
+},
+"services": {
+  "wifi": "Free WiFi",
+  "parking": "Parking",
+  "garden": "Garden Terrace",
+  "groups": "Large Groups",
+  "takeaway": "Takeaway Food",
+  "reservations": "Reservations",
+  "outdoor": "Outdoor Space",
+  "demonstrations": "Culinary Demonstrations",
+  "workshops": "Cooking Workshops",
+  "ingredients": "Local Ingredients for Sale",
+  "events": "Special Events"
+},
+"schedule": {
+  "weekdays": "Monday to Friday",
+  "weekend": "Saturday and Sunday",
+  "closed": "Rest Days"
+},
+"gallery": {
+  "dishes": "Dishes",
+  "events": "Events",
+  "preparation": "Preparation",
+  "ambience": "Ambience"
+},
+"experience": {
+  "idealMoment": "Ideal Moment",
+  "vibe": "Vibe",
+  "aroma": "Main Aroma"
+},
+"contact": {
+  "hours": "Hours",
+  "address": "Address",
+  "reference": "Reference Point",
+  "instructions": "Instructions"
+},
+"recommendations": "Recommendations",
+"awards": "Awards and Recognitions",
+"header": {
+  "gastronomicExperiences": "Gastronomic Experiences",
+  "previousKitchen": "Previous Kitchen",
+  "nextKitchen": "Next Kitchen",
+  "goToKitchen": "Go to Kitchen",
+  "of": "of"
+},
+"floatingNav": {
+  "currentlyViewing": "You’re viewing:",
+  "kitchen": "Kitchen",
+  "previous": "Previous",
+  "next": "Next",
+  "close": "Close",
+  "minimize": "Minimize educational message",
+  "showInfo": "Show educational information",
+  "view": "View",
+  "tooltip": {
+    "title": "Easily navigate between kitchens!",
+    "description": "Explore all establishments without losing your place"
+  }
+},
+"hero": {
+  "experiences": "Experiences",
+  "generations": "Generations",
+  "discoverOurStory": "Discover Our Story",
+  "howToGetThere": "How to Get There?",
+  "useArrows": "Use the arrows to explore more experiences",
+  "previousKitchen": "Previous Kitchen",
+  "nextKitchen": "Next Kitchen"
+},
+"restaurantInfo": {
+  "ourStory": "Our Story",
+  "servicesWeOffer": "Services We Offer",
+  "theAmbiance": "The Ambience",
+  "kitchenAmbiance": "Ambience of"
+},
+"featuredDishes": {
+  "emblematicDishes": "Emblematic Dishes",
+  "discoverFlavors": "Discover the flavors that define us and have captivated our visitors",
+  "emblem": "Emblem",
+  "seeMore": "See More",
+  "currency": "$"
+},
+"location": {
+  "visitUs": "Visit Us",
+  "address": "Address",
+  "hours": "Hours",
+  "mondayFriday": "Monday - Friday",
+  "saturdaySunday": "Saturday - Sunday",
+  "recommendations": "Recommendations",
+  "locationOf": "Location of"
+},
+"expandedModal": {
+  "closeModal": "Close modal",
+  "clickToExpand": "Click to expand",
+  "resetImage": "Reset image",
+  "rotateImage": "Rotate image",
+  "zoomOut": "Zoom out",
+  "zoomIn": "Zoom in",
+  "closeImageViewer": "Close image viewer",
+  "featuredDish": "Featured Emblematic Dish",
+  "viewImage": "View image",
+  "ourStory": "Our Story",
+  "services": "Services",
+  "openingHours": "Opening Hours",
+  "mondayFriday": "Monday - Friday",
+  "saturdaySunday": "Saturday - Sunday",
+  "holidays": "Holidays",
+  "anyQuestions": "Any questions? Call us:",
+  "historicalInfoNotAvailable": "Historical information not available.",
+  "service": "Service:",
+  "expandedImageOf": "Expanded image of",
+  "kitchenEnvironment": "Kitchen Ambience"
+}
+},
+"platillos": {
+  "title": "Flavors of San Juan Tahitic",
+  "clickInstruction": "Click on any dish to discover its story",
+  "description": "Explore our rich culinary tradition. Each dish tells a unique story of flavors, local ingredients, and ancestral techniques passed down through generations.",
+  "ariaLabel": "Click or press Enter to expand",
+  "clickForInfo": "Click for more information",
+  "tap": "TAP",
+  "exploreOthers": "Explore other dishes by closing this one first",
+  "screenReader": {
+    "expanded": "Expanded. Use the left and right arrows to navigate or ESC to close.",
+    "gridView": "Grid view of dishes. Use tab to move between cards and arrows to navigate."
+      },
+      "modal": {
+  "fullscreenView": "Fullscreen view:",
+  "zoomOut": "Zoom out",
+  "resetZoom": "Reset zoom",
+  "zoomIn": "Zoom in",
+  "previousDish": "Previous dish",
+  "nextDish": "Next dish",
+  "exitFullscreen": "Exit fullscreen",
+  "closeModal": "Close modal",
+  "fullscreen": "View in fullscreen",
+  "location": "Location",
+  "address": "Address:",
+  "owner": "Owner:",
+  "phone": "Phone:",
+  "phoneNotAvailable": "Not available",
+  "viewOnMaps": "Open in Google Maps",
+  "suggestions": "Suggestions",
+  "openingHours": "Opening Hours",
+  "backToGallery": "Back to Gallery",
+  "keyboardShortcuts": "Press ESC to close • ← → to navigate between dishes",
+  "by": "by"
+},
+"loading": "Loading...",
+"imageNotAvailable": "Image not available"
+    },
+    "call": {
+  "discoverThe": "Discover the",
+  "magic": "Magic",
+  "ofOurCuisine": "of Our Cuisine",
+  "subtitle": "Where every dish tells a story and every flavor creates an unforgettable memory",
+  "features": {
+    "localIngredients": "Local\nIngredients",
+    "familyTradition": "Family\nTradition",
+    "qualityGuaranteed": "Quality\nGuaranteed",
+    "cozyAtmosphere": "Cozy\nAtmosphere"
+  },
+  "ctaButton": "Live the Experience",
+  "inspirationalQuote": "More than a dish, a meeting with the true essence of San Juan Tahitic",
+  "waitingMessage": "We welcome you with open arms"
+},
+"dance": {
+  "traditionsInMotion": "Traditions in Motion",
+  "ancestralDances": "Ancestral Dances",
+  "description": "Immerse yourself in each dance by clicking on them and become part of",
+  "sanJuanTahitic": "San Juan Tahitic",
+  "previousDance": "Previous Dance",
+  "nextDance": "Next Dance",
+  "learnMore": "Learn More",
+  "tapToLearnMore": "Tap to learn more about this dance",
+  "danceDetails": "Dance Details",
+  "closeDanceDetails": "Close Dance Details",
+  "expand": "Expand",
+  "close": "Close",
+  "experienceInPerson": "Experience It in Person!",
+  "ctaDescription": "Feel the rhythm and energy of the **ancestral dances** in the heart of **San Juan Tahitic**. We’re waiting for you!",
+  "viewOnMap": "View on Map",
+  "invitationCard": "Invitation Card to Visit San Juan Tahitic",
+  "panoramicView": "Panoramic View of the Town of San Juan Tahitic"
+},
+"community": {
+  "ourPeopleOurStrength": "Our People, Our Strength",
+  "unitedBy": "United by",
+  "tradition": "tradition",
+  "description": "We are a family united by the land, the stories of our ancestors, and a deep sense of mutual support. Discover the hands and hearts that make San Juan Tahitic a truly unique place.",
+  "learnOurHistory": "Learn Our History",
+  "communityCooperative": "Community Cooperative"
+},
+"timeline": {
+  "enduringLegacy": "An Enduring Legacy",
+  "our": "Our",
+  "roots": "Roots",
+  "description": "A journey through time to discover the moments, places, and people that shaped our identity.",
+  "showMore": "See More of the Story",
+  "showLess": "Show Less",
+  "expand": "Expand",
+  "collapse": "Collapse",
+  "learnMore": "Learn More"
+},
+"present": {
+  "sanJuanToday": "San Juan Tahitic Today",
+  "closeModal": "Cerrar modal",
+  "ourVibrant": "Our",
+  "community": "Vibrant Community",
+  "description": "Discover how we live today: a community that honors its heritage while actively building its future with hope and unity.",
+  "communityPillars": "Pillars of Our Community",
+  "ourValues": "Our Values",
+  "learnMore": "Learn More",
+  "communityInNumbers": "Our Community in Numbers",
+  "numbersDescription": "Data that reflect the vitality and progress of San Juan Tahitic",
+  "lastUpdate": "Last Update:",
+  "source": "Source: Community Council of San Juan Tahitic",
+  "wouldYouLikeToVisit": "Would you like to visit us?",
+  "visitDescription": "Experience firsthand the warmth and cultural richness of San Juan Tahitic. We invite you to be part of our community, even if just for a day.",
+  "pillars": [
+    {
+      "title": "Collective Work (Tequio)",
+      "description": "Community labor is the foundation of our unity. An ancestral system of mutual aid to build and sustain the well-being of all."
+    },
+    {
+      "title": "Gastronomy and Agriculture",
+      "description": "From the field to the table. Our crops of corn, beans, and coffee form the heart of a cuisine that nourishes both body and tradition."
+    },
+    {
+      "title": "Festivals and Traditions",
+      "description": "The festive calendar is our cultural heart. Dances, music, and faith intertwine in celebrations that reaffirm our identity year-round."
+    },
+    {
+      "title": "Education and Future",
+      "description": "We invest in new generations. Our schools are seedbeds of talent, preparing young people for the future without forgetting their roots."
+    }
+  ],
+  "stats": [
+    { "label": "Inhabitants" },
+    { "label": "Young Population (<30 years)" },
+    { "label": "Schools (Basic and Middle)" },
+    { "label": "Electric Coverage" }
+  ]
+    },
+     "closeModal": "Close modal",
+     "attractions": {
+  "projectInDevelopment": "Project in Development",
+  "our": "Our",
+  "novelties": "New Projects",
+  "description": "A glimpse at the projects that are transforming San Juan Tahitic and that you’ll soon be able to enjoy.",
+  "communityProject": "Community Project",
+  "viewGallery": "View Gallery",
+  "projectTimeline": "Project Timeline",
+  "knowCompletePlan": "See the full plan",
+  "communityImpact": "Community Impact",
+  "jobsGenerated": "Jobs Generated",
+  "cabinsUnderConstruction": "Cabins Under Construction",
+  "localMaterials": "Local Materials",
+  "project": {
+    "title": "Tourist Cabins (Phase I)",
+    "subtitle": "Lodging for the Future of Tourism in Tahitic",
+    "description": "A community project designed to offer a unique immersive experience. Eco-friendly, comfortable cabins built with traditional methods and local materials — boosting both the economy and ecotourism.",
+    "status": "Under Construction (80% Completed)",
+    "features": [
+      { "label": "Initial Units", "value": "8" },
+      { "label": "Estimated Date", "value": "Spring 2024" },
+      { "label": "Self-Sufficient Energy", "value": "Solar" },
+      { "label": "Location", "value": "Valley View" },
+      { "label": "Jobs Generated", "value": "15+" },
+      { "label": "Local Materials", "value": "95%" }
+    ],
+    "timeline": [
+      { "phase": "Planning", "date": "Jan 2024" },
+      { "phase": "Foundation", "date": "Feb 2024" },
+      { "phase": "Structure", "date": "Mar 2024" },
+      { "phase": "Roofing", "date": "Apr 2024" },
+      { "phase": "Finishing", "date": "May 2024" },
+      { "phase": "Landscaping", "date": "Jun 2024" }
+    ],
+    "constructionImages": [
+      {
+        "title": "Cabin Foundations",
+        "description": "Working on the foundations with sustainable methods"
+      },
+      {
+        "title": "Main Structure",
+        "description": "Local wood framework in progress"
+      },
+      {
+        "title": "Community Work",
+        "description": "Neighbors participating in construction"
+      },
+      {
+        "title": "Project Overview",
+        "description": "Panoramic view of overall progress"
+      }
+    ]
+  }
+},
+"tequio": {
+  "title": "Tequio: Collective Work",
+  "subtitle": "The ancestral tradition that strengthens our community of San Juan Tahitic",
+  "unitedForCommonGood": "United for the common good",
+  "heroDescription": "Tequio is the heart of our social organization in San Juan Tahitic. For generations, this collective labor has allowed us to build schools, maintain roads, protect springs, and strengthen the bonds that define us as a community.",
+  "ancestralTradition": "Ancestral Tradition",
+  "solidarity": "Solidarity",
+  "collectiveProgress": "Collective Progress",
+  "communityProjects": "Community Projects",
+  "projectsDescription": "Works built together for the well-being of the entire community",
+  "participants": "Participants",
+  "frequency": "Frequency",
+  "benefitsForCommunity": "Benefits for the community:",
+  "toolsUsed": "Tools used:",
+  "whyTequioStrengthens": "Why does Tequio strengthen us?",
+  "benefitsDescription": "The values and benefits we gain through collective labor",
+  "communityVoices": "Voices of Our Community",
+  "testimonialsDescription": "What our neighbors say about the Tequio experience",
+  "culturalHeritage": "Tequio: A Living Cultural Heritage",
+  "heritageDescription": "In San Juan Tahitic, Tequio remains the cornerstone of our community organization, showing that collective work is the foundation of sustainable development and the preservation of our ancestral traditions for future generations.",
+  "organizedCommunity": "San Juan Tahitic - Organized Community",
+  "carousel": {
+    "collectiveWorkRoads": "Collective Road Work",
+    "roadsDescription": "Community united in maintaining rural roads",
+    "communityReforestation": "Community Reforestation",
+    "reforestationDescription": "Planting native trees to preserve our resources",
+    "schoolMaintenance": "School Maintenance",
+    "schoolDescription": "Improving educational infrastructure together",
+    "springCleaning": "Spring Cleaning",
+    "springDescription": "Caring for our traditional water sources",
+    "tequioCelebration": "Tequio Celebration",
+    "celebrationDescription": "Sharing and living together after collective work"
+  },
+  "projects": [
+    {
+      "name": "Rural Road Maintenance",
+      "description": "Repairing and cleaning the roads that connect our communities and fields, ensuring safe access for all families.",
+      "benefits": ["Better access to communities", "Safe transport", "Smooth communication", "Stronger local trade"],
+      "tools": ["Shovels", "Wheelbarrows", "Rakes", "Pickaxes"]
+    },
+    {
+      "name": "Community Reforestation",
+      "description": "Planting native trees in degraded areas to preserve our natural resources and maintain ecological balance.",
+      "benefits": ["Soil conservation", "Clean water", "Biodiversity", "Shade and freshness"],
+      "tools": ["Bars", "Machetes", "Native plants", "Watering cans"]
+    },
+    {
+      "name": "School Maintenance",
+      "description": "Repairing and improving educational infrastructure to provide dignified learning spaces for our children.",
+      "benefits": ["Dignified spaces", "School safety", "Learning environment", "Community pride"],
+      "tools": ["Paint", "Carpentry tools", "Materials", "Scaffolding"]
+    },
+    {
+      "name": "Spring Cleaning",
+      "description": "Preserving our water sources through cleaning and maintenance, honoring ancestral wisdom.",
+      "benefits": ["Drinking water", "Community health", "Ancestral tradition", "Protected nature"],
+      "tools": ["Gloves", "Rakes", "Collection bags", "Rubber boots"]
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Community Unity",
+      "description": "Strengthens the bonds between families and generations, creating solid networks of mutual support"
+    },
+    {
+      "title": "Sustainable Development",
+      "description": "Projects that benefit the entire community in the long term while caring for the environment"
+    },
+    {
+      "title": "Cultural Preservation",
+      "description": "We keep ancestral traditions of collective work and mutual aid alive"
+    },
+    {
+      "title": "Self-Management",
+      "description": "We solve our own needs with our resources, without depending on external aid"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Doña Rosa Martínez",
+      "participation": "35 years in Tequios",
+      "testimonial": "Tequio unites us like a family. My children and grandchildren learn the value of collective work. It’s the most precious legacy we inherited from our elders."
+    },
+    {
+      "name": "Juan Pérez",
+      "participation": "Road Tequio Leader",
+      "testimonial": "Each Tequio strengthens our community. We see tangible results and grow together as a people. Unity gives us strength."
+    },
+    {
+      "name": "María González",
+      "participation": "Youth Tequio Coordinator",
+      "testimonial": "We, the youth, find in Tequio a way to contribute and keep our traditions alive. It’s our grain of sand for San Juan Tahitic."
+    }
+  ]
+},
+"gastronomymodal": {
+  "title": "Gastronomy:",
+  "subtitle": "ancestral flavors",
+  "description": "From the field to the table: preserving our food sovereignty and traditional flavors in San Juan Tahitic.",
+  "heroTitle": "Roots that Nourish",
+  "heroDescription": "In San Juan Tahitic, the land gives us more than food — it gives us identity. Our milpa agriculture and traditional cuisine are the living legacy of generations who lived in harmony with nature.",
+  "heroTags": ["Organic agriculture", "Ancestral cuisine", "Food sovereignty"],
+  "ourProducts": "Our products",
+  "productsDescription": "Grown with sustainable methods that respect the earth’s cycles and preserve biodiversity.",
+  "flavorsOfTheLand": "Flavors of the land",
+  "flavorsDescription": "Recipes passed down through generations, preserving our culinary identity.",
+  "ancestralKnowledge": "Ancestral knowledge",
+  "knowledgeDescription": "Traditional wisdom sustaining our relationship with the earth and our food.",
+  "livingHeritage": "Living gastronomic heritage",
+  "heritageDescription": "In San Juan Tahitic, every dish tells a story and every flavor keeps memory alive — a living testament to the harmony between people and land.",
+  "heritageTag": "San Juan Tahitic - Flavors that endure",
+  "carousel": {
+    "cornHarvest": "Native Corn Harvest",
+    "cornDescription": "Our ancestral maize, the base of community food.",
+    "organicMarket": "Community Organic Market",
+    "marketDescription": "Fresh products from local family gardens.",
+    "molePreparation": "Mole de Caderas Preparation",
+    "moleDescription": "Ceremonial dish that preserves tradition.",
+    "organicCoffee": "Organic Highland Coffee",
+    "coffeeDescription": "Grown on the mountain slopes with care.",
+    "beanTamales": "Bean Tamales",
+    "tamalesDescription": "Flavors passed from generation to generation."
+  },
+  "products": [
+    {
+      "name": "Native Corn",
+      "description": "Ancestral maize varieties grown through the milpa system, rich in flavor and nutrition.",
+      "season": "June - November",
+      "characteristics": ["4 native varieties", "Non-GMO", "High nutritional value", "Drought resistant"]
+    },
+    {
+      "name": "Black Beans",
+      "description": "Grown on the mountain slopes, known for their creamy texture and deep flavor.",
+      "season": "August - December",
+      "characteristics": ["Native black type", "High in protein", "Crop rotation system", "Sun-dried naturally"]
+    },
+    {
+      "name": "Highland Coffee",
+      "description": "Organic coffee grown at 1,200 m, with chocolatey notes and intense aroma, processed by traditional methods.",
+      "season": "October - March",
+      "characteristics": ["Arabica type", "Sun-dried", "Artisan roasted", "Traditional packaging"]
+    },
+    {
+      "name": "Medicinal Herbs",
+      "description": "Ancestral wisdom in herbs like chamomile, arnica, and mint, cultivated in family gardens.",
+      "season": "All year",
+      "characteristics": ["20 varieties", "Natural drying", "Medicinal use", "Traditional preparations"]
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Mole de Caderas",
+      "description": "Ceremonial dish made with goat, chiles, and ancestral chocolate, a culinary heritage of the region.",
+      "ingredients": ["Goat", "Mulato chiles", "Ancestral chocolate", "Sesame", "Local spices"],
+      "preparation": "Slow-cooked for 8 hours"
+    },
+    {
+      "name": "Bean Tamales",
+      "description": "Corn-leaf tamales filled with black beans and regional herbs, essential in family celebrations.",
+      "ingredients": ["Nixtamalized corn", "Black beans", "Corn husks", "Epazote", "Salt"],
+      "preparation": "Steamed for 2 hours"
+    },
+    {
+      "name": "White Corn Atole",
+      "description": "Warm beverage made with white corn, cinnamon, and piloncillo — traditional comfort during cold days.",
+      "ingredients": ["White corn", "Cinnamon", "Piloncillo", "Water"],
+      "preparation": "Stone-ground and slowly cooked"
+    }
+  ],
+  "knowledge": [
+    {
+      "title": "Milpa System",
+      "description": "Intercropping of maize, beans, and squash that enriches the soil and ensures food diversity."
+    },
+    {
+      "title": "Nixtamalization",
+      "description": "Ancestral process of cooking corn with lime to enhance nutrition and flavor."
+    },
+    {
+      "title": "Natural Preservation",
+      "description": "Sun-drying and storage techniques to preserve grains all year round."
+    },
+    {
+      "title": "Herbal Medicine",
+      "description": "Traditional use of plants for family and community health."
+    }
+  ],
+  "characteristics": "Characteristics:",
+  "mainIngredients": "Main ingredients:"
+},
+"festivities": {
+  "title": "Festivities and Traditions",
+  "subtitle": "The cultural heart of San Juan Tahitic beats to the rhythm of our ancestral celebrations",
+  "celebratingOurIdentity": "Celebrating Our Identity",
+  "identityDescription": "Every festivity in San Juan Tahitic is a living fabric of history, faith, and community. Our traditions are not only preserved — they are lived with the same passion as centuries ago, creating memories that transcend generations.",
+  "livingTradition": "Living Tradition",
+  "culturalHeritage": "Herencia cultural",
+  "communityUnity": "Community Unity",
+  "culturalHeritagee": "Cultural Heritage",
+  "annualFestiveCalendar": "Annual Festive Calendar",
+  "calendarDescription": "Events that mark the rhythm of our community life throughout the year",
+  "danceExpressions": "Dance Expressions",
+  "danceDescription": "Movement that tells our story and preserves our collective memory",
+  "heritageDescription": "Knowledge and expressions that define our identity as a community",
+  "memoryBecomesCelebration": "Memory Becomes Celebration",
+  "finalDescription": "In San Juan Tahitic, every celebration is a living chapter of our shared history. The traditions we preserve today are the legacy we pass on to future generations, keeping alive the flame of our cultural identity.",
+  "whereTraditionLives": "San Juan Tahitic – Where Tradition Lives",
+
+  "carousel": {
+    "patronalFestival": "Patron Saint Festival of San Juan",
+    "patronalDescription": "Celebration in honor of our patron saint with processions and traditional dances",
+    "moorsDance": "Dance of the Moors",
+    "moorsDescription": "A colorful historical representation that preserves our cultural memory",
+    "dayOfTheDead": "Day of the Dead",
+    "dayOfTheDeadDescription": "Altars and offerings that honor our ancestors",
+    "traditionalCarnival": "Traditional Carnival",
+    "carnivalDescription": "Masks, music, and joy fill the community celebration",
+    "holyWeek": "Holy Week",
+    "holyWeekDescription": "Religious traditions that unite the community"
+  },
+
+  "festivals": [
+    {
+      "name": "Patron Saint Festival of San Juan",
+      "date": "June 24",
+      "description": "A celebration in honor of our patron saint with masses, processions, and community festivities lasting three days. The entire town gathers to honor the traditions passed down from our ancestors.",
+      "activities": ["Religious procession", "Dance of the Moors", "Fireworks", "Gastronomic fair", "Traditional rodeo"],
+      "duration": "3 days",
+      "participants": "Entire community",
+      "highlight": "Procession with the patron saint"
+    },
+    {
+      "name": "Day of the Dead",
+      "date": "November 1–2",
+      "description": "We honor our ancestors with family altars, offerings, and candlelight vigils at the community cemetery. A tradition that reflects our deep connection to the cycle of life and death.",
+      "activities": ["Family altars", "Night vigil at the cemetery", "Catrina parade", "Reading of satirical verses", "Community dinner"],
+      "duration": "2 days",
+      "participants": "Entire families",
+      "highlight": "Altars decorated with cempasúchil flowers"
+    },
+    {
+      "name": "Traditional Carnival",
+      "date": "February/March",
+      "description": "A pre-Lenten celebration filled with parades, handcrafted masks, and traditional dances that bring color and joy to the town’s streets.",
+      "activities": ["Parades", "Masked dance", "Election of the 'Ugly King'", "Traditional games", "Live band concert"],
+      "duration": "4 days",
+      "participants": "Youth and adults",
+      "highlight": "Handcrafted masks"
+    },
+    {
+      "name": "Holy Week",
+      "date": "March/April",
+      "description": "Live representations of the Passion of Christ and ancestral religious traditions that bring the community together in faith and reflection.",
+      "activities": ["Live Way of the Cross", "Procession of Silence", "Burning of Judas", "Easter Vigil", "Religious reenactments"],
+      "duration": "7 days",
+      "participants": "Faith community",
+      "highlight": "Live Way of the Cross"
+    }
+  ],
+
+  "dances": [
+    {
+      "name": "Dance of the Moors",
+      "description": "A historical dance depicting the battles between Moors and Christians, featuring colorful hand-embroidered costumes and traditional wind music.",
+      "origin": "16th century – Colonial tradition",
+      "participants": "40 dancers and musicians",
+      "season": "Patronal and major festivities",
+      "clothing": "Costumes embroidered with sequins",
+      "meaning": "Cultural and religious encounter"
+    },
+    {
+      "name": "Son de la Malinche",
+      "description": "A ceremonial dance narrating cultural encounters through elegant movements; recognized as an element of intangible cultural heritage.",
+      "origin": "Colonial era – Pre-Hispanic roots",
+      "participants": "20 trained dancers",
+      "season": "Major festivities",
+      "clothing": "Traditional huipils and wrap skirts",
+      "meaning": "Cultural fusion and identity"
+    },
+    {
+      "name": "Los Chinelos",
+      "description": "A joyful dance characterized by energetic jumps and large-mustached masks, symbolizing celebration and festive social satire.",
+      "origin": "19th century – Morelos tradition",
+      "participants": "Open community participation",
+      "season": "Carnival and popular festivals",
+      "clothing": "Tunic and large-mustached mask",
+      "meaning": "Celebration and social satire"
+    }
+  ],
+
+  "heritage": [
+    {
+      "title": "Traditional Wind Music",
+      "description": "Community bands preserving ancestral musical repertoire for festivities.",
+      "status": "Active tradition"
+    },
+    {
+      "title": "Festive Handicrafts",
+      "description": "Crafting of masks, costumes, and decorations using techniques passed down through generations.",
+      "status": "In preservation"
+    },
+    {
+      "title": "Ceremonial Gastronomy",
+      "description": "Preparation of special dishes for each festivity based on ancestral recipes.",
+      "status": "Living tradition"
+    },
+    {
+      "title": "Orality and Storytelling",
+      "description": "Transmission of stories, legends, and knowledge through oral tradition.",
+      "status": "Being documented"
+    }
+  ],
+
+  "labels": {
+    "duration": "Duration",
+    "highlightedActivities": "Highlighted Activities",
+    "origin": "Origin",
+    "clothing": "Clothing",
+    "meaning": "Meaning",
+    "status": "Status"
+  }
+},
+"education": {
+  "transformativeEducation": "Transformative Education",
+  "knowledgeCommunityPurpose": "Where knowledge meets community purpose",
+  "investmentDescription": "We invest in new generations to build a promising future without losing our roots",
+  "buildingFutures": "Building futures with",
+  "purpose": "purpose",
+  "educationDescription": "In San Juan Tahitic, education is the driving force behind our community development. We integrate ancestral knowledge with educational innovation, shaping critical, creative citizens committed to collective well-being.",
+  "students": "Students",
+  "teachers": "Teachers",
+  "institutions": "Institutions",
+  "yearsTradition": "Years of tradition",
+  "educationPillars": "Pillars of our education",
+  "educationPillarsDescription": "The foundations that guide our community educational project",
+  "educationalPath": "Our educational path",
+  "educationalPathDescription": "A continuous learning journey from early childhood to higher education",
+  "collectiveAchievements": "Collective achievements",
+  "collectiveAchievementsDescription": "Recognitions that reflect the teamwork of our entire educational community",
+  "educationTransforms": "Education that transforms lives",
+  "finalMessage": "In San Juan Tahitic, every classroom is a space of hope, every lesson a bridge to the future, and every student a seed of change for our community and the world.",
+  "learningCreatesFutures": "San Juan Tahitic - Where learning creates futures",
+
+  "carousel": {
+    "learningCommunity": "Community Learning",
+    "learningCommunityDesc": "Students developing projects that benefit the entire community",
+    "educationalFacilities": "Educational Facilities",
+    "educationalFacilitiesDesc": "Spaces designed for integral learning and human development",
+    "practicalActivities": "Practical Activities",
+    "practicalActivitiesDesc": "Education that combines theory and practice in real-world settings",
+    "academicCelebrations": "Academic Celebrations",
+    "academicCelebrationsDesc": "Recognition of our students’ efforts and achievements",
+    "educationalTechnology": "Educational Technology",
+    "educationalTechnologyDesc": "Integrating modern tools with traditional methods"
+  },
+
+  "institutionss": [ 
+    {
+      "name": "\"María Montessori\" Kindergarten",
+      "level": "Preschool",
+      "description": "Early education focused on integral development and community values, where children learn through guided play and exploration.",
+      "focus": "Early integral development",
+      "motto": "Learning through play, growing through dreams"
+    },
+    {
+      "name": "\"Benito Juárez\" Elementary School",
+      "level": "Primary",
+      "description": "Basic education that combines the official curriculum with community knowledge, fostering critical thinking and cultural identity.",
+      "focus": "Comprehensive basic education",
+      "motto": "Knowledge to transform"
+    },
+    {
+      "name": "\"Nezahualcóyotl\" Telesecundaria",
+      "level": "Middle School",
+      "description": "Secondary education with an emphasis on technology and community projects, preparing youth for the challenges of the modern world.",
+      "focus": "Applied technological education",
+      "motto": "Innovating from our roots"
+    },
+    {
+      "name": "Community High School",
+      "level": "High School",
+      "description": "Upper secondary education with technical specializations and social engagement, training leaders committed to their community.",
+      "focus": "Technical and professional training",
+      "motto": "Leading with social awareness"
+    }
+  ],
+
+  "pillars": [
+    {
+      "title": "Academic Excellence",
+      "description": "Constant pursuit of knowledge and high-level competency development",
+      "metrics": ["95% pass rate", "+20 academic awards", "University scholarships"]
+    },
+    {
+      "title": "Cultural Identity",
+      "description": "Strengthening our heritage and community values in every student",
+      "metrics": ["Cultural workshops", "Native language", "Living traditions"]
+    },
+    {
+      "title": "Technological Innovation",
+      "description": "Integration of digital tools with advanced pedagogical methods",
+      "metrics": ["Digital classroom", "Programming", "STEAM projects"]
+    },
+    {
+      "title": "Sustainability",
+      "description": "Environmental education and sustainable practices as a cross-cutting axis",
+      "metrics": ["School gardens", "Recycling", "Clean energy"]
+    }
+  ],
+
+  "achievements": [
+    {
+      "year": "2020-2024",
+      "achievement": "Certified Learning Community",
+      "description": "National recognition for our comprehensive community educational model",
+      "impact": "Model replicated in 5 neighboring communities"
+    },
+    {
+      "year": "2018-2023",
+      "achievement": "Academic Exchange Program",
+      "description": "Partnerships established with national and international universities",
+      "impact": "15 students participating in exchange programs"
+    },
+    {
+      "year": "2015-2024",
+      "achievement": "Sustainable Educational Infrastructure",
+      "description": "Transformation of educational spaces with renewable energy and bioclimatic design",
+      "impact": "3 educational buildings renovated"
+    }
+  ]
+},
+"cooperative": {
+  "communityProduction": "Community Production",
+  "our": "Our",
+  "cooperative": "Cooperative",
+  "description": "The CHIWANJMEJ Cooperative Society and Café Yektanesik strengthen the local economy through artisanal, sustainable products with deep cultural identity. Every purchase directly supports the families of San Juan Tahitic.",
+  
+  "products": {
+    "coffee": {
+      "title": "Café Yektanesik",
+      "description": "High-altitude organic coffee, cultivated and produced by local families with tradition and passion."
+    },
+    "punch": {
+      "title": "Punche & Chiwanjmej Liquors",
+      "description": "Ancestral Punche drink and handmade liquors with traditional flavors, crafted within the community."
+    },
+    "soaps": {
+      "title": "Artisanal Soaps",
+      "description": "Made with local medicinal plants under the 'Sembrando Vida' (Sowing Life) program."
+    },
+    "juices": {
+      "title": "Yektanesik Juices",
+      "description": "Fresh fruit juices from the region, 100% natural and nutritious."
+    }
+  },
+
+  "impact": {
+    "localImpact": "Local Impact",
+    "moreThanProducts": "More than products,",
+    "opportunities": "opportunities",
+    "impactDescription": "Each product or service from the cooperative represents fair income, preserves traditions, and strengthens the social fabric of San Juan Tahitic.",
+    "stats": {
+      "yearsProduction": "Years of Local Production",
+      "familiesBenefited": "Families Benefited",
+      "communityProducts": "Community Products",
+      "artisanalProduction": "Artisanal Production"
+    }
+  },
+
+  "cta": "Discover the Cooperative of San Juan Tahitic"
+},
+"services": {
+  "ourCollection": "Our Collection",
+  "collectionDescription": "Discover the treasures born from collective work and love for our land",
+  "searchPlaceholder": "Search products...",
+  "allCategories": "All categories",
+  "showingResults": "Showing",
+  "of": "of",
+  "products": "products",
+  "in": "in",
+  "for": "for",
+  "noProductsFound": "No products found",
+  "noProductsDescription": "Try other search terms or adjust your filters",
+  "showAllProducts": "Show all products",
+    "featured": "Featured",
+  "seasonal": "Seasonal",
+  "moreItems": "more",
+  "variants": "variants",
+  "available": "Available",
+  "soldOut": "Sold Out",
+  "by": "By:",
+  "variantsCount": "variants",
+  "visitUs": "Visit Us!",
+  "requestInfo": "Request Information",
+  "goBack": "Go Back",
+  "expandImage": "Expand Image",
+  "close": "Close",
+  "share": "Share...",
+  "copyLink": "Copy Link",
+  "whatsapp": "WhatsApp",
+  "facebook": "Facebook",
+  "twitter": "Twitter",
+  "telegram": "Telegram",
+  "season": "Season",
+  "description": "Description",
+  "ourStory": "Our Story",
+  "ingredientsProcess": "Ingredients and Process",
+  "mainMaterials": "Main Materials",
+  "artisanalProcess": "Artisanal Process",
+  "featuredCharacteristics": "Featured Characteristics",
+  "madeBy": "Made by",
+  "toggleShareOptions": "Show sharing options",
+  "copying": "Copying...",
+  "shareOptions": "Sharing options",
+  "mobileView": "Mobile view",
+  "native": "Native",
+  "swipeHint": "Swipe if you don't see all the options"
+},
+"cooperativesection": {
+  "communityCooperative": "Community Cooperative",
+  "flavorsAndKnowledge": "Flavors and Knowledge",
+  "ofOurLand": "of our land",
+  "description": "Discover the authentic richness of San Juan Tahitic. Products grown with love, ancestral techniques, and the commitment of a community united for the common good.",
+  "uniqueProducts": "Unique Products",
+  "yearsOfTradition": "Years of Tradition",
+  "organicAndNatural": "Organic and Natural",
+  "back": "Go Back",
+  "exploreProducts": "Explore Products",
+  "solidarityEconomy": "Solidarity Economy",
+  "solidarityDescription": "Each purchase supports the sustainable development of our community and preserves centuries-old traditions.",
+  "discoverMore": "Discover More"
+},
+"voices": {
+  "testimonials": [
+    {
+      "id": 1,
+      "nombre": "Doña Rosa Mendoza",
+      "rol": "Textile Artisan",
+      "testimonio": "My hands don’t just weave threads; they weave dreams and stories...",
+      "detalles": "35 years weaving tradition",
+      "tagline": "Guardian of ancestral techniques"
+    },
+    {
+      "id": 2,
+      "nombre": "Don Javier Hernández",
+      "rol": "Farmer",
+      "testimonio": "This land is not a resource; she is our mother...",
+      "detalles": "Growing native corn for 40 years",
+      "tagline": "Keeper of the land and its crops"
+    },
+    {
+      "id": 3,
+      "nombre": "Ana López",
+      "rol": "Young Leader",
+      "testimonio": "We carry the pride of our past, but our steps move toward the future. Our dream is to build a bridge for the world to know our culture.",
+      "detalles": "Promoter of sustainable tourism",
+      "tagline": "Builder of cultural bridges"
+    },
+    {
+      "id": 4,
+      "nombre": "Maestro Carlos Ruiz",
+      "rol": "Traditional Musician",
+      "testimonio": "Every note of our music tells the story of our mountains and rivers. We don’t just play instruments — we keep alive the voice of our ancestors through the melodies they left us.",
+      "detalles": "50 years preserving ancestral sounds",
+      "tagline": "Bearer of the sonic memory"
+    },
+    {
+      "id": 5,
+      "nombre": "Doña Elena Martínez",
+      "rol": "Traditional Cook",
+      "testimonio": "In my kitchen, flavors are love letters to our land. Each dish tells a story of sowing, harvesting, and the hands that make this daily miracle possible.",
+      "detalles": "Specialist in corn-based cuisine",
+      "tagline": "Guardian of ancestral flavors"
+    },
+    {
+      "id": 6,
+      "nombre": "Don Miguel Torres",
+      "rol": "Tequio Coordinator",
+      "testimonio": "Tequio reminds us that we are stronger together. When we work shoulder to shoulder, we don’t just build roads or schools — we weave the trust that makes us a true community.",
+      "detalles": "30 years organizing community work",
+      "tagline": "Weaver of solidarity"
+    },
+    {
+      "id": 7,
+      "nombre": "Profesora Sofia Reyes",
+      "rol": "Community Educator",
+      "testimonio": "Teaching here is not just sharing knowledge — it’s helping children find balance between the pride of their roots and the opportunities of the modern world.",
+      "detalles": "25 years educating new generations",
+      "tagline": "Guide between tradition and future"
+    }
+  ],
+  "header": {
+  "title": "Voices of our land",
+  "mainTitle": "Stories that",
+  "connect": "connect",
+  "generations": "generations",
+  "description": "The voice of each inhabitant holds a piece of our identity. Listen, feel, and connect with those who keep the culture of San Juan Tahitic alive."
+},
+"controls": {
+  "previousTestimonial": "Previous testimonial",
+  "nextTestimonial": "Next testimonial"
+},
+"closing": {
+  "title": "The Voice of Our People",
+  "subtitle": "Each story is a bridge between past and present. By sharing their voices, our communities strengthen their identity.",
+  "description": "San Juan Tahitic is not just a place… it is a living story told by its people."
+}
+    },
+  "contact": {
+    "title": "Contact and Information",
+    "subtitle": "Plan your visit to San Juan Tahitic. We are here to help you organize a memorable experience in our destination.",
+    "contactInfo": "Contact Information",
+    "contactItems": {
+      "location": {
+        "title": "Location",
+        "content": "San Juan Tahitic, Central Region",
+        "details": "Accessible by main highway"
+      },
+      "phone": {
+        "title": "Phone", 
+        "content": "+1 (555) 123-4567",
+        "details": "Monday to Sunday 8:00 AM - 6:00 PM"
+      },
+      "email": {
+        "title": "Email",
+        "content": "info@sanjuantahitic.com",
+        "details": "Response within 24 hours"
+      },
+      "hours": {
+        "title": "Visiting Hours",
+        "content": "Every day",
+        "details": "8:00 AM - 6:00 PM"
+      }
+    },
+    "howToGetThere": "How to get there?",
+    "mapDescription": "San Juan Tahitic is located in an easily accessible area by road. From the regional capital, the journey takes approximately 2 hours by private vehicle or public transportation.",
+    "sendMessage": "Send us a message",
+    "contactForm": {
+      "title": "Contact Form",
+      "description": "Complete the form and we will respond to you shortly",
+      "name": "Name *",
+      "namePlaceholder": "Your full name",
+      "email": "Email *",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "Your phone number", 
+      "subject": "Subject *",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message *",
+      "messagePlaceholder": "Tell us more details about your inquiry or planned visit...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you for your message. We will contact you soon.",
+      "errorMessage": "Error sending the message. Please try again."
+    },
+    "validation": {
+      "nameRequired": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email format is not valid",
+      "phoneInvalid": "Phone format is not valid",
+      "subjectRequired": "Subject must be at least 5 characters",
+      "messageRequired": "Message must be at least 10 characters",
+      "messageTooLong": "Message cannot exceed 1000 characters"
+    },
+    "additionalInfo": "Additional Information",
+    "additionalItems": [
+      "We recommend booking in advance for guided tours",
+      "High season: December to March",
+      "We have specialized local guides",
+      "We accept groups of different sizes"
+    ]
+  },
+"gallery": {
+  "titlePart1": "See,",
+  "titlePart2": "feel,",
+  "titlePart3": "discover",
+  "categoriesTitle": "Categories",
+  "allCategories": "All Categories",
+  "landscapes": "Landscapes",
+  "nature": "Nature",
+  "culture": "Culture",
+  "community": "Community",
+  "traditions": "Traditions",
+  "imagesCount": "image",
+  "imagesCount_plural": "images",
+  "categoryLabel": "Category:",
+  "allCategoriesLabel": "All",
+  "communityCallToAction": "Are you part of our community?",
+  "communityDescription": "Share your moments and contribute to the collective visual memory of San Juan Tahitic",
+  "video": {
+  "altText": "Video of our community - Click to play",
+  "ourCommunity": "Our Community",
+  "clickToWatch": "Click to watch our video",
+  "play": "Play",
+  "playVideo": "Play Video",
+  "discoverEssence": "Discover the essence of San Juan Tahitic",
+  "youtube": "YouTube"
+},
+"modal": {
+  "photographer": "Photographer:",
+  "category": "Category:",
+  "technicalInfo": "Technical Information",
+  "zoom": "Zoom:",
+  "imageOf": "Image of",
+  "close": "Close",
+  "resetZoom": "Reset Zoom",
+  "zoomIn": "Zoom In",
+  "zoomOut": "Zoom Out",
+  "previous": "Previous Image",
+  "next": "Next Image"
+},
+"viewMode": {
+  "circularView": "Circular View",
+  "gridView": "Grid View",
+  "mobileView": "Grid View (Mobile)"
+},
+"youtubeModal": {
+  "watchOnYouTube": "Watch on YouTube",
+  "videoTitle": "San Juan Tahitic Community Video"
+}
+},
+"heroturism": {
+  "beautifulPlace": "Beautiful Place",
+  "liveSanJuanTahitic": "Experience San Juan Tahitic!",
+  "startYourAdventure": "Start Your Adventure",
+  "discoverMore": "Discover More",
+  "swipe": "Swipe",
+  "loading": "Loading...",
+  "loadingExperience": "Loading Experience...",
+  "weatherLoading": "Loading...",
+  "weatherError": "Error fetching weather"
+},
+"tourism": {
+  "sustainableEcotourism": "Sustainable Ecotourism",
+  "touristAttractions": "Tourist Attractions",
+  "mainDescription": "San Juan Tahitic offers unique experiences for nature lovers and adventure tourism. Discover landscapes that will connect you with the essence of our land.",
+  "mountainTrails": "Mountain Trails",
+  "mountainTrailsDescription": "Explore trekking routes with spectacular panoramic views and unique landscapes that connect you with nature.",
+  "naturalReserve": "Natural Reserve",
+  "naturalReserveDescription": "Discover local biodiversity in our preserved forests and unique ecosystems full of life.",
+  "riversWaterfalls": "Rivers & Waterfalls",
+  "riversWaterfallsDescription": "Enjoy crystal-clear waters and natural waterfalls perfect for ecotourism and relaxation.",
+  "panoramicViewpoints": "Panoramic Viewpoints",
+  "panoramicViewpointsDescription": "Capture the best views from our strategically located viewpoints for unique moments.",
+  "sustainableTourism": "Sustainable Tourism",
+  "greenCommitment": "Green Commitment",
+  "sustainabilityDescription": "Our commitment to responsible tourism ensures the preservation of our natural resources for future generations. Every visit contributes to local economic development and environmental conservation.",
+  "ecoCertified": "💚 Eco-Certified",
+  "knowItsHistory": "Know Its History",
+  "stats": {
+    "ecologicalTrails": "Ecological Trails",
+    "floraSpecies": "Flora Species",
+    "sunnyDays": "Sunny Days per Year",
+    "visitorRating": "Visitor Rating"
+  }
+},
+"tourismsection": {
+  "back": "Back",
+  "livingMemory": "Living Memory",
+  "treasuresNarrated": "Treasures Narrated by the Land",
+  "description": "Discover the stories, legends, and moments that have given life to San Juan Tahitic. Each corner holds a tale that, through tradition and memory, has woven the cultural soul of our people through the centuries.",
+  "sections": {
+    "history": "History",
+    "legend": "Legend",
+    "timeline": "Timeline",
+    "voices": "Voices"
+  },
+  "videoControls": {
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "duration": "Duration"
+  },
+  "metadata": {
+    "era": "Era",
+    "type": "Type",
+    "historicalPeriod": "Historical Period",
+    "coordinates": "Coordinates",
+    "archaeologicalData": "Archaeological Data",
+    "naturalData": "Natural Data"
+  },
+  "historySection": {
+    "culturalSignificance": "Cultural Significance",
+    "firstRecord": "First Record"
+  },
+  "legendSection": {
+    "characters": "Characters",
+    "teaching": "Teaching"
+  },
+  "timelineSection": {
+    "title": "Timeline",
+    "legend": "Each point represents a significant historical event"
+  },
+  "voicesSection": {
+    "title": "Voices of the Community",
+    "age": "years",
+    "noTestimonials": "Soon we will add community testimonials about this place.",
+    "traditionalTechniques": "Traditional Techniques",
+    "origin": "Origin"
+  },
+  "gallery": {
+    "historicalArchive": "Historical Archive"
+  },
+  "navigation": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "modals": {
+    "close": "Close"
+  }
+}
+
+  }

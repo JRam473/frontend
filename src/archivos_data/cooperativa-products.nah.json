@@ -1,0 +1,151 @@
+[
+  {
+    "id": "cafe-yektanesik",
+    "name": "Café Yektanesik tepetl",
+    "tag": "Café especial",
+    "category": "bebidas",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/cafe-coperariva_on9kzm.jpg",
+    "galleryImages": [
+      "https://res.cloudinary.com/dinsl266g/image/upload/v1763114055/cafe-planta_q7jx3x.jpg"
+    ],
+    "story": "Tlacualistli ipan cuahuitl tlen tlalpan, cafetl Yektanesik ('Yolotl Cualli' ipan náhuatl) moneki maca macehualmej tlen quipiya experiencia ipan cafetl. Ahmo tlen tlapoatl, tlen tochan huan totecuiyo.",
+    "description": "Café orgánico tlen tlacualistli, moneki chocolate huan yectli tlapoaliztli. Tlamantli artesanal tlen cosecha.",
+    "materials": [
+      { "icon": "Coffee", "text": "100% Arábica" },
+      { "icon": "Leaf", "text": "Tlacualistli" },
+      { "icon": "Sun", "text": "Tonalco chicaualistli" }
+    ],
+    "features": [
+      "Tostado medio",
+      "Paquete biodegradable",
+      "Comercio justo" 
+    ],
+    "price": 180,
+    "unit": "kg",
+    "available": true,
+    "stock": 45,
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-amber-500 to-orange-600",
+    "producer": "Cooperativa Cafetaleros San Juan Tahitic",
+    "process": "Cosecha manual, fermentación, tonalco chicaualistli"
+  },
+  {
+    "id": "licores-chiwanjmej",
+    "name": "Licores Chiwanjmej",
+    "tag": "Licores Artesanales",
+    "category": "bebidas",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/licores_pyndrs.jpg",
+    "galleryImages": [],
+    "story": "Chiwanjmej ('Tlachihualistli ipan Yolotl') tlen totlamantli licores tlen quipiya espíritu tlen fiestas. Maceración tlen xihuitl huan caña tlen tlalpan, cada botella tlen brindis tlen tradición.",
+    "description": "Licores artesanales tlen xihuitl tlen temporada huan caña tlen tlalpan. Tlapoalli tlen biodiversidad.",
+    "materials": [
+      { "icon": "Wine", "text": "Destilado Caña" },
+      { "icon": "Droplet", "text": "Xihuitl Temporada" }
+    ],
+    "features": [
+      "Maceración 3 metztli",
+      "Botella vidrio reutilizable",
+      "Receta familiar ancestral"
+    ],
+    "variants": [
+      { "name": "Licor Nanche", "price": 120 },
+      { "name": "Licor Jobo", "price": 120 },
+      { "name": "Licor Ciruela", "price": 130 }
+    ],
+    "available": true,
+    "stock": 28,
+    "seasonal": true,
+    "highlight": false,
+    "color": "from-purple-500 to-pink-600",
+    "producer": "Familia Martínez - Maestros Licoreros",
+    "process": "Cosecha manual, maceración barricas"
+  },
+  {
+    "id": "jabones-sembrando-vida",
+    "name": "Jabones Tlalticpac Yolistli",
+    "tag": "Cuidado Natural",
+    "category": "cuidado-personal",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/jabones_ul1wyl.jpg",
+    "galleryImages": [],
+    "story": "Tlachihualistli 'Tlalticpac Yolistli', inin jabones tlen xochitl tlen tlalpan. Ticpohua xihuitl medicinal huan aceites tlen tepetl, tlen quipiya cualli tlen nacayo huan tlalticpactli.",
+    "description": "Jabones artesanales tlen xihuitl medicinal huan aceites tlen tlalpan. Cuidado natural tlen nacayo huan tlalticpactli.",
+    "materials": [
+      { "icon": "FlaskConical", "text": "Aceites Esenciales" },
+      { "icon": "Leaf", "text": "Xihuitl Medicinal" }
+    ],
+    "features": [
+      "Ahmo químicos",
+      "Papel reciclado",
+      "Aroma natural"
+    ],
+    "variants": [
+      { "name": "Jabón Romero", "price": 35 },
+      { "name": "Jabón Sábila", "price": 35 },
+      { "name": "Jabón Caléndula", "price": 40 }
+    ],
+    "available": true,
+    "stock": 60,
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-green-500 to-emerald-600",
+    "producer": "Taller Cihuatl Tlalticpac Yolistli",
+    "process": "Proceso yectli, curado natural 4 semanas"
+  },
+  {
+    "id": "pasto-vacas",
+    "name": "Pasto Huacax",
+    "tag": "Alimento Animal",
+    "category": "agricola",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/pasto-vacas_kyakvx.png",
+    "galleryImages": [],
+    "story": "Forraje tlen tlalticpactli tlen comunidad. Tlapaltic tlen huacax, tlamantli tlen quipiya equilibrio tlen ecosistema.",
+    "description": "Pasto cualli tlen huacax, tlamantli ahmo pesticidas. Tlapaltic natural tlen huacax cualli.",
+    "materials": [
+      { "icon": "Sprout", "text": "Pasto Corte" },
+      { "icon": "Droplet", "text": "Riego Natural" }
+    ],
+    "features": [
+      "Ahmo agroquímicos",
+      "Proteína natural",
+      "Xihuitl completo"
+    ],
+    "price": 25,
+    "unit": "fardo",
+    "available": true,
+    "stock": 100,
+    "seasonal": false,
+    "highlight": false,
+    "color": "from-lime-500 to-green-600",
+    "producer": "Cooperativa Agropecuaria San Juan",
+    "process": "Cultivo rotativo, cosecha manual, secado natural"
+  },
+  {
+    "id": "miel-xochitl",
+    "name": "Miel Xochitl",
+    "tag": "Miel Orgánica",
+    "category": "alimentos",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png",
+    "galleryImages": [],
+    "story": "Xochitl ('Xochitl' ipan náhuatl) tlen miel pura, cosecha tlen pisomej tlen xochitl tlen tepetl. Tlapaltic tlen chicaualistli tlen biodiversidad.",
+    "description": "Miel 100% pura tlen pisomej nativos, cosecha sustentable. Tlapoalli yectli huan propiedades naturales.",
+    "materials": [
+      { "icon": "Flower", "text": "Xochitl Silvestre" },
+      { "icon": "Bee", "text": "Pisomej Nativos" }
+    ],
+    "features": [
+      "Extracción yectli",
+      "Cristalización natural",
+      "Envase vidrio retornable"
+    ],
+    "price": 150,
+    "unit": "kg",
+    "available": true,
+    "stock": 20,
+    "seasonal": true,
+    "highlight": true,
+    "color": "from-yellow-500 to-amber-600",
+    "producer": "Apicultores Unidos San Juan",
+    "process": "Cosecha respetuosa, filtrado natural, ahmo pasteurizado"
+  }
+]

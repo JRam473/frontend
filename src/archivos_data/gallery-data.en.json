@@ -1,0 +1,124 @@
+{
+  "galleryImages": [
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0007_vmbpfk.jpg",
+      "alt": "Sunrise in the Sierra Madre",
+      "category": "landscapes",
+      "title": "Sunrise in the Sierra",
+      "description": "The first rays of the sun caress the ancestral peaks of our territory",
+      "date": "2024-01-15",
+      "location": "Eagle's Hill",
+      "photographer": "Juan Martínez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0004_jq7cro.jpg",
+      "alt": "Native coniferous forest",
+      "category": "nature",
+      "title": "Ancestral Forest",
+      "description": "Where the centenary trees keep the memory of our land",
+      "date": "2024-02-03",
+      "location": "Forest of the Elders",
+      "photographer": "María González"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0006_snt6gk.jpg",
+      "alt": "Crystal clear waterfall in the mountains",
+      "category": "nature",
+      "title": "Xochitl Waterfall",
+      "description": "The song of the water that purifies and renews life in our ecosystem",
+      "date": "2024-01-22",
+      "location": "Glen of the Flowers",
+      "photographer": "Carlos Ruiz"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073766/morrales_wohiwy.jpg",
+      "alt": "Traditional weavings on a loom",
+      "category": "culture",
+      "title": "Looms of Tradition",
+      "description": "Threads that weave stories, colors that paint identity",
+      "date": "2024-03-10",
+      "location": "Community Workshop",
+      "photographer": "Ana Torres"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0008_qe5joq.jpg",
+      "alt": "Collective work in the field",
+      "category": "community",
+      "title": "Tequio that Unites",
+      "description": "Hands that work together, hearts that beat to the same rhythm",
+      "date": "2024-02-18",
+      "location": "Communal Fields",
+      "photographer": "Pedro Hernández"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073856/dansz_psbbaj.jpg",
+      "alt": "Traditional festival with dances",
+      "category": "traditions",
+      "title": "Dances of the Sun",
+      "description": "Ancestral rhythms that celebrate the connection with the cosmos",
+      "date": "2024-03-15",
+      "location": "Main Square",
+      "photographer": "Laura Mendoza"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763074242/Puente_fwky8r.jpg",
+      "alt": "Local vernacular architecture",
+      "category": "culture",
+      "title": "Houses that Breathe",
+      "description": "Spaces built with materials from the earth, designed with ancestral wisdom",
+      "date": "2024-03-05",
+      "location": "Old Quarter",
+      "photographer": "Roberto Díaz"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073767/ninos_z8aczb.jpg",
+      "alt": "Children learning in nature",
+      "category": "community",
+      "title": "Seeds of Tomorrow",
+      "description": "Knowledge that blossoms amidst games and laughter in our natural environment",
+      "date": "2024-02-12",
+      "location": "Outdoor School",
+      "photographer": "Sofia Castro"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "alt": "Preparation of traditional food",
+      "category": "traditions",
+      "title": "Flavors that Tell Stories",
+      "description": "Recipes that hold the secret of generations and the flavor of our identity",
+      "date": "2024-03-20",
+      "location": "Community Kitchen",
+      "photographer": "Miguel Ángel"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073436/SanJuan-Noche_atm0mw.jpg",
+      "alt": "Starry sky over the community",
+      "category": "landscapes",
+      "title": "Starry Mantle",
+      "description": "Nights where the universe comes closer to whisper ancestral secrets",
+      "date": "2024-01-28",
+      "location": "Celestial Viewpoint",
+      "photographer": "Elena Morales"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0005_f3sq5h.jpg",
+      "alt": "Yektanesk Juice",
+      "category": "Artisanal beverage",
+      "title": "Green Wisdom",
+      "description": "Experience the flavors of our community",
+      "date": "2024-02-25",
+      "location": "Medicine Garden",
+      "photographer": "Isabel Ramírez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0002_ynkm8x.jpg",
+      "alt": "Visit us, we will be waiting for you",
+      "category": "culture",
+      "title": "Live, feel",
+      "description": "A town worth visiting",
+      "date": "2024-03-08",
+      "location": "San Juan Tahitic",
+      "photographer": "Municipality of Zacapoaxtla"
+    }
+  ]
+}

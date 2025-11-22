@@ -1,0 +1,170 @@
+{
+  "cocinas": [
+    {
+      "id": 1,
+      "nombre": "Cocina de Doña Elena",
+      "tagline": "Donde los sabores abrazan el alma",
+      "tipo": "familiar",
+      "generaciones": 3,
+      "descripcionLarga": "Un espacio familiar donde la tradición se encuentra con la calidez de hogar. Por tres generaciones hemos preservado los sabores auténticos de nuestra tierra.",
+      "descripcionAmbiente": "Ambiente cálido y acogedor que evoca la cocina de la abuela, con muebles de madera rústica y el aroma inconfundible de especias tostadas.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084722/barbacoa_kfcqf6.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png"
+      },
+      "colores": {
+        "primario": "#f59e0b",
+        "secundario": "#ea580c",
+        "acento": "#fbbf24"
+      },
+      "historia": {
+        "contenido": "Desde 1985, nuestro fogón nunca se ha apagado. Mi abuela María inició este legado cuando decidió que los sabores de nuestra tierra merecían preservarse. Comenzó vendiendo tamales en el mercado local, y poco a poco, su sazón único conquistó los paladares de todo San Juan Tahitic.",
+        "fraseEmblematica": "Aquí no cocinamos con prisa, cocinamos con memoria"
+      },
+      "servicios": [
+        "WiFi Gratuito",
+        "Estacionamiento",
+        "Terraza Jardín",
+        "Grupos Grandes",
+        "Comida Para Llevar",
+        "Reservaciones"
+      ],
+      "horarios": {
+        "lunesViernes": "9:00 AM - 10:00 PM",
+        "sabadoDomingo": "8:00 AM - 11:00 PM",
+        "diasDescanso": "Martes"
+      },
+      "recomendaciones": [
+        "Reserva con anticipación los fines de semana",
+        "Prueba nuestro mole ancestral, es nuestro orgullo",
+        "Pregunta por el platillo del día",
+        "Visítanos en familia, tenemos espacio para grupos"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Mole de Caderas",
+          "descripcion": "Preparado con 12 chiles tostados a leña y chocolate de metate. Receta familiar que data de 1890, pasada por 4 generaciones.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177403/mole-cadera_tfo3bj.png",
+          "precio": 180,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Tamales de Frijol con Hoja Santa",
+          "descripcion": "Masa nixtamalizada rellena de frijol negro y envuelta en hoja de maíz con hierbas de la región.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif",
+          "precio": 45,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Envueltos en salsa verde",
+          "descripcion": "Tortillas salidas del comal, directo a una salsa verde de los chiles de nuestro propio huerto.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/envueltos-verdes_ts586s.png",
+          "precio": 220,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Atole de Maíz Blanco",
+          "descripcion": "Bebida caliente preparada con maíz blanco molido, canela y piloncillo. Consistencia cremosa y aroma reconfortante.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+          "precio": 35,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Calle del Saber #15, San Juan Tahitic, Puebla",
+        "coordenadas": "17.2345,-96.1234",
+        "puntoReferencia": "Junto a la capilla antigua"
+      },
+      "contacto": {
+        "telefono": "+52 951 123 4567",
+        "correo": "cocina.doña.elena@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Fogón de los Abuelos",
+      "tagline": "El tiempo detenido en cada bocado",
+      "tipo": "comunitario",
+      "generaciones": 4,
+      "descripcionLarga": "Un santuario culinario donde las técnicas prehispánicas se mantienen vivas. Bajo la sombra del ahuehuete centenario, Don José comparte el conocimiento ancestral.",
+      "descripcionAmbiente": "Espacio rústico al aire libre con mesas de tronco y fogones de piedra. El sonido del agua y el crepitar de la leña crean una atmósfera mágica.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178020/cocina2_wx1e8j.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png"
+      },
+      "colores": {
+        "primario": "#10b981",
+        "secundario": "#0d9488",
+        "acento": "#34d399"
+      },
+      "historia": {
+        "contenido": "Don José, a sus 78 años, mantiene viva la técnica prehispánica del caldo de piedra. Cada mañana selecciona las piedras volcánicas que darán sabor a sus caldos. Aprendió este arte de su abuelo, quien a su vez lo heredó de generaciones anteriores.",
+        "fraseEmblematica": "Nuestros ingredientes son cartas de amor a la tierra"
+      },
+      "servicios": [
+        "Espacio al Aire Libre",
+        "Estacionamiento",
+        "Demonstraciones Culinarias",
+        "Talleres de Cocina",
+        "Venta de Ingredientes Locales",
+        "Eventos Especiales"
+      ],
+      "horarios": {
+        "lunesViernes": "7:00 AM - 8:00 PM",
+        "sabadoDomingo": "6:00 AM - 9:00 PM",
+        "diasDescanso": "Martes"
+      },
+      "recomendaciones": [
+        "Ven con tiempo para disfrutar la experiencia completa",
+        "Pide la demostración del caldo de piedra",
+        "Visita nuestro jardín de hierbas medicinales",
+        "Perfecto para amantes de la cultura y tradición"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Caldo de Pollo rojo",
+          "descripcion": "Cocido con piedras volcánicas al rojo vivo al estilo tradicional.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178025/caldopollo_qdd6uq.png",
+          "precio": 160,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Pozole Rojo Tradicional",
+          "descripcion": "Maíz cacahuazintle y cerdo de granja local cocidos lentamente. Sabor robusto y texturas que celebran la cocina mexicana auténtica.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178023/pozole_rhszyt.png",
+          "precio": 85,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Atole de Grano con Miel",
+          "descripcion": "Bebida ancestral preparada con maíz molido, canela y miel de abeja local. Endulzado naturalmente para sabor auténtico.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png",
+          "precio": 40,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Tlayudas con Asiento",
+          "descripcion": "Tortilla de maíz grande dorada con asiento de cerdo, frijol y quesillo. Crujiente por fuera, suave por dentro.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084723/tlayudas_dp32xt.png",
+          "precio": 75,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Plaza de la Tradición, San Juan Tahitic, Oaxaca",
+        "coordenadas": "17.2345,-96.1234",
+        "puntoReferencia": "Bajo el ahuehuete centenario"
+      },
+      "contacto": {
+        "telefono": "+52 951 987 6543",
+        "correo": "fogon.abuelos@gmail.com"
+      }
+    }
+  ],
+  "configuracion": {
+    "moneda": "MXN",
+    "zonaHoraria": "America/Mexico_City"
+  }
+}

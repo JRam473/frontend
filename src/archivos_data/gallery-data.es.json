@@ -1,0 +1,124 @@
+{
+  "galleryImages": [
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0007_vmbpfk.jpg",
+      "alt": "Amanecer en la Sierra Madre",
+      "category": "paisajes",
+      "title": "Amanecer en la Sierra",
+      "description": "Los primeros rayos del sol acarician las cumbres ancestrales de nuestro territorio",
+      "date": "2024-01-15",
+      "location": "Cerro del Águila",
+      "photographer": "Juan Martínez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0004_jq7cro.jpg",
+      "alt": "Bosque de coníferas nativas",
+      "category": "naturaleza",
+      "title": "Bosque Ancestral",
+      "description": "Donde los árboles centenarios guardan la memoria de nuestra tierra",
+      "date": "2024-02-03",
+      "location": "Bosque de los Abuelos",
+      "photographer": "María González"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0006_snt6gk.jpg",
+      "alt": "Cascada cristalina en la montaña",
+      "category": "naturaleza",
+      "title": "Cascada Xochitl",
+      "description": "El canto del agua que purifica y renueva la vida en nuestro ecosistema",
+      "date": "2024-01-22",
+      "location": "Cañada de las Flores",
+      "photographer": "Carlos Ruiz"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073766/morrales_wohiwy.jpg",
+      "alt": "Tejidos tradicionales en telar",
+      "category": "cultura",
+      "title": "Telares de Tradición",
+      "description": "Hilos que entrelazan historias, colores que pintan identidad",
+      "date": "2024-03-10",
+      "location": "Taller Comunitario",
+      "photographer": "Ana Torres"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0008_qe5joq.jpg",
+      "alt": "Trabajo colectivo en el campo",
+      "category": "comunidad",
+      "title": "Tequio que Une",
+      "description": "Manos que trabajan juntas, corazones que laten al mismo ritmo",
+      "date": "2024-02-18",
+      "location": "Campos Comunales",
+      "photographer": "Pedro Hernández"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073856/dansz_psbbaj.jpg",
+      "alt": "Festival tradicional con danzas",
+      "category": "tradiciones",
+      "title": "Danzas del Sol",
+      "description": "Ritmos ancestrales que celebran la conexión con el cosmos",
+      "date": "2024-03-15",
+      "location": "Plaza Principal",
+      "photographer": "Laura Mendoza"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763074242/Puente_fwky8r.jpg",
+      "alt": "Arquitectura vernácula local",
+      "category": "cultura",
+      "title": "Casas que Respiran",
+      "description": "Espacios construidos con materiales de la tierra, diseñados con sabiduría ancestral",
+      "date": "2024-03-05",
+      "location": "Barrio Antiguo", 
+      "photographer": "Roberto Díaz"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073767/ninos_z8aczb.jpg",
+      "alt": "Niños aprendiendo en la naturaleza",
+      "category": "comunidad",
+      "title": "Semillas del Mañana",
+      "description": "El conocimiento que florece entre juegos y risas en nuestro entorno natural",
+      "date": "2024-02-12",
+      "location": "Escuela al Aire Libre",
+      "photographer": "Sofia Castro"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "alt": "Preparación de comida tradicional",
+      "category": "tradiciones",
+      "title": "Sabores que Cuentan",
+      "description": "Recetas que guardan el secreto de generaciones y el sabor de nuestra identidad",
+      "date": "2024-03-20",
+      "location": "Cocina Comunitaria",
+      "photographer": "Miguel Ángel"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073436/SanJuan-Noche_atm0mw.jpg",
+      "alt": "Cielo estrellado sobre la comunidad",
+      "category": "paisajes",
+      "title": "Manto Estrellado",
+      "description": "Noches donde el universo se acerca para susurrar secretos ancestrales",
+      "date": "2024-01-28",
+      "location": "Mirador Celestial",
+      "photographer": "Elena Morales"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0005_f3sq5h.jpg",
+      "alt": "Jugo Yektanesk",
+      "category": "Bebida artesanal",
+      "title": "Sabiduría Verde",
+      "description": "Vive los sabores de nuestra comunidad",
+      "date": "2024-02-25",
+      "location": "Jardín de Medicinas",
+      "photographer": "Isabel Ramírez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0002_ynkm8x.jpg",
+      "alt": "Visitanos esteremos esperandote",
+      "category": "cultura",
+      "title": "Vive, siente",
+      "description": "Un pueblo que vale la pena conocer",
+      "date": "2024-03-08",
+      "location": "San Juan Tahitic",
+      "photographer": "Municipio de Zacapoaxtla"
+    }
+  ]
+}

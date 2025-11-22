@@ -1,0 +1,151 @@
+[
+  {
+    "id": "cafe-yektanesik",
+    "name": "Yektanesik High-Altitude Coffee",
+    "tag": "Specialty Coffee",
+    "category": "beverages",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/cafe-coperariva_on9kzm.jpg",
+    "galleryImages": [
+      "https://res.cloudinary.com/dinsl266g/image/upload/v1763114055/cafe-planta_q7jx3x.jpg"
+    ],
+    "story": "Grown in the shade of native trees in the mountains, each Yektanesik ('Noble Heart' in Nahuatl) bean is hand-harvested by families who have perfected the art of coffee for generations. It's not just a drink, it's the flavor of our land and the warmth of our people.",
+    "description": "Organic shade-grown high-altitude coffee with chocolate notes and intense aroma. Artisanal process from harvest to roasting.",
+    "materials": [
+      { "icon": "Coffee", "text": "100% Arabica Bean" },
+      { "icon": "Leaf", "text": "Shade Cultivation" },
+      { "icon": "Sun", "text": "Sun Dried" }
+    ],
+    "features": [
+      "Medium roast to highlight flavors",
+      "Biodegradable packaging",
+      "Fair trade certified"
+    ],
+    "price": 180,
+    "unit": "kg",
+    "available": true,
+    "stock": 45, 
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-amber-500 to-orange-600",
+    "producer": "San Juan Tahitic Coffee Growers Cooperative",
+    "process": "Manual harvest, natural fermentation, sun drying"
+  },
+  {
+    "id": "licores-chiwanjmej",
+    "name": "Chiwanjmej Liqueurs",
+    "tag": "Artisanal Liqueurs",
+    "category": "beverages",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/licores_pyndrs.jpg",
+    "galleryImages": [],
+    "story": "Chiwanjmej ('Made with the Heart') is our collection of liqueurs that capture the spirit of festivals and celebrations. Slowly macerated with local fruits and regional sugarcane, each bottle is a toast to tradition and good company.",
+    "description": "Artisanal liqueurs macerated with seasonal fruits and local sugarcane distillate. Unique flavors that reflect our biodiversity.",
+    "materials": [
+      { "icon": "Wine", "text": "Sugarcane Distillate" },
+      { "icon": "Droplet", "text": "Seasonal Fruits" }
+    ],
+    "features": [
+      "Slow maceration of 3 months",
+      "Reusable glass bottle",
+      "Ancestral family recipe"
+    ],
+    "variants": [
+      { "name": "Nanche Liqueur", "price": 120 },
+      { "name": "Jobo Liqueur", "price": 120 },
+      { "name": "Plum Liqueur", "price": 130 }
+    ],
+    "available": true,
+    "stock": 28,
+    "seasonal": true,
+    "highlight": false,
+    "color": "from-purple-500 to-pink-600",
+    "producer": "Martínez Family - Master Liqueur Makers",
+    "process": "Manual harvesting, maceration in oak barrels"
+  },
+  {
+    "id": "jabones-sembrando-vida",
+    "name": "Sowing Life Soaps",
+    "tag": "Natural Care",
+    "category": "personal-care",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/jabones_ul1wyl.jpg",
+    "galleryImages": [],
+    "story": "Made under the 'Sowing Life' seal, these soaps are a tribute to local flora. We use medicinal plants and essential oils from our mountains, creating a product that cleanses the body and respects the earth.",
+    "description": "Artisanal soaps with medicinal plants and regional essential oils. Natural care for skin and the environment.",
+    "materials": [
+      { "icon": "FlaskConical", "text": "Essential Oils" },
+      { "icon": "Leaf", "text": "Medicinal Plants" }
+    ],
+    "features": [
+      "Free of harsh chemicals",
+      "Recycled paper packaging",
+      "Natural aroma without artificial perfumes"
+    ],
+    "variants": [
+      { "name": "Rosemary Soap", "price": 35 },
+      { "name": "Aloe Vera Soap", "price": 35 },
+      { "name": "Calendula Soap", "price": 40 }
+    ],
+    "available": true,
+    "stock": 60,
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-green-500 to-emerald-600",
+    "producer": "Sowing Life Women's Workshop",
+    "process": "Cold process, natural curing for 4 weeks"
+  },
+  {
+    "id": "pasto-vacas",
+    "name": "Cow Grass",
+    "tag": "Animal Feed",
+    "category": "agricultural",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/pasto-vacas_kyakvx.png",
+    "galleryImages": [],
+    "story": "Forage sustainably cultivated on our community lands. Nutritious and natural food for livestock, produced with techniques that respect the ecosystem balance.",
+    "description": "High-quality grass for animal feed, cultivated without pesticides or herbicides. Natural nutrition for healthy livestock.",
+    "materials": [
+      { "icon": "Sprout", "text": "Cut Grass" },
+      { "icon": "Droplet", "text": "Natural Irrigation" }
+    ],
+    "features": [
+      "Cultivation without agrochemicals",
+      "High natural protein",
+      "Year-round availability"
+    ],
+    "price": 25,
+    "unit": "bale",
+    "available": true,
+    "stock": 100,
+    "seasonal": false,
+    "highlight": false,
+    "color": "from-lime-500 to-green-600",
+    "producer": "San Juan Agricultural Cooperative",
+    "process": "Rotational cultivation, manual harvest, natural drying"
+  },
+  {
+    "id": "miel-xochitl",
+    "name": "Xochitl Honey",
+    "tag": "Organic Honey",
+    "category": "foods",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png",
+    "galleryImages": [],
+    "story": "Xochitl ('Flower' in Nahuatl) is our pure honey, harvested by bees that pollinate the wildflowers of our mountains. A sweet natural treasure that sweetens while preserving biodiversity.",
+    "description": "100% pure honey from native bees, sustainably harvested. Intense flavor and preserved natural properties.",
+    "materials": [
+      { "icon": "Flower", "text": "Wildflowers" },
+      { "icon": "Bee", "text": "Native Bees" }
+    ],
+    "features": [
+      "Cold extraction",
+      "Natural crystallization",
+      "Returnable glass container"
+    ],
+    "price": 150,
+    "unit": "kg",
+    "available": true,
+    "stock": 20,
+    "seasonal": true,
+    "highlight": true,
+    "color": "from-yellow-500 to-amber-600",
+    "producer": "United Beekeepers of San Juan",
+    "process": "Respectful harvesting, natural filtering, unpasteurized"
+  }
+]

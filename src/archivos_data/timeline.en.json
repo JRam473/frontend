@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "year": "1650",
+    "category": "Foundation",
+    "icon": "Building",
+    "title": "Origins of San Juan Tahitic",
+    "description": "The first documented records mark the settlement of founding families, establishing the foundations of a community rooted in agriculture and respect for the land.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+    "modalContent": null,
+    "link": null
+  }, 
+  {
+    "id": 2,
+    "year": "1785",
+    "category": "Architecture",
+    "icon": "Church",
+    "title": "Construction of the Main Church",
+    "description": "The spiritual heart of the community was erected. The church was not only a center of faith but also the social meeting point that would unite generations.",
+    "image": "/images/comunidad/linea-tiempo/iglesia.png",
+    "modalContent": {
+      "text": "The construction of the church, dedicated to Saint John the Baptist, was a monumental effort that lasted more than a decade. Using limestone from local quarries and noble woods, the town's artisans built a building that would become the symbol of San Juan Tahitic's identity and faith. Its tower, visible from the entire valley, not only calls to mass but has also served as a beacon for travelers for centuries.",
+      "images": [
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_detalle1_speohk.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_interior_ojfuru.webp"
+      ]
+    },
+    "link": null
+  },
+  {
+    "id": 3,
+    "year": "1890",
+    "category": "Character",
+    "icon": "User",
+    "title": "Doña Eladia, Master Weaver",
+    "description": "Eladia Mendoza revolutionized local textile art by introducing new natural dyeing techniques. Her legacy endures in the vibrant colors of our crafts.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": null
+  },
+  {
+    "id": 4,
+    "year": "1962",
+    "category": "Tradition",
+    "icon": "Sparkles",
+    "title": "The First Great Tlayoyo Fair",
+    "description": "What began as a harvest celebration became the most important gastronomic fair in the region, consolidating our culinary identity and attracting visitors.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": "/cultura/feria-del-tlayoyo"
+  },
+  {
+    "id": 5,
+    "year": "2005",
+    "category": "Restoration",
+    "icon": "RefreshCcw",
+    "title": "Restoration of the Historic Center",
+    "description": "A community and government initiative allowed the renovation of key facades and public spaces, revitalizing the heart of the town.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": null
+  },
+  {
+    "id": 6,
+    "year": "2018",
+    "category": "Celebration",
+    "icon": "PartyPopper",
+    "title": "San Juan Tahitic, Magic Town",
+    "description": "National recognition that boosts cultural tourism and the appreciation of our heritage, opening new opportunities for the community.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": "/turismo/pueblo-magico"
+  }
+]

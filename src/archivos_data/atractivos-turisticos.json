@@ -1,0 +1,249 @@
+{
+  "lugaresHistoricos": [
+    {
+      "id": 1,
+      "nombre": "Cascada de los enamorados",
+      "tipo": "sitio_natural",
+      "epoca": "Época antigua",
+      "imagenPrincipal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Cascada-enamorados_p0xiib.webp",
+      "videoDocumental": "https://res.cloudinary.com/dinsl266g/video/upload/v1763075703/cascada_enamorados_t2yctb.mp4",
+      "thumbnailVideo": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0007_vmbpfk.jpg",
+      "duracionVideo": "2:45",
+      "coordenadas": "17.2389,-96.1287",
+
+      "colores": {
+        "colorFondo": "from-emerald-700 to-teal-600",
+        "colorAcento": "emerald",
+        "colorTexto": "text-emerald-900",
+        "colorSecundario": "bg-emerald-100/60"
+      },
+
+      "historia": {
+        "titulo": "Donde la naturaleza y el amor se juntan",
+        "contenido": "Según la tradición oral, esta cascada fue testigo de antiguos rituales de unión entre parejas que buscaban bendecir su amor con la fuerza del agua y la naturaleza. Se dice que sus aguas guardan los susurros de promesas eternas, y que quienes se acercan con el corazón sincero pueden sentir la energía de los enamorados que alguna vez sellaron aquí su destino.",
+        "fechaDescubrimiento": "Siglo XVI (primer registro español)",
+        "periodoHistorico": "1200-1521 d.C.",
+        "significadoCultural": "Sentir el amor del agua"
+      },
+
+      "leyenda": {
+        "titulo": "La piedra que llora en luna llena",
+        "contenido": "Cuentan los abuelos que durante las lunas llenas, la piedra 'llora' gotas de rocío que tienen propiedades curativas. La leyenda dice que fue una princesa mixe convertida en piedra por los dioses para proteger a su pueblo, y sus lágrimas son bendiciones para los visitantes puros de corazón.",
+        "personajes": ["Princesa Yatzil", "Dios del Sol", "Ancianos del Pueblo"],
+        "moral": "El sacrificio por la comunidad es eternamente recordado"
+      },
+
+      "testimonios": [
+        {
+          "persona": "Don Felipe, Guardián del Sitio",
+          "edad": 78,
+          "testimonio": "Mi abuelo me contaba que su bisabuelo presenció cómo los primeros españoles intentaron mover la piedra, pero no pudieron. Dijo que la tierra misma la protegía."
+        },
+        {
+          "persona": "Ana, Estudiante de Antropología",
+          "edad": 24,
+          "testimonio": "Al estudiar los grabados, descubrimos que coinciden con eventos astronómicos específicos. La precisión es asombrosa considerando la época."
+        }
+      ],
+
+      "galeriaHistorica": [
+        {
+          "url": "https://res.cloudinary.com/dinsl266g/image/upload/v1763076134/Enamorados_antiguo_o2ti8b.png",
+          "titulo": "Grabados Ancestrales",
+          "epoca": "Periodo Preclásico",
+          "descripcion": "Símbolos que representan constelaciones y ciclos agrícolas"
+        },
+        {
+          "url": "https://res.cloudinary.com/dinsl266g/image/upload/v1763076133/Enamorados_antiguo2_lim6rs.png",
+          "titulo": "Ceremonia del Solsticio",
+          "epoca": "1950",
+          "descripcion": "Fotografía histórica de una ceremonia tradicional"
+        }
+      ],
+
+      "cronologia": [
+        {
+          "fecha": "≈1200 d.C.",
+          "evento": "Primeros asentamientos alrededor de la piedra",
+          "descripcion": "Comunidades mixes establecen el sitio como centro ceremonial"
+        },
+        {
+          "fecha": "1522",
+          "evento": "Llegada de los españoles",
+          "descripcion": "Primer registro europeo del sitio en crónicas coloniales"
+        },
+        {
+          "fecha": "1895",
+          "evento": "Documentación antropológica",
+          "descripcion": "Primer estudio científico por antropólogos mexicanos"
+        },
+        {
+          "fecha": "1978",
+          "evento": "Declarado Patrimonio Cultural",
+          "descripcion": "Reconocimiento oficial por el INAH"
+        }
+      ],
+
+      "datosArqueologicos": {
+        "material": "Basalto volcánico",
+        "dimensiones": "4.2m x 3.1m x 1.8m",
+        "tecnicas": "Grabado por percusión y abrasión",
+        "alineacionAstronomica": "Solsticio de verano"
+      }
+    },
+
+    {
+      "id": 2,
+      "nombre": "Monte virgen",
+      "tipo": "sitio_natural",
+      "epoca": "Siglo XIX",
+      "imagenPrincipal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0004_jq7cro.jpg",
+      "videoDocumental": "https://res.cloudinary.com/dinsl266g/video/upload/v1763063459/san_juan-optimized1_e8zpxo.mp4",
+      "thumbnailVideo": "https://res.cloudinary.com/dinsl266g/image/upload/v1763061088/Monte_virgen_oznfhp.jpg",
+      "duracionVideo": "2:45",
+
+      "colores": {
+        "colorFondo": "from-amber-700 to-orange-500",
+        "colorAcento": "amber",
+        "colorTexto": "text-amber-900",
+        "colorSecundario": "bg-amber-100/60"
+      },
+
+      "historia": {
+        "titulo": "Testigo de revoluciones y amores",
+        "contenido": "Este ahuehuete centenario fue plantado en 1845 por el primer presidente municipal de San Juan Tahitic. Bajo su sombra se tomaron decisiones cruciales durante la Revolución Mexicana, y sirvió como punto de encuentro para los revolucionarios de la región.",
+        "fechaDescubrimiento": "1845 (plantado)",
+        "periodoHistorico": "Siglo XIX - Actualidad",
+        "significadoCultural": "Símbolo de resistencia y unidad comunitaria"
+      },
+
+      "leyenda": {
+        "titulo": "El árbol que escucha secretos",
+        "contenido": "La tradición dice que si susurras un secreto al árbol y este mueve sus hojas, tu deseo se cumplirá. Muchas parejas han venido aquí a prometerse amor eterno, y los ancianos aseguran que el árbol guarda los secretos de generaciones enteras.",
+        "personajes": ["Amantes", "Revolucionarios", "Ancianos Sabios"],
+        "moral": "La naturaleza guarda la memoria colectiva"
+      },
+
+      "testimonios": [
+        {
+          "persona": "Doña Petra, Habitante del Pueblo",
+          "edad": 82,
+          "testimonio": "Cada año en el aniversario del pueblo, los niños rodean el árbol para cantarle. Dicen que cuando sus ramas se mueven, es porque les responde."
+        }
+      ],
+
+      "galeriaHistorica": [
+        {
+          "url": "https://res.cloudinary.com/dinsl266g/image/upload/v1763076655/Monte_virgen_antiguo_b50z1w.png",
+          "titulo": "El viejo ahuehuete",
+          "epoca": "Siglo XIX",
+          "descripcion": "Fotografía antigua del árbol en sus primeros años"
+        },
+        {
+          "url": "https://res.cloudinary.com/dinsl266g/image/upload/v1763076655/Monte_virgen_antiguoo2_arlwle.png",
+          "titulo": "El viejo ahuehuete",
+          "epoca": "Siglo XIX",
+          "descripcion": "Fotografía antigua del árbol en sus primeros años"
+        }
+      ],
+
+      "cronologia": [
+        {
+          "fecha": "1845",
+          "evento": "Plantación del árbol",
+          "descripcion": "Sembrado por el primer presidente municipal"
+        },
+        {
+          "fecha": "1914",
+          "evento": "Reunión revolucionaria",
+          "descripcion": "Planificación de la defensa local durante la Revolución"
+        },
+        {
+          "fecha": "1998",
+          "evento": "Tormenta devastadora",
+          "descripcion": "Sobrevivió a una tormenta que derribó árboles centenarios"
+        }
+      ],
+
+      "datosNaturales": {
+        "especie": "Ahuehuete (Taxodium mucronatum)",
+        "edadEstimada": "178 años",
+        "altura": "28 metros",
+        "diametro": "4.3 metros"
+      }
+    },
+
+    {
+      "id": 3,
+      "nombre": "Cañon de la Garganta",
+      "tipo": "arquitectura_tradicional",
+      "epoca": "Siglo XVIII",
+      "imagenPrincipal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763077038/IMG-20251113-WA0013_egkf7m.jpg",
+      "videoDocumental": "https://res.cloudinary.com/dinsl266g/video/upload/v1763077136/Garganta_cascada_bnxsca.mp4",
+      "thumbnailVideo": "https://res.cloudinary.com/dinsl266g/image/upload/v1763077038/IMG-20251113-WA0013_egkf7m.jpg",
+      "duracionVideo": "2:45",
+
+      "colores": {
+        "colorFondo": "from-rose-800 to-pink-600",
+        "colorAcento": "rose",
+        "colorTexto": "text-rose-900",
+        "colorSecundario": "bg-rose-100/60"
+      },
+
+      "historia": {
+        "titulo": "Donde los hilos tejen historia",
+        "contenido": "Esta casa de adobe del siglo XVIII albergó por generaciones a la familia Martínez, reconocidos tejedores que preservaron técnicas prehispánicas de textiles. Los muros conservan pigmentos naturales usados para teñir los hilos, y el telar de cintura original sigue en uso.",
+        "fechaDescubrimiento": "1782 (construcción)",
+        "periodoHistorico": "Colonial - Actualidad",
+        "significadoCultural": "Centro de preservación textil tradicional"
+      },
+
+      "leyenda": {
+        "titulo": "El telar que canta por las noches",
+        "contenido": "Se dice que en las noches de luna llena, el telar antiguo 'canta' con el sonido de sus hilos moviéndose solos. Los vecinos aseguran que es el espíritu de la bisabuela Elena, quien juró seguir tejiendo hasta que sus diseños fueran conocidos en el mundo.",
+        "personajes": ["Bisabuela Elena", "Espíritus Tejedores"],
+        "moral": "El arte verdadero trasciende el tiempo"
+      },
+
+      "tecnicasTradicionales": [
+        {
+          "nombre": "Tejido en Telar de Cintura",
+          "descripcion": "Técnica prehispánica que permite crear diseños complejos",
+          "origen": "Periodo Preclásico"
+        },
+        {
+          "nombre": "Teñido con Cochinilla",
+          "descripcion": "Uso del insecto cochinilla para obtener colores rojos intensos",
+          "origen": "Técnica mixteca prehispánica"
+        }
+      ],
+
+      "galeriaHistorica": [
+        {
+          "url": "https://res.cloudinary.com/dinsl266g/image/upload/v1763077249/Garganta_cascada_itq4j3.png",
+          "titulo": "El viejo ahuehuete",
+          "epoca": "Siglo XIX",
+          "descripcion": "Fotografía antigua del árbol en sus primeros años"
+        }
+      ],
+
+      "cronologia": [
+        {
+          "fecha": "1782",
+          "evento": "Construcción de la casa",
+          "descripcion": "Edificada con técnicas de adobe tradicional"
+        },
+        {
+          "fecha": "1920",
+          "evento": "Reconocimiento internacional",
+          "descripcion": "Textiles expuestos en feria mundial"
+        },
+        {
+          "fecha": "2005",
+          "evento": "Talleres comunitarios",
+          "descripcion": "Inicio de programas para enseñar técnicas a nuevas generaciones"
+        }
+      ]
+    }
+  ]
+}

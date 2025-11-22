@@ -1,0 +1,1 @@
+import{_ as r}from"./index-SFMBmmo4.js";import"./animations-muhxMtO2.js";import"./vendor-CSbuTdnm.js";import"./charts-x2pUV8ZK.js";import"./ui-4Jv8TcDS.js";import"./utils-BJeS7sC5.js";var p=function(){return r(()=>import("./model.min-CdqdRUPQ.js"),[])},n=[function(){return r(()=>import("./group1-shard1of1.min-DUujGfpw.js"),[])}];export{p as modelJson,n as weightBundles};

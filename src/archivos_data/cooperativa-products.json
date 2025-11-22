@@ -1,0 +1,151 @@
+[
+  {
+    "id": "cafe-yektanesik",
+    "name": "Café Yektanesik de Altura",
+    "tag": "Café de Especialidad",
+    "category": "bebidas",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/cafe-coperariva_on9kzm.jpg",
+    "galleryImages": [
+      "https://res.cloudinary.com/dinsl266g/image/upload/v1763114055/cafe-planta_q7jx3x.jpg"
+    ],
+    "story": "Cultivado a la sombra de los árboles nativos de la sierra, cada grano de Yektanesik ('Corazón Noble' en náhuatl) es cosechado a mano por familias que han perfeccionado el arte del café por generaciones. No es solo una bebida, es el sabor de nuestra tierra y el calor de nuestra gente.",
+    "description": "Café orgánico de altura cultivado bajo sombra, con notas achocolatadas y aroma intenso. Proceso artesanal desde la cosecha hasta el tostado.",
+    "materials": [
+      { "icon": "Coffee", "text": "Grano 100% Arábica" },
+      { "icon": "Leaf", "text": "Cultivo de Sombra" },
+      { "icon": "Sun", "text": "Secado al Sol" }
+    ],
+    "features": [
+      "Tostado medio para resaltar sabores",
+      "Empaque biodegradable",
+      "Comercio justo certificado"
+    ],
+    "price": 180,
+    "unit": "kg",
+    "available": true,
+    "stock": 45,
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-amber-500 to-orange-600",
+    "producer": "Cooperativa de Cafetaleros de San Juan Tahitic",
+    "process": "Cosecha manual, fermentación natural, secado al sol"
+  },
+  {
+    "id": "licores-chiwanjmej",
+    "name": "Licores Chiwanjmej",
+    "tag": "Licores Artesanales",
+    "category": "bebidas",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/licores_pyndrs.jpg",
+    "galleryImages": [],
+    "story": "Chiwanjmej ('Hecho con el Corazón') es nuestra colección de licores que capturan el espíritu de las fiestas y celebraciones. Macerados lentamente con frutas locales y caña de la región, cada botella es un brindis por la tradición y la buena compañía.",
+    "description": "Licores artesanales macerados con frutas de temporada y destilado de caña local. Sabores únicos que reflejan nuestra biodiversidad.",
+    "materials": [
+      { "icon": "Wine", "text": "Destilado de Caña" },
+      { "icon": "Droplet", "text": "Frutas de Temporada" }
+    ],
+    "features": [
+      "Maceración lenta de 3 meses",
+      "Botella de vidrio reutilizable",
+      "Receta familiar ancestral"
+    ],
+    "variants": [
+      { "name": "Licor de Nanche", "price": 120 },
+      { "name": "Licor de Jobo", "price": 120 },
+      { "name": "Licor de Ciruela", "price": 130 }
+    ],
+    "available": true,
+    "stock": 28,
+    "seasonal": true,
+    "highlight": false,
+    "color": "from-purple-500 to-pink-600",
+    "producer": "Familia Martínez - Maestros Licoreros",
+    "process": "Recolección manual, maceración en barricas de roble"
+  },
+  {
+    "id": "jabones-sembrando-vida",
+    "name": "Jabones Sembrando Vida",
+    "tag": "Cuidado Natural",
+    "category": "cuidado-personal",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763112532/jabones_ul1wyl.jpg",
+    "galleryImages": [],
+    "story": "Elaborados bajo el sello de 'Sembrando Vida', estos jabones son un tributo a la flora local. Usamos plantas medicinales y aceites esenciales de nuestra sierra, creando un producto que limpia el cuerpo y respeta la tierra.",
+    "description": "Jabones artesanales con plantas medicinales y aceites esenciales de la región. Cuidado natural para la piel y el medio ambiente.",
+    "materials": [
+      { "icon": "FlaskConical", "text": "Aceites Esenciales" },
+      { "icon": "Leaf", "text": "Plantas Medicinales" }
+    ],
+    "features": [
+      "Libre de químicos agresivos",
+      "Embalaje de papel reciclado",
+      "Aroma natural sin perfumes artificiales"
+    ],
+    "variants": [
+      { "name": "Jabón de Romero", "price": 35 },
+      { "name": "Jabón de Sábila", "price": 35 },
+      { "name": "Jabón de Caléndula", "price": 40 }
+    ],
+    "available": true,
+    "stock": 60,
+    "seasonal": false,
+    "highlight": true,
+    "color": "from-green-500 to-emerald-600",
+    "producer": "Taller de Mujeres Sembrando Vida",
+    "process": "Proceso en frío, curado natural de 4 semanas"
+  },
+  {
+    "id": "pasto-vacas",
+    "name": "Pasto para Vacas",
+    "tag": "Alimento Animal",
+    "category": "agricola",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/pasto-vacas_kyakvx.png",
+    "galleryImages": [],
+    "story": "Forraje cultivado de manera sostenible en nuestras tierras comunitarias. Alimento nutritivo y natural para el ganado, producido con técnicas que respetan el equilibrio del ecosistema.",
+    "description": "Pasto de alta calidad para alimentación animal, cultivado sin pesticidas ni herbicidas. Nutrición natural para ganado sano.",
+    "materials": [
+      { "icon": "Sprout", "text": "Pasto de Corte" },
+      { "icon": "Droplet", "text": "Riego Natural" }
+    ],
+    "features": [
+      "Cultivo sin agroquímicos",
+      "Alta proteína natural",
+      "Disponibilidad todo el año"
+    ],
+    "price": 25,
+    "unit": "fardo",
+    "available": true,
+    "stock": 100,
+    "seasonal": false,
+    "highlight": false,
+    "color": "from-lime-500 to-green-600",
+    "producer": "Cooperativa Agropecuaria San Juan",
+    "process": "Cultivo rotativo, cosecha manual, secado natural"
+  },
+  {
+    "id": "miel-xochitl",
+    "name": "Miel Xochitl",
+    "tag": "Miel Orgánica",
+    "category": "alimentos",
+    "mainImage": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png", 
+    "galleryImages": [],
+    "story": "Xochitl ('Flor' en náhuatl) es nuestra miel pura, cosechada por abejas que polinizan las flores silvestres de nuestra sierra. Un dulce tesoro natural que endulza preservando la biodiversidad.",
+    "description": "Miel 100% pura de abejas nativas, cosechada de manera sostenible. Sabor intenso y propiedades naturales preservadas.",
+    "materials": [
+      { "icon": "Flower", "text": "Flores Silvestres" },
+      { "icon": "Bee", "text": "Abejas Nativas" }
+    ],
+    "features": [
+      "Extracción en frío",
+      "Cristalización natural",
+      "Envase de vidrio retornable"
+    ],
+    "price": 150,
+    "unit": "kg",
+    "available": true,
+    "stock": 20,
+    "seasonal": true,
+    "highlight": true,
+    "color": "from-yellow-500 to-amber-600",
+    "producer": "Apicultores Unidos de San Juan",
+    "process": "Cosecha respetuosa, filtrado natural, sin pasteurizar"
+  }
+]

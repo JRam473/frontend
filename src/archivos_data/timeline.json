@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "year": "1650",
+    "category": "Fundación",
+    "icon": "Building", 
+    "title": "Orígenes de San Juan Tahitic",
+    "description": "Los primeros registros documentados marcan el asentamiento de familias fundadoras, estableciendo las bases de una comunidad arraigada en la agricultura y el respeto por la tierra.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+    "modalContent": null 
+  }, 
+  {
+    "id": 2,
+    "year": "1785",
+    "category": "Arquitectura",
+    "icon": "Church", 
+    "title": "Construcción de la Iglesia Principal",
+    "description": "Se erige el corazón espiritual de la comunidad. La iglesia no solo fue un centro de fe, sino también el punto de encuentro social que unificaría a generaciones.",
+    "image": "/images/comunidad/linea-tiempo/iglesia.png",
+    "modalContent": {
+      "text": "La construcción de la iglesia, dedicada a San Juan Bautista, fue un esfuerzo monumental que duró más de una década. Utilizando piedra caliza de canteras locales y maderas nobles, los artesanos del pueblo levantaron un edificio que se convertiría en el símbolo de la identidad y la fe de San Juan Tahitic. Su torre, visible desde todo el valle, no solo llama a misa, sino que también ha servido como faro para viajeros durante siglos.",
+      "images": [
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_detalle1_speohk.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_interior_ojfuru.webp"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "year": "1890",
+    "category": "Personaje",
+    "icon": "User", 
+    "title": "Doña Eladia, Maestra Tejedora",
+    "description": "Eladia Mendoza revoluciona el arte textil local introduciendo nuevas técnicas de teñido natural. Su legado perdura en los vibrantes colores de nuestras artesanías.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "link": null
+  },
+  {
+    "id": 4,
+    "year": "1962",
+    "category": "Tradición",
+    "icon": "Sparkles", 
+    "title": "La Primera Gran Feria del Tlayoyo",
+    "description": "Lo que comenzó como una celebración de la cosecha se convierte en la feria gastronómica más importante de la región, consolidando nuestra identidad culinaria y atrayendo visitantes.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "link": "/cultura/feria-del-tlayoyo"
+  },
+  {
+    "id": 5,
+    "year": "2005",
+    "category": "Restauración",
+    "icon": "RefreshCcw", 
+    "title": "Restauración del Centro Histórico",
+    "description": "Una iniciativa comunitaria y gubernamental permite la renovación de fachadas y espacios públicos clave, revitalizando el corazón del pueblo.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "link": null
+  },
+  {
+    "id": 6,
+    "year": "2018",
+    "category": "Celebración",
+    "icon": "PartyPopper", 
+    "title": "San Juan Tahitic, Pueblo Mágico",
+    "description": "Reconocimiento nacional que impulsa el turismo cultural y la valoración de nuestro patrimonio, abriendo nuevas oportunidades para la comunidad.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "link": "/turismo/pueblo-magico"
+  }
+]

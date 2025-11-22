@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "year": "1650",
+    "category": "Tlalticpac",
+    "icon": "Building",
+    "title": "San Juan Tahitic tlen itoca",
+    "description": "Achto tlahcuilolamatl quimittilia in tlalticpac tlen cemanahuatl, quitlalia in tlamantli tlen milli huan tlaltipactli.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+    "modalContent": null,
+    "link": null
+  }, 
+  {
+    "id": 2,
+    "year": "1785",
+    "category": "Tequitl",
+    "icon": "Church",
+    "title": "Teocalli tlen moyectlalia",
+    "description": "Yolotl tlen cemanahuatl motlalia. Teocalli amo zan teotlac tlamantli, zan no cemanahuatl tlen motlalilia tlen mocuepa.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+    "modalContent": {
+      "text": "Teocalli tlen San Juan Bautista, cenca hueyi tequitl tlen mihcuiloa metztli, monequi tetl huan cuahuitl tlen tlalpan, macehualtin quitlalia in teocalli tlen monequi cemanahuatl. In tepoztli, tlen mitta ipan tlalli, amo zan teotlac, zan no monequi tlen macehualtin.",
+      "images": [
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118056/iglesia_detalle1_k3ola6.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_detalle1_speohk.webp",
+        "https://res.cloudinary.com/dinsl266g/image/upload/v1763118238/iglesia_interior_ojfuru.webp"
+      ]
+    },
+    "link": null
+  },
+  {
+    "id": 3,
+    "year": "1890",
+    "category": "Macehualli",
+    "icon": "User",
+    "title": "Doña Eladia, Tlamachtiani",
+    "description": "Eladia Mendoza monequi tlapalli tlen monequi, quipiya in tlapalli tlen xihuitl, monequi in tlapalli tlen monequi.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": null
+  },
+  {
+    "id": 4,
+    "year": "1962",
+    "category": "Tlamanitiliztli",
+    "icon": "Sparkles",
+    "title": "Achto Tlayoyo ilhuitl",
+    "description": "Tlen pehua ilhuitl tlen milli, monequi in tlayoyo ilhuitl tlen cenca monequi, monequi in tlacualiztli huan macehualtin.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": "/cultura/feria-del-tlayoyo"
+  },
+  {
+    "id": 5,
+    "year": "2005",
+    "category": "Tlacotlaliztli",
+    "icon": "RefreshCcw",
+    "title": "Tlacotlaliztli tlen caltlamantli",
+    "description": "Cemanahuatl huan tlatoani monequi caltlamantli, monequi in caltlamantli tlen monequi, monequi in cemanahuatl.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": null
+  },
+  {
+    "id": 6,
+    "year": "2018",
+    "category": "Ilhuitl",
+    "icon": "PartyPopper",
+    "title": "San Juan Tahitic, Tlapohualoyan",
+    "description": "Tlacatiliztli tlen monequi, monequi in macehualtin huan tlalticpac, monequi in cemanahuatl.",
+    "image": "https://res.cloudinary.com/dinsl266g/image/upload/v1763118077/puente-antiguo_zswrkd.png",
+    "modalContent": null,
+    "link": "/turismo/pueblo-magico"
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "cocinas": [
+    {
+      "id": 1,
+      "nombre": "Doña Elena's Kitchen",
+      "tagline": "Where flavors embrace the soul",
+      "tipo": "family",
+      "generaciones": 3,
+      "descripcionLarga": "A family space where tradition meets the warmth of home. For three generations, we have preserved the authentic flavors of our land.",
+      "descripcionAmbiente": "Warm and cozy atmosphere that evokes grandma's kitchen, with rustic wooden furniture and the unmistakable aroma of roasted spices.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084722/barbacoa_kfcqf6.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/cocina1_yi1hhd.png"
+      },
+      "colores": {
+        "primario": "#f59e0b",
+        "secundario": "#ea580c",
+        "acento": "#fbbf24"
+      },
+      "historia": {
+        "contenido": "Since 1985, our stove has never gone out. My grandmother María started this legacy when she decided that the flavors of our land deserved to be preserved. She started by selling tamales at the local market, and little by little, her unique seasoning won over the palates of all of San Juan Tahitic.",
+        "fraseEmblematica": "Here we don't cook in a hurry, we cook with memory"
+      },
+      "servicios": [
+        "Free WiFi",
+        "Parking",
+        "Garden Terrace",
+        "Large Groups",
+        "Takeout",
+        "Reservations"
+      ],
+      "horarios": {
+        "lunesViernes": "9:00 AM - 10:00 PM",
+        "sabadoDomingo": "8:00 AM - 11:00 PM",
+        "diasDescanso": "Tuesday"
+      },
+      "recomendaciones": [
+        "Reserve in advance on weekends",
+        "Try our ancestral mole, it's our pride",
+        "Ask about the daily special",
+        "Visit us with your family, we have space for groups"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Mole de Caderas",
+          "descripcion": "Prepared with 12 wood-fired roasted chilies and metate chocolate. A family recipe dating back to 1890, passed down through 4 generations.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177403/mole-cadera_tfo3bj.png",
+          "precio": 180,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Tamales with Black Bean and Hoja Santa",
+          "descripcion": "Nixtamalized masa filled with black beans and wrapped in corn husks with regional herbs.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082284/tamales-hoja_ycmxku.avif",
+          "precio": 45,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Envueltos in Green Sauce",
+          "descripcion": "Tortillas straight from the griddle, into a green sauce made from chilies from our own garden.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/envueltos-verdes_ts586s.png",
+          "precio": 220,
+          "esEmblema": true
+        },
+        {
+          "nombre": "White Corn Atole",
+          "descripcion": "Hot drink made with ground white corn, cinnamon, and piloncillo. Creamy consistency and comforting aroma.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763082293/atole_vadgnb.jpg",
+          "precio": 35,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Calle del Saber #15, San Juan Tahitic, Puebla",
+        "coordenadas": "17.2345,-96.1234",
+        "puntoReferencia": "Next to the old chapel"
+      },
+      "contacto": {
+        "telefono": "+52 951 123 4567",
+        "correo": "cocina.doña.elena@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "The Grandparents' Hearth",
+      "tagline": "Time stands still in every bite",
+      "tipo": "community",
+      "generaciones": 4,
+      "descripcionLarga": "A culinary sanctuary where pre-Hispanic techniques are kept alive. Under the shade of the centennial ahuehuete tree, Don José shares ancestral knowledge.",
+      "descripcionAmbiente": "Rustic outdoor space with log tables and stone fire pits. The sound of water and the crackling of firewood create a magical atmosphere.",
+      "imagenes": {
+        "principal": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png",
+        "ambiente": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178020/cocina2_wx1e8j.png",
+        "detalle": "https://res.cloudinary.com/dinsl266g/image/upload/v1763177402/platillo-huevo_lpvam4.png"
+      },
+      "colores": {
+        "primario": "#10b981",
+        "secundario": "#0d9488",
+        "acento": "#34d399"
+      },
+      "historia": {
+        "contenido": "Don José, at 78 years old, keeps the pre-Hispanic technique of 'caldo de piedra' (stone broth) alive. Every morning he selects the volcanic stones that will flavor his broths. He learned this art from his grandfather, who in turn inherited it from previous generations.",
+        "fraseEmblematica": "Our ingredients are love letters to the earth"
+      },
+      "servicios": [
+        "Outdoor Space",
+        "Parking",
+        "Culinary Demonstrations",
+        "Cooking Workshops",
+        "Local Ingredient Sales",
+        "Special Events"
+      ],
+      "horarios": {
+        "lunesViernes": "7:00 AM - 8:00 PM",
+        "sabadoDomingo": "6:00 AM - 9:00 PM",
+        "diasDescanso": "Tuesday"
+      },
+      "recomendaciones": [
+        "Come with time to enjoy the full experience",
+        "Ask for the stone broth demonstration",
+        "Visit our medicinal herb garden",
+        "Perfect for culture and tradition lovers"
+      ],
+      "especialidades": [
+        {
+          "nombre": "Red Chicken Broth",
+          "descripcion": "Cooked with red-hot volcanic stones in the traditional style.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178025/caldopollo_qdd6uq.png",
+          "precio": 160,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Traditional Red Pozole",
+          "descripcion": "Cacahuazintle corn and local farm pork slowly cooked. Robust flavor and textures that celebrate authentic Mexican cuisine.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763178023/pozole_rhszyt.png",
+          "precio": 85,
+          "esEmblema": true
+        },
+        {
+          "nombre": "Grain Atole with Honey",
+          "descripcion": "Ancient drink prepared with ground corn, cinnamon, and local honey. Naturally sweetened for authentic flavor.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763113747/miel-xochitl_vwwsxy.png",
+          "precio": 40,
+          "esEmblema": false
+        },
+        {
+          "nombre": "Tlayudas with Asiento",
+          "descripcion": "Large golden corn tortilla with pork fat, beans, and string cheese. Crispy on the outside, soft on the inside.",
+          "imagen": "https://res.cloudinary.com/dinsl266g/image/upload/v1763084723/tlayudas_dp32xt.png",
+          "precio": 75,
+          "esEmblema": false
+        }
+      ],
+      "ubicacion": {
+        "direccion": "Plaza de la Tradición, San Juan Tahitic, Oaxaca",
+        "coordenadas": "17.2350,-96.1240",
+        "puntoReferencia": "Under the centennial ahuehuete tree"
+      },
+      "contacto": {
+        "telefono": "+52 951 987 6543",
+        "correo": "fogon.abuelos@gmail.com"
+      }
+    }
+  ],
+  "configuracion": {
+    "moneda": "MXN",
+    "zonaHoraria": "America/Mexico_City"
+  }
+}

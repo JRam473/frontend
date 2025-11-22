@@ -1,0 +1,124 @@
+{
+  "galleryImages": [
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0007_vmbpfk.jpg",
+      "alt": "Tonalco ipan Sierra Madre",
+      "category": "paisajes",
+      "title": "Tonalco ipan Sierra",
+      "description": "Achto tlapalli tonatiuh quimictia tepemeh toancestro tlalpan",
+      "date": "2024-01-15",
+      "location": "Cerro del Águila",
+      "photographer": "Juan Martínez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0004_jq7cro.jpg",
+      "alt": "Cuahuitl tlen cuahuitzquitl",
+      "category": "naturaleza",
+      "title": "Cuahuitl Huehue",
+      "description": "Canin cuahuitl centzontli quipiya iamox to tlalpan",
+      "date": "2024-02-03",
+      "location": "Bosque de los Abuelos",
+      "photographer": "María González"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0006_snt6gk.jpg",
+      "alt": "Apatl cristalino ipan tepetl",
+      "category": "naturaleza",
+      "title": "Apatl Xochitl",
+      "description": "Cuicatl atl tlen tlazotla huan yancuic yolistli ipan totlahtolpan",
+      "date": "2024-01-22",
+      "location": "Cañada de las Flores",
+      "photographer": "Carlos Ruiz"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073766/morrales_wohiwy.jpg",
+      "alt": "Tlamamalli tlen telar",
+      "category": "cultura",
+      "title": "Telares Tlen Tlahtol",
+      "description": "Tlapowalli tlen tlamamaliztli, tlapalli tlen tlahtol",
+      "date": "2024-03-10",
+      "location": "Taller Comunitario",
+      "photographer": "Ana Torres"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072851/IMG-20251113-WA0008_qe5joq.jpg",
+      "alt": "Tequio ipan milpan",
+      "category": "comunidad",
+      "title": "Tequio Tlen Moneki",
+      "description": "Maitl tlen tequitl, yolotl tlen ceceni tlatlamanti",
+      "date": "2024-02-18",
+      "location": "Campos Comunales",
+      "photographer": "Pedro Hernández"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073856/dansz_psbbaj.jpg",
+      "alt": "Ilhuitl tlen mitotiliztli",
+      "category": "tradiciones",
+      "title": "Mitotiliztli Tonatiuh",
+      "description": "Cuicatl huehue tlen ilhuitl tlen citlalin",
+      "date": "2024-03-15",
+      "location": "Plaza Principal",
+      "photographer": "Laura Mendoza"
+    },
+    {
+     "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763074242/Puente_fwky8r.jpg",
+      "alt": "Calli tlen tlalpan",
+      "category": "cultura",
+      "title": "Calli Tlen Ehecatl",
+      "description": "Tlalpan tlen tlalli, tlen yancuic tlamatiliztli",
+      "date": "2024-03-05",
+      "location": "Barrio Antiguo",
+      "photographer": "Roberto Díaz"
+    },
+    {
+       "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073767/ninos_z8aczb.jpg",
+      "alt": "Piltontli tlen tlamatiliztli ipan tlalpan",
+      "category": "comunidad",
+      "title": "Xihuitl Tlen Huetztli",
+      "description": "Tlamatiliztli tlen xochitl ipan tlahtol huan chichinaualiztli",
+      "date": "2024-02-12",
+      "location": "Escuela al Aire Libre",
+      "photographer": "Sofia Castro"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763062497/Comedor_hfora9.webp",
+      "alt": "Tlaquetzaliztli tlen nacatl",
+      "category": "tradiciones",
+      "title": "Nacatl Tlen Tlahtol",
+      "description": "Tlaquetzaliztli tlen tlahtol huan nacatl tlen to tlahtol",
+      "date": "2024-03-20",
+      "location": "Cocina Comunitaria",
+      "photographer": "Miguel Ángel"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763073436/SanJuan-Noche_atm0mw.jpg",
+      "alt": "Citlalin ipan altepetl",
+      "category": "paisajes",
+      "title": "Citlalin Tlapalli",
+      "description": "Yohualtlan citlalin quihualehua tlahtol huehue",
+      "date": "2024-01-28",
+      "location": "Mirador Celestial",
+      "photographer": "Elena Morales"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0005_f3sq5h.jpg",
+      "alt": "Xihuitl patli huan ticitl",
+      "category": "tradiciones",
+      "title": "Xihuitl Tlamatiliztli",
+      "description": "Xihuitl tlen patli, maitl tlen patani, tlamatiliztli tlen moneki",
+      "date": "2024-02-25",
+      "location": "Jardín de Medicinas",
+      "photographer": "Isabel Ramírez"
+    },
+    {
+      "src": "https://res.cloudinary.com/dinsl266g/image/upload/v1763072850/IMG-20251113-WA0002_ynkm8x.jpg",
+      "alt": "Tlachihualiztli tlen tlalpoctli",
+      "category": "cultura",
+      "title": "Tlalpoctli Tlen Yolotl",
+      "description": "Tlalpoctli tlen tlachihualiztli ipan comitl tlen quipiya toyolotl",
+      "date": "2024-03-08",
+      "location": "Taller de Alfarería",
+      "photographer": "José Luis"
+    }
+  ]
+}
