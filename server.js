@@ -45,7 +45,6 @@ const allowedRoutes = [
   '/admin/',
   '/admin/places',
   '/admin/places/',
-  '/admin/places/*',
   '/admin/usuarios',
   '/admin/configuracion',
   
@@ -84,7 +83,7 @@ app.get('/admin/places', (req, res, next) => {
 // 🔥 MANEJO DE RUTAS PERMITIDAS CON VALIDACIÓN
 allowedRoutes.forEach(route => {
   // Remover el * para coincidencia exacta o parcial
-  const cleanRoute = route.replace('/*', '');
+  const cleanRoute = route.replace('/', '');
   
   app.get(cleanRoute, (req, res, next) => {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'), (err) => {
@@ -97,7 +96,7 @@ allowedRoutes.forEach(route => {
 });
 
 // 🔥 COMODÍN MEJORADO PARA RUTAS DESCONOCIDAS
-app.get('*', (req, res, next) => {
+app.get('/', (req, res, next) => {
   // Verificar si la ruta parece ser un archivo estático (con extensión)
   const hasExtension = path.extname(req.path) !== '';
   
