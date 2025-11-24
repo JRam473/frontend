@@ -14,6 +14,7 @@
     "description":"Destino natural único",
     "home": "Caltech",
     "community": "Calpulli",
+    "tourism": "Turismo",
     "culture": "Tlamantli",
     "products": "Tlamantli",
     "contact": "Tequiuhcan",
@@ -1426,7 +1427,63 @@
   "modals": {
     "close": "Tlapohua"
   }
-}
+},
+"places": {
+    "sectionTitle": "Tlamantin Tlayecanquetl",
+    "sectionSubtitle": "Yeknemiliztli Destinos",
+    "sectionDescription": "Xikittitlan in tlamantin yeknemiliztli ipan San Juan Tahitic, sekom ika inin magicahuan huan yeknemiliz experienceahuan.",
+    "rating": {
+      "noRatings": "Ahtle calificaciones",
+      "rating": "calificación",
+      "ratings": "calificaciones",
+      "ratinging": "Tictlalilia...",
+      "alreadyRated": "Ye tictlalilih with {{stars}} citlalin",
+      "ratePrompt": "Xictlalili inin calli (tictlacaneliz inin términos)",
+      "loadingStats": "Tictemohua estadísticas...",
+      "stats": {
+        "title": "Estadísticas tlamantin - {{placeName}}",
+        "average": "Promedio",
+        "total": "Total calificaciones", 
+        "distribution": "Distribución calificaciones",
+        "star": "citlalin",
+        "stars": "citlaltin",
+        "viewStats": "Xiquitta estadísticas"
+      }
+    },
+    "features": {
+      "hiking": "Tlacuepaliztli",
+      "swimming": "Aticnemiliztli",
+      "photography": "Tlachializtli",
+      "gastronomy": "Tlacualli",
+      "crafts": "Tlamachtilli",
+      "music": "Cuicatl",
+      "waterSports": "Atic tlacualoani",
+      "sunset": "Tonalco",
+      "relax": "Tlacocoa",
+      "tourism": "Tlacuepaliztli"
+    },
+    "info": {
+      "free": "Moneki",
+      "gps": "GPS",
+      "hours": "2-4 horas", 
+      "allLevels": "Nochi niveles",
+      "defaultDescription": "Se yeknemiliztli calli ipan San Juan Tahitic."
+    },
+    "buttons": {
+      "viewAll": "Xiquitta Nochi Calli",
+      "viewPdf": "Xiquitta PDF",
+      "getDirections": "Xikittitlan Ompa"
+    },
+    "invitation": {
+      "title": "¡In motlachializ tlaneltoc!",
+      "description": "Xictlalili in calli ticittac. Ahtle tineki ticchihuaz cuenta, zan tictlacaneliz inin términos.",
+      "hashtags": {
+        "noRegistration": "#AhtleRegistro",
+        "privacy": "#Privacidad",
+        "community": "#Comunidad"
+      }
+    }
+  }
 
 
 }

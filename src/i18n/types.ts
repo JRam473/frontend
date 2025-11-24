@@ -16,6 +16,7 @@ export interface Translations {
     description: string;
     home: string;
     community: string;
+    tourism: string;
     culture: string;
     products: string;
     contact: string;
@@ -1095,7 +1096,63 @@ export interface Translations {
       close: string;
     };
   };
+  places: {
+  sectionTitle: string;
+  sectionSubtitle: string;
+  sectionDescription: string;
+  rating: {
+    noRatings: string;
+    rating: string;
+    ratings: string;
+    ratinging: string;
+    alreadyRated: string;
+    ratePrompt: string;
+    loadingStats: string;
+    stats: {
+      title: string;
+      average: string;
+      total: string;
+      distribution: string;
+      star: string;
+      stars: string;
+      viewStats: string;
+    };
+  };
+  features: {
+    hiking: string;
+    swimming: string;
+    photography: string;
+    gastronomy: string;
+    crafts: string;
+    music: string;
+    waterSports: string;
+    sunset: string;
+    relax: string;
+    tourism: string;
+  };
+  info: {
+    free: string;
+    gps: string;
+    hours: string;
+    allLevels: string;
+    defaultDescription: string;
+  };
+  buttons: {
+    viewAll: string;
+    viewPdf: string;
+    getDirections: string;
+  };
+  invitation: {
+    title: string;
+    description: string;
+    hashtags: {
+      noRegistration: string;
+      privacy: string;
+      community: string;
+    };
+  };
   // Más secciones se agregarán gradualmente
+}
 }
 
 export type TranslationKey = 
@@ -1223,7 +1280,15 @@ export type TranslationKey =
   | `tourismsection.voicesSection.${keyof Translations['tourismsection']['voicesSection']}`
   | `tourismsection.gallery.${keyof Translations['tourismsection']['gallery']}`
   | `tourismsection.navigation.${keyof Translations['tourismsection']['navigation']}`
-  | `tourismsection.modals.${keyof Translations['tourismsection']['modals']}`;
+  | `tourismsection.modals.${keyof Translations['tourismsection']['modals']}`
+  | `places.${keyof Translations['places']}`
+  | `places.rating.${keyof Translations['places']['rating']}`
+  | `places.rating.stats.${keyof Translations['places']['rating']['stats']}`
+  | `places.features.${keyof Translations['places']['features']}`
+  | `places.info.${keyof Translations['places']['info']}`
+  | `places.buttons.${keyof Translations['places']['buttons']}`
+  | `places.invitation.${keyof Translations['places']['invitation']}`
+  | `places.invitation.hashtags.${keyof Translations['places']['invitation']['hashtags']}`;
 
   export interface Dish {
   id: number;

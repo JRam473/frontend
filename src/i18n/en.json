@@ -14,6 +14,7 @@
     "description":"Unique natural destination",
     "home": "Home",
     "community": "Community",
+    "tourism": "Tourism",
     "culture": "Culture",
     "products": "Products",
     "contact": "Contact",
@@ -1448,6 +1449,62 @@
   "modals": {
     "close": "Close"
   }
-}
+},
+"places": {
+    "sectionTitle": "Featured Places",
+    "sectionSubtitle": "Unique Destinations", 
+    "sectionDescription": "Discover the most fascinating corners of San Juan Tahitic, each with its own magic and unique experiences.",
+    "rating": {
+      "noRatings": "No ratings",
+      "rating": "rating",
+      "ratings": "ratings",
+      "ratinging": "Rating...",
+      "alreadyRated": "You already rated with {{stars}} stars",
+      "ratePrompt": "Rate this place (you'll accept privacy terms)",
+      "loadingStats": "Loading statistics...",
+      "stats": {
+        "title": "Rating Statistics - {{placeName}}",
+        "average": "Average", 
+        "total": "Total ratings",
+        "distribution": "Rating distribution",
+        "star": "star",
+        "stars": "stars",
+        "viewStats": "View statistics"
+      }
+    },
+    "features": {
+      "hiking": "Hiking",
+      "swimming": "Swimming",
+      "photography": "Photography",
+      "gastronomy": "Gastronomy", 
+      "crafts": "Crafts",
+      "music": "Music",
+      "waterSports": "Water Sports",
+      "sunset": "Sunset",
+      "relax": "Relax",
+      "tourism": "Tourism"
+    },
+    "info": {
+      "free": "Free",
+      "gps": "GPS", 
+      "hours": "2-4 hours",
+      "allLevels": "All levels",
+      "defaultDescription": "A beautiful place to visit in San Juan Tahitic."
+    },
+    "buttons": {
+      "viewAll": "View All Places",
+      "viewPdf": "View PDF Guide", 
+      "getDirections": "Get Directions"
+    },
+    "invitation": {
+      "title": "Your opinion matters!",
+      "description": "Rate the places you've visited. You don't need to create an account, just accept our privacy terms.",
+      "hashtags": {
+        "noRegistration": "#NoRegistration",
+        "privacy": "#Privacy",
+        "community": "#Community"
+      }
+    }
+  }
 
   }

@@ -9,8 +9,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { LogOut, MapPin, Shield } from 'lucide-react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { LogOut, MapPin, Users } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export const AuthButton = () => {
@@ -119,10 +119,10 @@ export const AuthButton = () => {
   return (
     <Button
       onClick={handleLoginClick}
-      className="ml-4 bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-6 py-2 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+      className="ml-4 bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white p-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+      aria-label="Acceso administrativo"
     >
-      <Shield className="h-4 w-4 mr-2" />
-      Panel Admin
+      <Users className="w-5 h-5" />
     </Button>
   );
 };

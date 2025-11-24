@@ -14,6 +14,7 @@
     "description":"Destino natural único",
     "home": "Inicio",
     "community": "Comunidad",
+    "tourism": "Turismo",
     "culture": "Cultura",
     "products": "Productos",
     "contact": "Contacto",
@@ -1452,6 +1453,62 @@
     },
     "modals": {
       "close": "Cerrar"
+    }
+  },
+  "places": {
+    "sectionTitle": "Lugares Destacados",
+    "sectionSubtitle": "Destinos Únicos",
+    "sectionDescription": "Descubre los rincones más fascinantes de San Juan Tahitic, cada uno con su propia magia y experiencias únicas.",
+    "rating": {
+      "noRatings": "Sin calificaciones",
+      "rating": "calificación",
+      "ratings": "calificaciones", 
+      "ratinging": "Calificando...",
+      "alreadyRated": "Ya calificaste con {{stars}} estrellas",
+      "ratePrompt": "Califica este lugar (aceptarás términos de privacidad)",
+      "loadingStats": "Cargando estadísticas...",
+      "stats": {
+        "title": "Estadísticas de calificaciones - {{placeName}}",
+        "average": "Promedio",
+        "total": "Total calificaciones",
+        "distribution": "Distribución de calificaciones",
+        "star": "estrella",
+        "stars": "estrellas",
+        "viewStats": "Ver estadísticas"
+      }
+    },
+    "features": {
+      "hiking": "Senderismo",
+      "swimming": "Natación",
+      "photography": "Fotografía",
+      "gastronomy": "Gastronomía",
+      "crafts": "Artesanías",
+      "music": "Música",
+      "waterSports": "Deportes acuáticos",
+      "sunset": "Atardecer",
+      "relax": "Relax",
+      "tourism": "Turismo"
+    },
+    "info": {
+      "free": "Gratuito",
+      "gps": "GPS",
+      "hours": "2-4 horas",
+      "allLevels": "Todos los niveles",
+      "defaultDescription": "Un hermoso lugar para visitar en San Juan Tahitic."
+    },
+    "buttons": {
+      "viewAll": "Ver Todos los Lugares",
+      "viewPdf": "Ver Guía PDF",
+      "getDirections": "Cómo Llegar"
+    },
+    "invitation": {
+      "title": "¡Tu opinión es importante!",
+      "description": "Califica los lugares que has visitado. No necesitas crear una cuenta, solo aceptar nuestros términos de privacidad.",
+      "hashtags": {
+        "noRegistration": "#SinRegistro",
+        "privacy": "#Privacidad", 
+        "community": "#Comunidad"
+      }
     }
   }
 }

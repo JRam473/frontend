@@ -1,4 +1,4 @@
-// components/Places.tsx - VERSIÓN CORREGIDA
+// components/Places.tsx - VERSIÓN COMPLETA CON TRADUCCIONES
 import { ImageGalleryModal } from '@/components/galeria/ImageGalleryModal';
 import { MapRouteViewer } from '@/components/MapRouteViewer/MapRouteViewer';
 import { useState, useEffect, useCallback } from 'react';
@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import { MapPin, Clock, Users, Star, BarChart3, ThumbsUp, Loader2, FileText, Navigation } from 'lucide-react';
 import { usePlaces, type GalleryImage, type Place } from '@/hooks/usePlaces';
 import { useCategories } from '@/hooks/useCategories';
+import { useTranslation } from '@/contexts/TranslationContext'; // ✅ NUEVO IMPORT
 
 import { Skeleton } from '@/components/ui/skeleton';
 import { useToast } from '@/hooks/use-toast';
@@ -54,6 +55,7 @@ const Rating = ({
   readonly?: boolean;
   showProgress?: boolean;
 }) => {
+  const { t } = useTranslation(); // ✅ AGREGADO
   const [hoverRating, setHoverRating] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
   
@@ -113,7 +115,7 @@ const Rating = ({
           "text-sm font-medium ml-2",
           numericRating > 0 ? "text-amber-700" : "text-muted-foreground"
         )}>
-          {numericRating && numericRating > 0 ? numericRating.toFixed(1) : 'Sin calificaciones'}
+          {numericRating && numericRating > 0 ? numericRating.toFixed(1) : t('places.rating.noRatings')} {/* ✅ TRADUCIBLE */}
         </span>
       </div>
       
@@ -155,7 +157,7 @@ const Rating = ({
       
       {totalRatings > 0 && (
         <p className="text-xs text-muted-foreground">
-          {totalRatings} {totalRatings === 1 ? 'calificación' : 'calificaciones'}
+          {totalRatings} {totalRatings === 1 ? t('places.rating.rating') : t('places.rating.ratings')} {/* ✅ TRADUCIBLE */}
         </p>
       )}
     </div>
@@ -185,6 +187,8 @@ const RatingStatsDialog = ({
   variant?: "default" | "primary" | "secondary";
   theme?: "default" | "nature" | "waterfall" | "cultural" | "history" | "bridge" | "viewpoint" | "trail" | "montain" | "river" | "path";
 }) => {
+  const { t } = useTranslation(); // ✅ AGREGADO
+  
   if (!stats) return null;
 
   const themeButtonClasses: Record<string, Record<string, string>> = {
@@ -246,7 +250,7 @@ const RatingStatsDialog = ({
           className={cn("mt-2 transition-all duration-300 transform hover:scale-105", buttonClass)}
         >
           <BarChart3 className="w-4 h-4 mr-2" />
-          Ver estadísticas
+          {t('places.rating.stats.viewStats')} {/* ✅ TRADUCIBLE */}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md bg-white/30 backdrop-blur-sm border border-white/20 p-2 text-gray-900 dark:text-gray-100 dark:bg-black/30 dark:border-gray-700 shadow-lg rounded-md">
@@ -255,7 +259,7 @@ const RatingStatsDialog = ({
             "text-primary-foreground": variant === "primary",
             "text-secondary-foreground": variant === "secondary"
           })}>
-            Estadísticas de calificaciones - {placeName}
+            {t('places.rating.stats.title').replace('{{placeName}}', placeName)}
           </DialogTitle>
         </DialogHeader>
         <div className="space-y-4">
@@ -271,7 +275,7 @@ const RatingStatsDialog = ({
                   : '0.0'
                 }
               </p>
-              <p className="text-sm text-muted-foreground">Promedio</p>
+              <p className="text-sm text-muted-foreground">{t('places.rating.stats.average')}</p> {/* ✅ TRADUCIBLE */}
             </div>
             <div className={cn("text-center p-4 rounded-lg", {
               "bg-primary/20": variant === "default",
@@ -279,16 +283,16 @@ const RatingStatsDialog = ({
               "bg-secondary/30": variant === "secondary"
             })}>
               <p className="text-2xl font-bold">{stats.total}</p>
-              <p className="text-sm text-muted-foreground">Total calificaciones</p>
+              <p className="text-sm text-muted-foreground">{t('places.rating.stats.total')}</p> {/* ✅ TRADUCIBLE */}
             </div>
           </div>
           
           <div className="space-y-3">
-            <h4 className="font-semibold">Distribución de calificaciones:</h4>
+            <h4 className="font-semibold">{t('places.rating.stats.distribution')}:</h4> {/* ✅ TRADUCIBLE */}
             {stats.distribucion.map((item) => (
               <div key={item.calificacion} className="flex items-center gap-3">
                 <div className="w-16 text-sm text-muted-foreground">
-                  {item.calificacion} estrella{item.calificacion !== 1 ? 's' : ''}
+                  {item.calificacion} {item.calificacion === 1 ? t('places.rating.stats.star') : t('places.rating.stats.stars')} {/* ✅ TRADUCIBLE */}
                 </div>
                 <div className="flex-1 bg-secondary rounded-full h-3">
                   <div 
@@ -318,6 +322,8 @@ const RatingStatsDialog = ({
 const UpdatedRatingInvitationBanner = ({ theme }: { 
   theme: 'default' | 'nature' | 'waterfall' | 'cultural' | 'history' | 'bridge' | 'viewpoint' | 'trail' | 'montain' | 'river' | 'path'; 
 }) => {
+  const { t } = useTranslation(); // ✅ AGREGADO
+  
   const themeClasses: Record<string, { bg: string; border: string }> = {
     default: {
       bg: 'bg-gradient-to-r from-blue-100/80 via-indigo-100/80 to-purple-100/80',
@@ -379,16 +385,21 @@ const UpdatedRatingInvitationBanner = ({ theme }: {
           <div className="flex-1 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-3">
               <ThumbsUp className="w-6 h-6 text-blue-600" />
-              <h3 className="text-xl font-bold">¡Tu opinión es importante!</h3>
+              <h3 className="text-xl font-bold">{t('places.invitation.title')}</h3> {/* ✅ TRADUCIBLE */}
             </div>
             <p className="mb-3">
-              Califica los lugares que has visitado. No necesitas crear una cuenta, 
-              solo aceptar nuestros términos de privacidad.
+              {t('places.invitation.description')} {/* ✅ TRADUCIBLE */}
             </p>
             <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-              <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">#SinRegistro</span>
-              <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">#Privacidad</span>
-              <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-xs">#Comunidad</span>
+              <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                {t('places.invitation.hashtags.noRegistration')} {/* ✅ TRADUCIBLE */}
+              </span>
+              <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                {t('places.invitation.hashtags.privacy')} {/* ✅ TRADUCIBLE */}
+              </span>
+              <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-xs">
+                {t('places.invitation.hashtags.community')} {/* ✅ TRADUCIBLE */}
+              </span>
             </div>
           </div>
         </div>
@@ -404,6 +415,8 @@ const TRANSPORT_BASE = {
 };
 
 const Places = () => {
+  const { t } = useTranslation(); // ✅ AGREGADO
+  
   const { 
     places, 
     loading, 
@@ -716,17 +729,17 @@ const handleOpenPdf = (place: Place) => {
     const features: string[] = [];
     const descLower = description.toLowerCase();
     
-    if (descLower.includes('senderismo') || descLower.includes('hiking')) features.push('Senderismo');
-    if (descLower.includes('natación') || descLower.includes('swimming')) features.push('Natación');
-    if (descLower.includes('fotografía') || descLower.includes('photo')) features.push('Fotografía');
-    if (descLower.includes('gastronomía') || descLower.includes('food')) features.push('Gastronomía');
-    if (descLower.includes('artesanías') || descLower.includes('crafts')) features.push('Artesanías');
-    if (descLower.includes('música') || descLower.includes('music')) features.push('Música');
-    if (descLower.includes('deportes') || descLower.includes('sports')) features.push('Deportes acuáticos');
-    if (descLower.includes('atardecer') || descLower.includes('sunset')) features.push('Atardecer');
-    if (descLower.includes('relax') || descLower.includes('peaceful')) features.push('Relax');
+    if (descLower.includes('senderismo') || descLower.includes('hiking')) features.push(t('places.features.hiking')); // ✅ TRADUCIBLE
+    if (descLower.includes('natación') || descLower.includes('swimming')) features.push(t('places.features.swimming')); // ✅ TRADUCIBLE
+    if (descLower.includes('fotografía') || descLower.includes('photo')) features.push(t('places.features.photography')); // ✅ TRADUCIBLE
+    if (descLower.includes('gastronomía') || descLower.includes('food')) features.push(t('places.features.gastronomy')); // ✅ TRADUCIBLE
+    if (descLower.includes('artesanías') || descLower.includes('crafts')) features.push(t('places.features.crafts')); // ✅ TRADUCIBLE
+    if (descLower.includes('música') || descLower.includes('music')) features.push(t('places.features.music')); // ✅ TRADUCIBLE
+    if (descLower.includes('deportes') || descLower.includes('sports')) features.push(t('places.features.waterSports')); // ✅ TRADUCIBLE
+    if (descLower.includes('atardecer') || descLower.includes('sunset')) features.push(t('places.features.sunset')); // ✅ TRADUCIBLE
+    if (descLower.includes('relax') || descLower.includes('peaceful')) features.push(t('places.features.relax')); // ✅ TRADUCIBLE
     
-    return features.length > 0 ? features : ['Turismo'];
+    return features.length > 0 ? features : [t('places.features.tourism')]; // ✅ TRADUCIBLE
   };
 
   // Función para formatear el promedio de calificación
@@ -758,17 +771,14 @@ const handleOpenPdf = (place: Place) => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-indigo-100 px-4 py-2 rounded-full mb-6">
               <MapPin className="h-5 w-5 text-blue-600" />
-              <span className="text-blue-800 font-medium">Destinos Únicos</span>
+              <span className="text-blue-800 font-medium">{t('places.sectionSubtitle')}</span> {/* ✅ TRADUCIBLE */}
             </div>
             
-            <h2 className="text-5xl lg:text-6xl font-bold text-white mb-6">
-              Lugares{' '}
-              <span className="bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
-                Destacados
-              </span>
+            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+              {t('places.sectionTitle')} {/* ✅ TRADUCIBLE */}
             </h2>
-            <p className="text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
-              Descubre los rincones más fascinantes de San Juan Tahitic, cada uno con su propia magia y experiencias únicas.
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {t('places.sectionDescription')} {/* ✅ TRADUCIBLE */}
             </p>
           </div>
           <PlaceSkeletonGrid count={3} />
@@ -800,17 +810,14 @@ const handleOpenPdf = (place: Place) => {
           <div className="text-center mb-20">
             <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-indigo-100 px-4 py-2 rounded-full mb-6">
               <MapPin className="h-5 w-5 text-blue-600" />
-              <span className="text-blue-800 font-medium">Destinos Únicos</span>
+              <span className="text-blue-800 font-medium">{t('places.sectionSubtitle')}</span> {/* ✅ TRADUCIBLE */}
             </div>
             
-            <h2 className="text-5xl lg:text-6xl font-bold text-white mb-6">
-              Lugares{' '}
-              <span className="bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
-                Destacados
-              </span>
+            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+              {t('places.sectionTitle')} {/* ✅ TRADUCIBLE */}
             </h2>
-            <p className="text-xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
-              Descubre los rincones más fascinantes de San Juan Tahitic, cada uno con su propia magia y experiencias únicas.
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {t('places.sectionDescription')} {/* ✅ TRADUCIBLE */}
             </p>
           </div>
 
@@ -843,7 +850,7 @@ const handleOpenPdf = (place: Place) => {
                     
                     <div className="absolute top-4 left-4">
                       <Badge className={cn(getCategoryColor(place.categoria), "text-white")}>
-                        {place.categoria || 'Turismo'}
+                        {place.categoria || t('places.features.tourism')} {/* ✅ TRADUCIBLE */}
                       </Badge>
                     </div>
                     
@@ -851,12 +858,12 @@ const handleOpenPdf = (place: Place) => {
                     {placeLocation.hasCoordinates && (
                       <div className="absolute top-4 right-4 bg-green-500/90 backdrop-blur-sm rounded-lg px-2 py-1 text-white text-xs font-medium flex items-center gap-1">
                         <Navigation className="w-3 h-3" />
-                        GPS
+                        {t('places.info.gps')} {/* ✅ TRADUCIBLE */}
                       </div>
                     )}
                     
                     <div className="absolute bottom-4 right-4 bg-black/50 backdrop-blur-sm rounded-lg px-2 py-1 text-white text-sm font-medium">
-                      Gratuito
+                      {t('places.info.free')} {/* ✅ TRADUCIBLE */}
                     </div>
                   </div>
 
@@ -867,8 +874,8 @@ const handleOpenPdf = (place: Place) => {
                       </h3>
                     </div>
 
-                    <p className="text-gray-600 mb-4 leading-relaxed line-clamp-3">
-                      {place.descripcion || 'Un hermoso lugar para visitar en San Juan Tahitic.'}
+                    <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
+                      {place.descripcion || t('places.info.defaultDescription')} {/* ✅ TRADUCIBLE */}
                     </p>
 
                     <div className="mb-4">
@@ -893,20 +900,20 @@ const handleOpenPdf = (place: Place) => {
                         {isCurrentlyRating && (
                           <div className="flex items-center text-sm text-gray-500">
                             <Loader2 className="w-3 h-3 mr-1 animate-spin" />
-                            Calificando...
+                            {t('places.rating.ratinging')} {/* ✅ TRADUCIBLE */}
                           </div>
                         )}
                       </div>
                       
                       {userHasRated && userCurrentRating && (
                         <p className="text-xs text-green-600 mt-1">
-                          ✅ Ya calificaste con {userCurrentRating} estrellas
+                          {t('places.rating.alreadyRated').replace('{{stars}}', userCurrentRating.toString())}
                         </p>
                       )}
                       
                       {!userHasRated && (
-                        <p className="text-xs text-gray-500 mt-1">
-                          Califica este lugar (aceptarás términos de privacidad)
+                        <p className="text-xs text-muted-foreground mt-1">
+                          {t('places.rating.ratePrompt')} {/* ✅ TRADUCIBLE */}
                         </p>
                       )}
                       
@@ -921,7 +928,7 @@ const handleOpenPdf = (place: Place) => {
                           {loadingStats[place.id] && (
                             <div className="flex items-center text-xs text-gray-500 mt-1">
                               <Loader2 className="w-3 h-3 mr-1 animate-spin" />
-                              Cargando estadísticas...
+                              {t('places.rating.loadingStats')} {/* ✅ TRADUCIBLE */}
                             </div>
                           )}
                         </div>
@@ -935,11 +942,11 @@ const handleOpenPdf = (place: Place) => {
                       </div>
                       <div className="flex items-center text-gray-600">
                         <Clock className="w-4 h-4 mr-2" />
-                        2-4 horas
+                        {t('places.info.hours')} {/* ✅ TRADUCIBLE */}
                       </div>
                       <div className="flex items-center text-gray-600">
                         <Users className="w-4 h-4 mr-2" />
-                        Todos los niveles
+                        {t('places.info.allLevels')} {/* ✅ TRADUCIBLE */}
                       </div>
                     </div>
 
@@ -960,7 +967,7 @@ const handleOpenPdf = (place: Place) => {
                       <MapRouteViewer
                         origin={TRANSPORT_BASE}
                         destination={placeLocation}
-                        buttonText="Cómo Llegar"
+                        buttonText={t('places.buttons.getDirections')}
                         className={cn(
                           "w-full shadow-md hover:shadow-lg transition-all duration-300",
                           theme === 'default' && "bg-gradient-to-r from-blue-500 to-indigo-600 text-white hover:from-blue-600 hover:to-indigo-700",
@@ -999,7 +1006,7 @@ const handleOpenPdf = (place: Place) => {
                           )}
                         >
                           <FileText className="w-4 h-4 mr-2" />
-                          Ver Guía PDF
+                          {t('places.buttons.viewPdf')} {/* ✅ TRADUCIBLE */}
                         </Button>
                       )}
                     </div>
@@ -1009,18 +1016,15 @@ const handleOpenPdf = (place: Place) => {
             })}
           </div>
 
-          {/* ✅ BOTÓN "VER TODOS LOS LUGARES" SOLO CUANDO HAY MÁS DE 6 LUGARES */}
-          {places.length > 6 && (
-            <div className="text-center mt-12">
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="px-8 border-white/30 text-white hover:bg-white/10 hover:text-white"
-              >
-                Ver Todos los Lugares
-              </Button>
-            </div>
-          )}
+          <div className="text-center mt-12">
+            <Button 
+              size="lg" 
+              variant="outline"
+              className="px-8"
+            >
+              {t('places.buttons.viewAll')} {/* ✅ TRADUCIBLE */}
+            </Button>
+          </div>
         </div>
       </section>
 

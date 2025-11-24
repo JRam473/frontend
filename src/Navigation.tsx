@@ -33,7 +33,7 @@ export function Navigation() {
 
   const navItems = [
     { to: '/', label: t('navigation.home') },
-    { to: '/turismo', label: 'Turismo' }, // Por ahora sin traducción
+    { to: '/turismo', label: t('navigation.tourism') }, // Por ahora sin traducción
     { to: '/cultura', label: t('navigation.culture') },
     { to: '/comunidad', label: t('navigation.community') },
     { to: '/galeria', label: t('navigation.gallery') }, // Por ahora sin traducción
