@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
 });
 
 // Manejar SPA - todas las rutas van a index.html
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
