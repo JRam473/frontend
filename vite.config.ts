@@ -24,7 +24,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src/"),
     },
   },
-  // ✅ CORRECTO: base absoluta para producción
+  // ✅ CAMBIAR a '/' para producción
   base: '/',
   build: {
     outDir: 'dist',
@@ -32,12 +32,15 @@ export default defineConfig({
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
       output: {
-        // ✅ AGREGAR ESTO para nombres de archivos predecibles
+        // ✅ CONFIGURACIÓN CORREGIDA - sin errores TypeScript
         chunkFileNames: 'assets/[name]-[hash].js',
         entryFileNames: 'assets/[name]-[hash].js',
-        assetFileNames: ({name}) => {
-          // Manejar diferentes tipos de assets
-          if (name && name.endsWith('.css')) {
+        assetFileNames: (assetInfo) => {
+          if (!assetInfo.name) {
+            return 'assets/[name]-[hash].[ext]';
+          }
+          const extType = assetInfo.name.split('.').pop();
+          if (extType === 'css') {
             return 'assets/[name]-[hash].css';
           }
           return 'assets/[name]-[hash].[ext]';
