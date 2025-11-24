@@ -1,4 +1,4 @@
-// components/RouteErrorFallback.tsx
+// components/RouteErrorFallback.tsx - VERSIÓN MEJORADA
 import { useRouteError, isRouteErrorResponse, Link } from 'react-router-dom';
 import { Home, RefreshCw, AlertTriangle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 export function RouteErrorFallback() {
   const error = useRouteError();
   
-  console.error('Error de ruta:', error);
+  console.error('Error de ruta (fallback):', error);
 
   let errorMessage = 'Ha ocurrido un error inesperado';
   let errorStatus = 500;
@@ -18,6 +18,10 @@ export function RouteErrorFallback() {
     errorMessage = error.message;
   }
 
+  const handleReload = () => {
+    window.location.href = '/'; // Ir al inicio en lugar de recargar
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-100 flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-2xl p-8 text-center">
@@ -28,20 +32,23 @@ export function RouteErrorFallback() {
         </div>
         
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
-          Error {errorStatus}
+          {errorStatus === 404 ? 'Página No Encontrada' : `Error ${errorStatus}`}
         </h1>
         
         <p className="text-gray-600 mb-6">
-          {errorMessage}
+          {errorStatus === 404 
+            ? 'La página que buscas no existe.' 
+            : errorMessage
+          }
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button
-            onClick={() => window.location.reload()}
+            onClick={handleReload}
             className="bg-blue-600 hover:bg-blue-700 text-white flex items-center gap-2"
           >
             <RefreshCw className="w-4 h-4" />
-            Recargar
+            Volver al Inicio
           </Button>
           
           <Button asChild variant="outline" className="flex items-center gap-2">
