@@ -13,6 +13,7 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
     chunkSizeWarningLimit: 1600,
+    emptyOutDir: true, // Asegura que se limpie el directorio
     rollupOptions: {
       output: {
         manualChunks: {
@@ -31,10 +32,6 @@ export default defineConfig({
     }
   },
   server: {
-    port: 3000,
-    host: true
-  },
-  preview: {
     port: 3000,
     host: true
   }
