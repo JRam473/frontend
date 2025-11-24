@@ -1,59 +1,36 @@
-const express = require('express');
-const path = require('path');
-const compression = require('compression');
-const helmet = require('helmet');
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import compression from 'compression';
+import helmet from 'helmet';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middlewares de seguridad y performance
-app.use(helmet({
-  contentSecurityPolicy: false,
-}));
+// Middlewares
+app.use(helmet({ contentSecurityPolicy: false }));
 app.use(compression());
 
 // Servir archivos estáticos
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Health check endpoint mejorado
+// Health check
 app.get('/health', (req, res) => {
   res.status(200).json({ 
     status: 'OK', 
     timestamp: new Date().toISOString(),
-    uptime: process.uptime(),
-    memory: process.memoryUsage(),
-    env: process.env.NODE_ENV || 'development'
+    uptime: process.uptime()
   });
 });
 
-// Ruta raíz para verificar que funciona
-app.get('/', (req, res) => {
+// SPA fallback
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-// Manejar SPA - todas las rutas van a index.html
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
-});
-
-// Manejo de errores
-app.use((err, req, res, next) => {
-  console.error('Error en servidor:', err);
-  res.status(500).json({ error: 'Error interno del servidor' });
-});
-
-// Iniciar servidor con manejo de errores
-const server = app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
-  console.log(`📁 Sirviendo archivos desde: ${path.join(__dirname, 'dist')}`);
-  console.log(`🏥 Health check disponible en: http://0.0.0.0:${PORT}/health`);
-});
-
-// Manejo de cierre graceful
-process.on('SIGTERM', () => {
-  console.log('Recibido SIGTERM, cerrando servidor...');
-  server.close(() => {
-    console.log('Servidor cerrado');
-    process.exit(0);
-  });
 });
