@@ -9,8 +9,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
 } from '@/components/ui/dropdown-menu';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { LogOut, MapPin, Users } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { LogOut, MapPin, Shield, Users } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 export const AuthButton = () => {
