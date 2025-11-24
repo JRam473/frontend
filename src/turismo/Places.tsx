@@ -1016,15 +1016,31 @@ const handleOpenPdf = (place: Place) => {
             })}
           </div>
 
-          <div className="text-center mt-12">
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="px-8"
-            >
-              {t('places.buttons.viewAll')} {/* ✅ TRADUCIBLE */}
-            </Button>
-          </div>
+      
+<div className="text-center mt-12">
+  {places.length > 6 && (
+    <Button 
+      size="lg" 
+      variant="outline"
+      className={cn(
+        "px-8 transition-all duration-300 hover:scale-105 border-2 font-semibold",
+        theme === 'default' && "border-blue-500 text-blue-700 hover:bg-blue-50 hover:border-blue-600 hover:text-blue-800",
+        theme === 'nature' && "border-green-500 text-green-700 hover:bg-green-50 hover:border-green-600 hover:text-green-800",
+        theme === 'waterfall' && "border-cyan-500 text-cyan-700 hover:bg-cyan-50 hover:border-cyan-600 hover:text-cyan-800",
+        theme === 'cultural' && "border-amber-500 text-amber-700 hover:bg-amber-50 hover:border-amber-600 hover:text-amber-800",
+        theme === 'history' && "border-purple-500 text-purple-700 hover:bg-purple-50 hover:border-purple-600 hover:text-purple-800",
+        theme === 'bridge' && "border-gray-600 text-gray-700 hover:bg-gray-50 hover:border-gray-700 hover:text-gray-800",
+        theme === 'viewpoint' && "border-orange-500 text-orange-700 hover:bg-orange-50 hover:border-orange-600 hover:text-orange-800",
+        theme === 'trail' && "border-teal-500 text-teal-700 hover:bg-teal-50 hover:border-teal-600 hover:text-teal-800",
+        theme === 'montain' && "border-gray-600 text-gray-700 hover:bg-gray-50 hover:border-gray-700 hover:text-gray-800",
+        theme === 'river' && "border-blue-600 text-blue-700 hover:bg-blue-50 hover:border-blue-700 hover:text-blue-800",
+        theme === 'path' && "border-teal-500 text-teal-700 hover:bg-teal-50 hover:border-teal-600 hover:text-teal-800"
+      )}
+    >
+      {t('places.buttons.viewAll')}
+    </Button>
+  )}
+</div>
         </div>
       </section>
 
