@@ -17,8 +17,10 @@ app.use(helmet({
 }));
 app.use(compression());
 
-// Servir archivos estáticos
-app.use(express.static(path.join(__dirname, 'dist')));
+// Servir archivos estáticos desde la carpeta dist
+app.use(express.static(path.join(__dirname, 'dist'), {
+  index: false // Importante: no servir index.html automáticamente
+}));
 
 // Health check endpoint para Railway
 app.get('/health', (req, res) => {
@@ -31,8 +33,10 @@ app.get('/health', (req, res) => {
   });
 });
 
-// 🔥 CORRECIÓN: Manejar TODAS las rutas - enviar index.html para SPA
+// 🔥 CORRECIÓN COMPLETA: Manejar TODAS las rutas para SPA
+// Esta debe ser la ÚLTIMA ruta definida
 app.get('/', (req, res) => {
+  console.log(`📄 Sirviendo index.html para ruta: ${req.path}`);
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
@@ -47,6 +51,7 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
   console.log(`📁 Sirviendo archivos desde: ${path.join(__dirname, 'dist')}`);
   console.log(`🏥 Health check disponible en: http://0.0.0.0:${PORT}/health`);
+  console.log(`🔧 Modo: ${process.env.NODE_ENV || 'development'}`);
 });
 
 // Manejo de cierre graceful
