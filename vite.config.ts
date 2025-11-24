@@ -2,12 +2,23 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path'; 
 import { fileURLToPath } from 'url';
+import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    nodePolyfills({
+      include: ['buffer', 'process', 'util'],
+      globals: {
+        Buffer: true,
+        global: true,
+        process: true,
+      }
+    })
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src/"),
@@ -20,7 +31,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom'],
+          vendor: ['react', 'react-dom', 'react-is'],
           animations: ['framer-motion'],
           charts: ['recharts'],
           ui: [
@@ -34,11 +45,11 @@ export default defineConfig({
       }
     }
   },
-  server: {
-    port: 3000,
-    host: true
+  define: {
+    'process.env': '{}',
+    'global': 'globalThis'
   },
-  preview: {
+  server: {
     port: 3000,
     host: true
   }
