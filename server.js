@@ -31,12 +31,7 @@ app.get('/health', (req, res) => {
   });
 });
 
-// Ruta raíz
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
-});
-
-// Manejar SPA - todas las rutas van a index.html
+// 🔥 CORRECIÓN: Manejar TODAS las rutas - enviar index.html para SPA
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });

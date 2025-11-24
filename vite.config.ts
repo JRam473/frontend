@@ -24,6 +24,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src/"),
     },
   },
+  // 🔥 AGREGAR ESTA LÍNEA para el despliegue en Railway
+  base: './',
   build: {
     outDir: 'dist',
     sourcemap: false,
