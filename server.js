@@ -1,4 +1,4 @@
-// server.js - VERSIÓN CORREGIDA
+// server.js - VERSIÓN MEJORADA
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -9,19 +9,43 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware estático
-app.use(express.static(path.join(__dirname, 'dist')));
+// 🔥 SERVIR ARCHIVOS ESTÁTICOS CON CACHE
+app.use('/assets', express.static(path.join(__dirname, 'dist/assets'), {
+  maxAge: '1y',
+  etag: true,
+  lastModified: true,
+  index: false
+}));
+
+// Servir otros archivos estáticos
+app.use(express.static(path.join(__dirname, 'dist'), {
+  index: false, // No servir index.html automáticamente
+  dotfiles: 'deny'
+}));
 
 // Health check
 app.get('/health', (req, res) => {
-  res.status(200).json({ 
-    status: 'OK', 
-    timestamp: new Date().toISOString()
+  res.status(200).json({ status: 'OK' });
+});
+
+// 🔥 MANEJO ESPECÍFICO PARA RUTAS DE ADMIN
+const adminRoutes = [
+  '/admin',
+  '/admin/',
+  '/admin/places',
+  '/admin/usuarios',
+  '/admin/configuracion'
+];
+
+adminRoutes.forEach(route => {
+  app.get(route, (req, res) => {
+    console.log(`🔐 Sirviendo admin route: ${route}`);
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
   });
 });
 
-// 🔥 RUTAS ESPECÍFICAS DEL SPA
-const spaRoutes = [
+// 🔥 MANEJO DE RUTAS PRINCIPALES
+const mainRoutes = [
   '/',
   '/turismo',
   '/cultura', 
@@ -29,50 +53,34 @@ const spaRoutes = [
   '/galeria',
   '/contacto',
   '/login',
-  '/registro',
   '/perfil',
-  '/recuperar-contrasena',
-  '/admin',
-  '/admin/places',
-  '/admin/usuarios',
-  '/admin/configuracion',
   '/calendario-cultural',
   '/section-gastronomia',
   '/section-atracciones',
   '/section-cooperativa',
   '/success',
-  '/oauth-callback',
-  '/callback'
+  '/oauth-callback'
 ];
 
-// 🔥 MANEJO DE RUTAS ESPECÍFICAS
-spaRoutes.forEach(route => {
+mainRoutes.forEach(route => {
   app.get(route, (req, res) => {
-    console.log(`📦 Sirviendo SPA para: ${route}`);
     res.sendFile(path.join(__dirname, 'dist', 'index.html'));
   });
 });
 
-// 🔥 COMODÍN CORREGIDO - usa '*' no '/'
-app.get('*', (req, res, next) => {
-  // Si es un archivo estático (tiene extensión), pasar al siguiente middleware
-  if (path.extname(req.path)) {
-    return next();
-  }
-  
-  // Para cualquier otra ruta sin extensión, servir el SPA
-  console.log(`🔄 Ruta no definida, sirviendo SPA: ${req.path}`);
+// 🔥 COMODÍN PARA OTRAS RUTAS (usando expresión regular)
+app.get(/^\/(?!.*\..*).*$/, (req, res) => {
+  console.log(`🔄 Sirviendo SPA para ruta: ${req.path}`);
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-// Manejo de errores simplificado
+// Manejo de errores
 app.use((error, req, res, next) => {
   console.error('Error del servidor:', error);
   res.status(500).sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-// Iniciar servidor
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Servidor ejecutándose en puerto ${PORT}`);
-  console.log(`📁 Sirviendo desde: ${path.join(__dirname, 'dist')}`);
+  console.log(`📁 Directorio: ${path.join(__dirname, 'dist')}`);
 });
