@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware estático CORREGIDO
+// Middleware estático
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // Health check
@@ -53,8 +53,8 @@ spaRoutes.forEach(route => {
   });
 });
 
-// 🔥 COMODÍN PARA RUTAS DESCONOCIDAS - SOLO PARA RUTAS SIN EXTENSIÓN
-app.get('/', (req, res, next) => {
+// 🔥 COMODÍN CORREGIDO - usa '*' no '/'
+app.get('*', (req, res, next) => {
   // Si es un archivo estático (tiene extensión), pasar al siguiente middleware
   if (path.extname(req.path)) {
     return next();
