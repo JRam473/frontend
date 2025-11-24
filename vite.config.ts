@@ -24,14 +24,24 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src/"),
     },
   },
-  // 🔥 AGREGAR ESTA LÍNEA para el despliegue en Railway
-  base: './',
+  // ✅ CORRECTO: base absoluta para producción
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: false,
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
       output: {
+        // ✅ AGREGAR ESTO para nombres de archivos predecibles
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: ({name}) => {
+          // Manejar diferentes tipos de assets
+          if (name && name.endsWith('.css')) {
+            return 'assets/[name]-[hash].css';
+          }
+          return 'assets/[name]-[hash].[ext]';
+        },
         manualChunks: {
           vendor: ['react', 'react-dom', 'react-is'],
           animations: ['framer-motion'],

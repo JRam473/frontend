@@ -1,9 +1,10 @@
+# railway.toml
 [build]
 builder = "nixpacks"
 buildCommand = "npm run build"
 
 [deploy]
-startCommand = "node server.js" 
+startCommand = "node server.js"
 healthcheckPath = "/health"
 healthcheckTimeout = 60
 restartPolicyType = "ON_FAILURE"
