@@ -167,7 +167,7 @@ const handleError = (err: unknown): string | ModeracionError => {
         (errorData.error === 'CONTENIDO_RECHAZADO' || 
          errorData.error === 'IMAGEN_RECHAZADA' ||
          errorData.error === 'DESCRIPCION_RECHAZADA' ||
-         errorData.error === 'TEXTO_RECHAZADO' ||
+         errorData.error === 'TEXTO_RECHAZADOo' ||
          errorData.error === 'VALIDACION_RECHAZADA' ||
          errorData.error === 'PDF_RECHAZADO' ||
          errorData.error === 'PDF_INVALIDO')) {
