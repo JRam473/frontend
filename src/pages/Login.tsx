@@ -1,9 +1,10 @@
+// pages/Login.tsx - VERSIÓN CORREGIDA
 import { useState, useEffect } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from '@/components/ui/tooltip';
 
@@ -14,31 +15,64 @@ export const Login = () => {
   const [loading, setLoading] = useState(false);
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
+  const [redirecting, setRedirecting] = useState(false);
 
-  const { signIn, signInWithGoogle, isAuthenticated, admin } = useAuth();
+  const { signIn, signInWithGoogle, isAuthenticated, admin, setRedirectPath } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
 
-  // ✅ Verificar si el email es el administrador autorizado
+  // ✅ Valores para efecto 3D basado en el cursor - CORREGIDOS
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const rotateX = useTransform(y, [-100, 100], [10, -10]);
+  const rotateY = useTransform(x, [-100, 100], [-10, 10]);
+
+  // ✅ Funciones de manejo de mouse - CORREGIDAS
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const posX = e.clientX - rect.left - rect.width / 2;
+    const posY = e.clientY - rect.top - rect.height / 2;
+    x.set(posX / 10);
+    y.set(posY / 10);
+  };
+
+  const handleMouseLeave = () => {
+    x.set(0);
+    y.set(0);
+  };
+
+  // ✅ REDIRECCIÓN MEJORADA - Controlada y única
+  useEffect(() => {
+    const handleRedirection = async () => {
+      if (isAuthenticated && admin && !redirecting) {
+        setRedirecting(true);
+        console.log('✅ Usuario administrador autenticado, redirigiendo...');
+        
+        // Pequeño delay para mejor UX
+        setTimeout(() => {
+          navigate('/admin-places', { replace: true });
+        }, 1000);
+      }
+    };
+
+    handleRedirection();
+  }, [isAuthenticated, admin, navigate, redirecting]);
+
+  // 🆕 Guardar ruta actual al montar
+  useEffect(() => {
+    const currentPath = location.pathname + location.search;
+    if (currentPath !== '/login') {
+      console.log('📍 Login - Guardando ruta actual:', currentPath);
+      setRedirectPath(currentPath);
+    }
+  }, [location, setRedirectPath]);
+
+  // ✅ Validaciones
   const isAuthorizedAdmin = (email: string): boolean => {
     const adminEmail = import.meta.env.VITE_ADMIN_EMAIL;
     return email === adminEmail;
   };
 
-  // ✅ REDIRECCIÓN MEJORADA - Solo redirige si está autenticado Y es admin
-  useEffect(() => {
-    if (isAuthenticated && admin) {
-      console.log('✅ Usuario administrador autenticado, redirigiendo al panel...');
-      
-      // Pequeño delay para mejor experiencia de usuario
-      const redirectTimer = setTimeout(() => {
-        navigate('/admin-places', { replace: true });
-      }, 500);
-      
-      return () => clearTimeout(redirectTimer);
-    }
-  }, [isAuthenticated, admin, navigate]);
-
-  // Validaciones simplificadas (solo para login)
   const validateEmail = (email: string): boolean => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
@@ -46,7 +80,6 @@ export const Login = () => {
       return false;
     }
     
-    // ✅ Verificar si es el administrador autorizado
     if (!isAuthorizedAdmin(email)) {
       setEmailError('No tienes permisos para acceder al panel administrativo');
       return false;
@@ -65,6 +98,7 @@ export const Login = () => {
     return true;
   };
 
+  // 🆕 Función de login mejorada
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
@@ -81,63 +115,41 @@ export const Login = () => {
 
     try {
       await signIn(email, password);
-      // ✅ NO redirigir aquí - La redirección se maneja en el useEffect
-      console.log('✅ Login exitoso como administrador, esperando redirección...');
+      // 🆕 NO redirigir aquí - La redirección se maneja en el useEffect
+      console.log('✅ Login exitoso, esperando redirección automática...');
     } catch (err: unknown) {
       if (err instanceof Error) {
         setError(err.message);
       } else {
         setError('Error desconocido durante el login');
       }
-    } finally {
       setLoading(false);
     }
   };
 
   const handleGoogleLogin = async () => {
     try {
+      setLoading(true);
       await signInWithGoogle();
-      // ✅ La redirección se maneja automáticamente en el useEffect
+      // 🆕 La redirección se maneja automáticamente con OAuth
     } catch (err: unknown) {
       if (err instanceof Error) {
         setError(err.message);
       } else {
         setError('Error desconocido durante el login con Google');
       }
+      setLoading(false);
     }
   };
 
-  // Valores para efecto 3D basado en el cursor
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const rotateX = useTransform(y, [-100, 100], [10, -10]);
-  const rotateY = useTransform(x, [-100, 100], [-10, 10]);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const posX = e.clientX - rect.left - rect.width / 2;
-    const posY = e.clientY - rect.top - rect.height / 2;
-    x.set(posX / 10);
-    y.set(posY / 10);
-  };
-
-  const handleMouseLeave = () => {
-    x.set(0);
-    y.set(0);
-  };
-
-  // ✅ MEJORAR el estado de loading/redirección
-  if (isAuthenticated) {
+  // 🆕 Estado de loading/redirección mejorado
+  if (redirecting) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-black">
         <div className="text-center text-white">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-green-500 mx-auto mb-4"></div>
-          <h2 className="text-xl font-semibold mb-2">
-            {admin ? 'Redirigiendo al panel de administración...' : 'Verificando permisos...'}
-          </h2>
-          <p className="text-gray-300">
-            {admin ? 'Serás redirigido automáticamente' : 'Por favor espera...'}
-          </p>
+          <h2 className="text-xl font-semibold mb-2">Redirigiendo al panel...</h2>
+          <p className="text-gray-300">Autenticación exitosa</p>
         </div>
       </div>
     );
@@ -171,7 +183,7 @@ export const Login = () => {
       </motion.div>
 
       <TooltipProvider>
-        {/* Card interactiva */}
+        {/* Card interactiva - CORREGIDA */}
         <motion.div
           style={{ rotateX, rotateY }}
           onMouseMove={handleMouseMove}

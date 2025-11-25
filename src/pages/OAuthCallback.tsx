@@ -1,3 +1,4 @@
+// pages/OAuthCallback.tsx - VERSIÓN CORREGIDA
 import { useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
@@ -5,7 +6,7 @@ import { useAuth } from '../hooks/useAuth';
 export const OAuthCallback = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const { getPreLoginPath } = useAuth(); // ✅ Usar la nueva función
+  const { getPreLoginPath } = useAuth();
   
   const token = searchParams.get('token');
   const error = searchParams.get('error');
@@ -23,19 +24,15 @@ export const OAuthCallback = () => {
 
       if (token) {
         try {
-          // ✅ OBTENER LA RUTA GUARDADA usando la nueva función
-          const redirectTo = getPreLoginPath();
-          
-          console.log('✅ Token recibido, guardando...');
-          console.log('📍 OAuthCallback - Redirigiendo a:', redirectTo);
-          
-          // Guardar el token de admin
+          // 🆕 Guardar token y redirigir inmediatamente
           localStorage.setItem('admin_token', token);
           
-          // ✅ REDIRIGIR A LA RUTA GUARDADA
-          setTimeout(() => {
-            navigate(redirectTo, { replace: true });
-          }, 500);
+          // 🆕 Obtener ruta destino
+          const redirectTo = getPreLoginPath();
+          console.log('📍 OAuthCallback - Redirigiendo a:', redirectTo);
+          
+          // 🆕 Redirigir sin delay
+          navigate(redirectTo, { replace: true });
           
         } catch (error) {
           console.error('❌ Error procesando OAuth callback:', error);

@@ -1,3 +1,4 @@
+// hooks/useAuth.ts
 import { createContext, useContext, useEffect, useState, useCallback } from 'react';
 import api from '../lib/axios';
 
@@ -25,19 +26,34 @@ interface AuthContextType {
   redirectPath: string;
   setRedirectPath: (path: string) => void;
   getPreLoginPath: () => string;
+  checkAuthStatus: () => Promise<boolean>;
 }
 
+// ✅ Crear el contexto
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+// ✅ Exportar el Provider
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [admin, setAdmin] = useState<Admin | null>(null);
   const [loading, setLoading] = useState(true);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [redirectPath, setRedirectPath] = useState('/');
+  const [authChecked, setAuthChecked] = useState(false);
   const isAdmin = isAuthenticated;
 
-  // ✅ Cargar admin desde token
-  const loadAdminFromToken = useCallback(async (token: string): Promise<void> => {
+  // 🆕 Función centralizada para verificar autenticación
+  const checkAuthStatus = useCallback(async (): Promise<boolean> => {
+    if (authChecked) return isAuthenticated;
+    
+    const token = localStorage.getItem('admin_token');
+    
+    if (!token) {
+      setIsAuthenticated(false);
+      setAdmin(null);
+      setAuthChecked(true);
+      return false;
+    }
+
     try {
       const response = await api.get<{ administrador: Admin }>('/api/admin/perfil', {
         headers: { Authorization: `Bearer ${token}` }
@@ -45,34 +61,33 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       
       setAdmin(response.data.administrador);
       setIsAuthenticated(true);
+      setAuthChecked(true);
+      return true;
     } catch (error) {
       console.error('❌ Token inválido o expirado:', error);
       localStorage.removeItem('admin_token');
       setIsAuthenticated(false);
       setAdmin(null);
+      setAuthChecked(true);
+      return false;
     }
-  }, []);
+  }, [authChecked, isAuthenticated]);
 
-  // ✅ Verificar autenticación al cargar la app
-  const checkAuth = useCallback(async (): Promise<void> => {
-    const token = localStorage.getItem('admin_token');
-    
-    if (token) {
-      await loadAdminFromToken(token);
-    } else {
-      setIsAuthenticated(false);
-      setAdmin(null);
-    }
-    setLoading(false);
-  }, [loadAdminFromToken]);
-
+  // ✅ Verificar autenticación al cargar la app (SOLO UNA VEZ)
   useEffect(() => {
-    checkAuth();
-  }, [checkAuth]);
+    const initializeAuth = async () => {
+      setLoading(true);
+      await checkAuthStatus();
+      setLoading(false);
+    };
 
-  // ✅ Login para administradores
+    initializeAuth();
+  }, [checkAuthStatus]);
+
+  // ✅ Login para administradores - VERSIÓN MEJORADA
   const signIn = async (email: string, password: string): Promise<void> => {
     try {
+      setLoading(true);
       const response = await api.post<ApiResponse>('/api/admin/login', { 
         email, 
         password 
@@ -80,14 +95,19 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       
       const { token, administrador } = response.data;
       
+      // 🆕 Limpiar estado anterior
       localStorage.setItem('admin_token', token);
       setAdmin(administrador);
       setIsAuthenticated(true);
+      setAuthChecked(true);
       
     } catch (error: unknown) {
       console.error('Error en login:', error);
+      // 🆕 Limpiar estado completamente
+      localStorage.removeItem('admin_token');
       setIsAuthenticated(false);
       setAdmin(null);
+      setAuthChecked(true);
       
       if (error && typeof error === 'object' && 'response' in error) {
         const axiosError = error as { response?: { data?: { error?: string } } };
@@ -96,6 +116,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         }
       }
       throw new Error('Error al iniciar sesión');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -104,19 +126,20 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     localStorage.removeItem('pre_login_path');
     setAdmin(null);
     setIsAuthenticated(false);
+    setAuthChecked(false);
     setRedirectPath('/');
   };
 
-  // ✅ Función para obtener la ruta guardada (para OAuthCallback)
+  // ✅ Obtener ruta guardada
   const getPreLoginPath = (): string => {
-    const path = redirectPath || localStorage.getItem('pre_login_path') || '/';
+    const path = redirectPath || localStorage.getItem('pre_login_path') || '/admin-places';
     console.log('📍 getPreLoginPath - Ruta recuperada:', path);
     localStorage.removeItem('pre_login_path');
     return path;
   };
 
   const signInWithGoogle = (): void => {
-    const pathToSave = redirectPath !== '/' ? redirectPath : window.location.pathname;
+    const pathToSave = redirectPath !== '/' ? redirectPath : '/admin-places';
     
     console.log('📍 signInWithGoogle - Ruta a guardar:', pathToSave);
     
@@ -128,27 +151,37 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     window.location.href = googleAuthUrl;
   };
 
+  const value: AuthContextType = {
+    admin, 
+    loading, 
+    isAuthenticated,
+    isAdmin,
+    signOut, 
+    signInWithGoogle,
+    signIn,
+    redirectPath,
+    setRedirectPath,
+    getPreLoginPath,
+    checkAuthStatus
+  };
+
   return (
-    <AuthContext.Provider value={{ 
-      admin, 
-      loading, 
-      isAuthenticated,
-      isAdmin,
-      signOut, 
-      signInWithGoogle,
-      signIn,
-      redirectPath,
-      setRedirectPath,
-      getPreLoginPath
-    }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   );
 };
 
-// ✅ Exportar el hook en un archivo separado para evitar el error de Fast Refresh
+// ✅ **HOOK useAuth - CORREGIDO**
 export const useAuth = (): AuthContextType => {
   const context = useContext(AuthContext);
-  if (!context) throw new Error('useAuth must be used within AuthProvider');
+  
+  if (context === undefined) {
+    throw new Error('useAuth debe ser usado dentro de un AuthProvider');
+  }
+  
   return context;
 };
+
+// ✅ Exportar tipos si son necesarios en otros archivos
+export type { Admin, AuthContextType };
