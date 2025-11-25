@@ -69,7 +69,7 @@ const spaRoutes = [
   '/success',
   '/oauth-callback',
   '/admin',
-  '/admin/places',
+  '/admin-places',
   '/admin/usuarios',
   '/admin/configuracion'
 ];

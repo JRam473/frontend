@@ -1,4 +1,4 @@
-// components/ImageGalleryModal.tsx - VERSIÓN CORREGIDA SIN ERRORES ESLINT
+// components/ImageGalleryModal.tsx - VERSIÓN MEJORADA CON ZOOM TÁCTIL
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight, X, ZoomIn, ZoomOut, RotateCw, Download, Loader2 } from 'lucide-react';
@@ -22,8 +22,10 @@ interface ImageGalleryModalProps {
 }
 
 // Constantes para gestos
-const SWIPE_THRESHOLD = 50; // Mínimo de píxeles para considerar un swipe
-const VERTICAL_SWIPE_THRESHOLD = 100; // Para cerrar el modal
+const SWIPE_THRESHOLD = 50;
+const VERTICAL_SWIPE_THRESHOLD = 100;
+const MIN_ZOOM = 1;
+const MAX_ZOOM = 4;
 
 export const ImageGalleryModal = ({
   placeId,
@@ -43,10 +45,13 @@ export const ImageGalleryModal = ({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Referencias para gestos táctiles
-  const touchStartRef = useRef({ x: 0, y: 0, time: 0 });
+  // Referencias para gestos
+  const touchStartRef = useRef({ x: 0, y: 0, time: 0, distance: 0 });
   const touchEndRef = useRef({ x: 0, y: 0, time: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
+  const lastTapRef = useRef(0);
+  const isGestureActive = useRef(false);
+  const initialTouchesRef = useRef<{ x: number; y: number }[]>([]);
 
   const { getPlaceGallery } = usePlaces();
 
@@ -108,7 +113,7 @@ export const ImageGalleryModal = ({
     }
   }, [currentIndex, galleryImages.length]);
 
-    const resetTransform = useCallback(() => {
+  const resetTransform = useCallback(() => {
     setZoom(1);
     setRotation(0);
     setPosition({ x: 0, y: 0 });
@@ -128,18 +133,255 @@ export const ImageGalleryModal = ({
   }, [hasMultipleImages, resetTransform, galleryImages.length]);
 
   const handleZoomIn = useCallback(() => {
-    setZoom(prev => Math.min(prev + 0.25, 3));
+    setZoom(prev => Math.min(prev + 0.25, MAX_ZOOM));
   }, []);
 
   const handleZoomOut = useCallback(() => {
-    setZoom(prev => Math.max(prev - 0.25, 1));
+    setZoom(prev => {
+      const newZoom = Math.max(prev - 0.25, MIN_ZOOM);
+      if (newZoom === 1) {
+        setPosition({ x: 0, y: 0 });
+      }
+      return newZoom;
+    });
   }, []);
 
   const handleRotate = useCallback(() => {
     setRotation(prev => (prev + 90) % 360);
   }, []);
 
+  // 🆕 ZOOM CON DOBLE CLICK
+  const handleDoubleClick = useCallback((e: React.MouseEvent) => {
+    e.stopPropagation();
+    
+    if (zoom > 1) {
+      // Si ya está zoom, resetear
+      resetTransform();
+    } else {
+      // Hacer zoom al punto donde se hizo click
+      
+      setZoom(2.5);
+      // Opcional: ajustar posición basada en el click
+      // setPosition({ x: (rect.width / 2 - clickX) * 0.5, y: (rect.height / 2 - clickY) * 0.5 });
+    }
+    
+    setShowControls(true);
+    const timer = setTimeout(() => {
+      setShowControls(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [zoom, resetTransform]);
 
+  // 🆕 ZOOM TÁCTIL CON PINCH
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    e.stopPropagation();
+    isGestureActive.current = true;
+    
+    const touches = Array.from(e.touches);
+    initialTouchesRef.current = touches.map(touch => ({
+      x: touch.clientX,
+      y: touch.clientY
+    }));
+
+    if (touches.length === 1) {
+      // Gestos de un dedo para navegación/cierre
+      const touch = touches[0];
+      touchStartRef.current = {
+        x: touch.clientX,
+        y: touch.clientY,
+        time: Date.now(),
+        distance: 0
+      };
+    } else if (touches.length === 2) {
+      // Zoom con dos dedos - prevenir scroll
+      e.preventDefault();
+    }
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (!isGestureActive.current) return;
+    
+    const touches = Array.from(e.touches);
+    
+    if (touches.length === 1 && zoom === 1) {
+      // Seguimiento para gestos de navegación solo sin zoom
+      const touch = touches[0];
+      touchEndRef.current = {
+        x: touch.clientX,
+        y: touch.clientY,
+        time: Date.now()
+      };
+    } else if (touches.length === 2) {
+      // ZOOM CON DOS DEDOS
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const [touch1, touch2] = touches;
+      const initialTouches = initialTouchesRef.current;
+      
+      if (initialTouches.length === 2) {
+        // Calcular distancia actual entre dedos
+        const currentDistance = Math.sqrt(
+          Math.pow(touch1.clientX - touch2.clientX, 2) +
+          Math.pow(touch1.clientY - touch2.clientY, 2)
+        );
+        
+        // Calcular distancia inicial entre dedos
+        const initialDistance = Math.sqrt(
+          Math.pow(initialTouches[0].x - initialTouches[1].x, 2) +
+          Math.pow(initialTouches[0].y - initialTouches[1].y, 2)
+        );
+        
+        // Calcular factor de zoom
+        const zoomFactor = currentDistance / initialDistance;
+        const newZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, zoom * zoomFactor));
+        
+        setZoom(newZoom);
+        
+        // Actualizar touches iniciales para zoom continuo
+        initialTouchesRef.current = touches.map(touch => ({
+          x: touch.clientX,
+          y: touch.clientY
+        }));
+      }
+    }
+  }, [zoom]);
+
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (!isGestureActive.current) return;
+    
+    e.stopPropagation();
+    
+    const { x: startX, y: startY } = touchStartRef.current;
+    const { x: endX, y: endY } = touchEndRef.current;
+    
+    const deltaX = endX - startX;
+    const deltaY = endY - startY;
+    const timeDelta = touchEndRef.current.time - touchStartRef.current.time;
+    
+    // Solo procesar gestos rápidos para navegación (sin zoom)
+    if (zoom === 1 && timeDelta < 300) {
+      const absDeltaX = Math.abs(deltaX);
+      const absDeltaY = Math.abs(deltaY);
+      
+      // Swipe horizontal para navegación
+      if (absDeltaX > absDeltaY && absDeltaX > SWIPE_THRESHOLD) {
+        e.preventDefault();
+        if (deltaX > 0) {
+          goToPrevious();
+        } else {
+          goToNext();
+        }
+      }
+      // Swipe vertical para cerrar
+      else if (deltaY > VERTICAL_SWIPE_THRESHOLD && absDeltaY > absDeltaX) {
+        e.preventDefault();
+        onClose();
+      }
+    }
+    
+    // 🆕 TAP DOBLE PARA ZOOM EN MÓVIL
+    const currentTime = Date.now();
+    const tapLength = currentTime - lastTapRef.current;
+    
+    if (tapLength < 300 && tapLength > 0) {
+      // Doble tap detectado
+      e.preventDefault();
+      if (zoom > 1) {
+        resetTransform();
+      } else {
+        setZoom(2.5);
+      }
+    }
+    
+    lastTapRef.current = currentTime;
+    isGestureActive.current = false;
+    initialTouchesRef.current = [];
+  }, [zoom, goToPrevious, goToNext, onClose, resetTransform]);
+
+  // 🆕 GESTOS MEJORADOS PARA DESKTOP
+  const handleMouseDown = useCallback((e: React.MouseEvent) => {
+    e.stopPropagation();
+    
+    if (zoom <= 1) {
+      touchStartRef.current = {
+        x: e.clientX,
+        y: e.clientY,
+        time: Date.now(),
+        distance: 0
+      };
+      setIsDragging(true);
+    } else {
+      setIsDragging(true);
+      setDragStart({ x: e.clientX - position.x, y: e.clientY - position.y });
+    }
+  }, [zoom, position.x, position.y]);
+
+  const handleMouseMove = useCallback((e: React.MouseEvent) => {
+    if (!isDragging) return;
+    
+    if (zoom <= 1) {
+      touchEndRef.current = {
+        x: e.clientX,
+        y: e.clientY,
+        time: Date.now()
+      };
+    } else {
+      const newX = e.clientX - dragStart.x;
+      const newY = e.clientY - dragStart.y;
+      
+      const limit = (zoom - 1) * 150; // Mayor límite para mejor experiencia
+      setPosition({
+        x: Math.max(Math.min(newX, limit), -limit),
+        y: Math.max(Math.min(newY, limit), -limit)
+      });
+    }
+  }, [isDragging, zoom, dragStart.x, dragStart.y]);
+
+  const handleMouseUp = useCallback(() => {
+    if (!isDragging) return;
+    
+    if (zoom <= 1) {
+      const { x: startX, y: startY } = touchStartRef.current;
+      const { x: endX, y: endY } = touchEndRef.current;
+      
+      const deltaX = endX - startX;
+      const deltaY = endY - startY;
+      
+      const absDeltaX = Math.abs(deltaX);
+      const absDeltaY = Math.abs(deltaY);
+      
+      if (absDeltaX > absDeltaY && absDeltaX > SWIPE_THRESHOLD) {
+        if (deltaX > 0) {
+          goToPrevious();
+        } else {
+          goToNext();
+        }
+      } else if (deltaY > VERTICAL_SWIPE_THRESHOLD && absDeltaY > absDeltaX) {
+        onClose();
+      }
+    }
+    
+    setIsDragging(false);
+  }, [isDragging, zoom, goToPrevious, goToNext, onClose]);
+
+  const handleDownload = useCallback(() => {
+    if (!currentImage) return;
+    
+    const link = document.createElement('a');
+    link.href = currentImage.url_foto;
+    link.download = `imagen-${currentIndex + 1}.jpg`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, [currentImage, currentIndex]);
+
+
+  const handleBackdropClick = useCallback((e: React.MouseEvent) => {
+    if (e.target === e.currentTarget && !isGestureActive.current) {
+      onClose();
+    }
+  }, [onClose]);
 
   // Navegación con teclado
   useEffect(() => {
@@ -190,156 +432,10 @@ export const ImageGalleryModal = ({
     resetTransform
   ]);
 
-  // 🆕 GESTOS TÁCTILES PARA MÓVIL
-  const handleTouchStart = useCallback((e: React.TouchEvent) => {
-    if (zoom > 1) return; // No hacer gestos si estamos en zoom
-    
-    const touch = e.touches[0];
-    touchStartRef.current = {
-      x: touch.clientX,
-      y: touch.clientY,
-      time: Date.now()
-    };
-  }, [zoom]);
-
-  const handleTouchMove = useCallback((e: React.TouchEvent) => {
-    if (zoom > 1) return;
-    
-    const touch = e.touches[0];
-    touchEndRef.current = {
-      x: touch.clientX,
-      y: touch.clientY,
-      time: Date.now()
-    };
-  }, [zoom]);
-
-  const handleTouchEnd = useCallback(() => {
-    if (zoom > 1) return;
-    
-    const { x: startX, y: startY } = touchStartRef.current;
-    const { x: endX, y: endY } = touchEndRef.current;
-    
-    const deltaX = endX - startX;
-    const deltaY = endY - startY;
-    const timeDelta = touchEndRef.current.time - touchStartRef.current.time;
-    
-    // Verificar que sea un gesto rápido (menos de 300ms)
-    if (timeDelta > 300) return;
-    
-    // Determinar dirección del gesto
-    const absDeltaX = Math.abs(deltaX);
-    const absDeltaY = Math.abs(deltaY);
-    
-    // Si el movimiento horizontal es mayor que el vertical, es un swipe lateral
-    if (absDeltaX > absDeltaY && absDeltaX > SWIPE_THRESHOLD) {
-      if (deltaX > 0) {
-        // Swipe derecho -> imagen anterior
-        goToPrevious();
-      } else {
-        // Swipe izquierdo -> siguiente imagen
-        goToNext();
-      }
-    }
-    // Si el movimiento vertical es significativo hacia abajo, cerrar modal
-    else if (deltaY > VERTICAL_SWIPE_THRESHOLD && absDeltaY > absDeltaX) {
-      onClose();
-    }
-  }, [zoom, goToPrevious, goToNext, onClose]);
-
-  // 🆕 GESTOS DE ARRASTRE PARA CERRAR (cuando no hay zoom)
-  const handleMouseDown = useCallback((e: React.MouseEvent) => {
-    if (zoom <= 1) {
-      // Modo gestos para navegación/cierre
-      touchStartRef.current = {
-        x: e.clientX,
-        y: e.clientY,
-        time: Date.now()
-      };
-      setIsDragging(true);
-    } else {
-      // Modo arrastre para zoom
-      setIsDragging(true);
-      setDragStart({ x: e.clientX - position.x, y: e.clientY - position.y });
-    }
-  }, [zoom, position.x, position.y]);
-
-  const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    if (!isDragging) return;
-    
-    if (zoom <= 1) {
-      // Seguimiento para gestos con mouse (para desktop)
-      touchEndRef.current = {
-        x: e.clientX,
-        y: e.clientY,
-        time: Date.now()
-      };
-    } else {
-      // Arrastre normal para zoom
-      const newX = e.clientX - dragStart.x;
-      const newY = e.clientY - dragStart.y;
-      
-      const limit = (zoom - 1) * 100;
-      setPosition({
-        x: Math.max(Math.min(newX, limit), -limit),
-        y: Math.max(Math.min(newY, limit), -limit)
-      });
-    }
-  }, [isDragging, zoom, dragStart.x, dragStart.y]);
-
-  const handleMouseUp = useCallback(() => {
-    if (!isDragging) return;
-    
-    if (zoom <= 1) {
-      // Procesar gesto con mouse (similar a touch)
-      const { x: startX, y: startY } = touchStartRef.current;
-      const { x: endX, y: endY } = touchEndRef.current;
-      
-      const deltaX = endX - startX;
-      const deltaY = endY - startY;
-      
-      const absDeltaX = Math.abs(deltaX);
-      const absDeltaY = Math.abs(deltaY);
-      
-      if (absDeltaX > absDeltaY && absDeltaX > SWIPE_THRESHOLD) {
-        if (deltaX > 0) {
-          goToPrevious();
-        } else {
-          goToNext();
-        }
-      } else if (deltaY > VERTICAL_SWIPE_THRESHOLD && absDeltaY > absDeltaX) {
-        onClose();
-      }
-    }
-    
-    setIsDragging(false);
-  }, [isDragging, zoom, goToPrevious, goToNext, onClose]);
-
-  const handleDownload = useCallback(() => {
-    if (!currentImage) return;
-    
-    const link = document.createElement('a');
-    link.href = currentImage.url_foto;
-    link.download = `imagen-${currentIndex + 1}.jpg`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }, [currentImage, currentIndex]);
-
-  const toggleControls = useCallback(() => {
-    setShowControls(prev => !prev);
-  }, []);
-
-  // 🆕 Cerrar con gesto en el contenido principal
-  const handleBackdropClick = useCallback((e: React.MouseEvent) => {
-    if (e.target === e.currentTarget) {
-      onClose();
-    }
-  }, [onClose]);
-
   // No renderizar si no está abierto
   if (!isOpen) return null;
 
-  // Estados de carga
+  // Estados de carga (igual que antes)
   if (loading) {
     return (
       <div className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4">
@@ -439,7 +535,7 @@ export const ImageGalleryModal = ({
             variant="ghost"
             size="icon"
             onClick={handleZoomIn}
-            disabled={zoom >= 3}
+            disabled={zoom >= MAX_ZOOM}
             className="text-white hover:bg-white/20 disabled:opacity-50"
             title="Zoom in (+)"
           >
@@ -484,10 +580,10 @@ export const ImageGalleryModal = ({
         </>
       )}
 
-      {/* 🆕 CONTENEDOR PRINCIPAL CON GESTOS */}
+      {/* 🆕 CONTENEDOR PRINCIPAL CON ZOOM TÁCTIL MEJORADO */}
       <div 
         className="relative max-w-full max-h-full flex items-center justify-center"
-        onDoubleClick={toggleControls}
+        onDoubleClick={handleDoubleClick}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -498,13 +594,14 @@ export const ImageGalleryModal = ({
       >
         <div
           className={cn(
-            "relative transition-transform duration-200",
+            "relative transition-transform duration-200 ease-out",
             isDragging && zoom <= 1 ? "cursor-grabbing" : 
             zoom > 1 ? "cursor-grab" : "cursor-default"
           )}
           style={{
             transform: `scale(${zoom}) rotate(${rotation}deg) translate(${position.x}px, ${position.y}px)`,
-            transformOrigin: 'center center'
+            transformOrigin: 'center center',
+            transition: isDragging ? 'none' : 'transform 0.2s ease-out'
           }}
         >
           <img
@@ -512,6 +609,7 @@ export const ImageGalleryModal = ({
             alt={currentImage.descripcion}
             className="max-w-screen max-h-screen object-contain rounded-lg shadow-lg select-none"
             draggable={false}
+            onDragStart={(e) => e.preventDefault()}
           />
         </div>
       </div>
@@ -550,18 +648,21 @@ export const ImageGalleryModal = ({
         </div>
       )}
 
-      {/* 🆕 INDICADOR DE GESTOS PARA MÓVIL */}
-      {!showControls && hasMultipleImages && (
-        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-40 bg-black/70 text-white px-4 py-2 rounded-lg text-sm backdrop-blur-sm text-center">
-          <p>← Desliza → para navegar • ↓ Desliza abajo para cerrar</p>
+      {/* 🆕 INDICADORES MEJORADOS PARA MÓVIL */}
+      {!showControls && (
+        <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-40 bg-black/70 text-white px-4 py-2 rounded-lg text-sm backdrop-blur-sm text-center max-w-xs">
+          {hasMultipleImages && <p className="mb-1">← Desliza → para navegar</p>}
+          <p className="mb-1">↓ Desliza abajo para cerrar</p>
+          
+          
         </div>
       )}
 
       {/* Instrucciones de uso para desktop */}
       {showControls && (
         <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-40 bg-black/70 text-white px-4 py-2 rounded-lg text-sm backdrop-blur-sm text-center">
-          <p>Doble clic para controles • Espacio para mostrar/ocultar • ESC para salir</p>
-          <p className="text-xs mt-1">← → para navegar • Click fuera para cerrar</p>
+          <p>Doble clic para {zoom > 1 ? 'resetear' : 'zoom'} • Espacio para controles • ESC para salir</p>
+          <p className="text-xs mt-1">← → para navegar • Click fuera para cerrar • Rueda del ratón para zoom</p>
         </div>
       )}
     </div>

@@ -29,7 +29,7 @@ export const AuthButton = () => {
   };
 
   const handleAdminPanelClick = () => {
-    navigate('/admin/places');
+    navigate('/admin-places');
   };
 
   if (loading) {

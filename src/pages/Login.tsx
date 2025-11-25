@@ -31,7 +31,7 @@ export const Login = () => {
       
       // Pequeño delay para mejor experiencia de usuario
       const redirectTimer = setTimeout(() => {
-        navigate('/admin/places', { replace: true });
+        navigate('/admin-places', { replace: true });
       }, 500);
       
       return () => clearTimeout(redirectTimer);

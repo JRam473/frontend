@@ -110,7 +110,7 @@ const router = createBrowserRouter([
         )
       },
       {
-        path: 'admin/places',
+        path: 'admin-places',
         element: (
           <ProtectedRoute requireAdmin={true}>
             <Suspense fallback={<LoadingSpinner />}>
